@@ -1,0 +1,284 @@
+:root{
+    --main-color: #019df4;
+    --text-color: #0b2739;
+    --section-gray-color: #f2f4f2;
+    --section-form-color: #09202e;
+    --footer-color: #fffdfd;
+    --border-footer-color: #d3d4d3;
+    --text-link-color: #50535a;
+    --text-color-menu: #707070;
+    --white-color: #ffff;
+    --border-radius: 20px;
+    --telefonica-bold: Telefonica-Bold;
+    --telefonica-regular: Telefonica-Regular;
+    --telefonica-light: Telefonica-Light;
+    --underline-color: #a13ea1;
+    --terms-condition-text-color: #313235;
+}
+
+
+/* ****** fonts ******* */
+@font-face {
+    font-family:  Telefonica-Bold;
+    src: url('fonts/Telefonica-Bold.otf'); 
+}
+
+@font-face {
+    font-family:  Telefonica-Regular;
+    src: url('fonts/Telefonica-Regular.otf'); 
+}
+
+@font-face
+{
+    font-family:  Telefonica-Light;
+    src: url('fonts/Telefonica-Light.otf'); 
+}
+
+/* ***** */
+
+
+/* ****** Resets ******* */ 
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+    background-color: var(--main-color);
+}
+
+h1
+{
+    margin: 0;
+}
+
+h2
+{
+    margin: 0;
+}
+
+h3
+{
+    margin: 0;
+}
+
+h4
+{
+    margin: 0;
+}
+
+p
+{
+    margin: 0;
+}
+/* ***** */
+
+
+/* ***************** utilities **************** */ 
+
+/* ** wrapper ** */
+@media screen and (min-width: 768px) {
+    .wrapper
+    {
+        padding: 0 70px 0 70px;
+    }
+}
+
+/* *** */
+
+/* ** Hidden big resolutions ** */
+    @media screen and (min-width: 768px) {
+        .hidden-big-resolution
+        {
+            display: none;
+        }
+    }
+/* *** */
+
+/* ** Appear big resolutions ** */
+    .appear-big-resolution
+    {
+        display: none;
+    }
+
+    @media screen and (min-width: 768px) {
+        .appear-big-resolution
+    {
+        display: block;
+        
+    }
+    }
+/* *** */
+
+
+/* ****** Styles site ******* */ 
+
+/* ** Hero ** */
+.header
+{
+    background-color: var(--white-color);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 54px;
+}
+
+@media screen and (min-width: 768px) {
+    .header
+    {
+        position: sticky;
+        top: 0;
+        display: flex;
+        justify-content: space-between;
+        height: 70px;
+    }
+
+    .logo-container 
+    {
+        width: 30%;
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+
+/* *** */
+
+/* ***** */
+
+
+
+
+/* ****** components******* */ 
+/* ** menu ** */
+.menu
+{
+    position: fixed;
+    background-color: var(--white-color);
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 52px;
+    z-index: 10;
+}
+
+.menu-link-container
+{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+.menu-link
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 57px;
+    text-decoration: none;
+}
+
+.menu-link-icon 
+{
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    
+}
+
+.underline_blue
+{
+    border-bottom: 3px solid var(--main-color);
+}
+
+.menu-link-icon-home-blue
+{
+    background-image: url('assets/home_blue.png');
+    
+}
+
+.menu-link-icon-home
+{
+    background-image: url('assets/home_white.png');
+}
+
+.menu-link-icon-question
+{
+    background-image: url('assets/question_white.png');
+}
+
+.menu-link-icon-question-blue
+{
+    background-image: url('assets/question_blue.png');
+}
+
+.menu-link-icon-more
+{
+    background-image: url('assets/more_white.png');
+}
+
+.menu-link-icon-more-blue
+{
+    background-image: url('assets/more_blue.png');
+}
+
+.menu-link-icon-blog
+{
+    background-image: url('assets/blog_white.png');
+}
+
+.menu-link-icon-blog-blue
+{
+    background-image: url('assets/blog_blue.png');
+}
+
+.menu-link-word
+{
+    padding-left: 10px;
+    color: var(--main-color);
+    font-family: var(--telefonica-regular);
+    font-size: 1rem;
+}
+
+
+@media screen and (min-width: 768px) {
+    .menu
+    {
+        position: static;
+        top: 0;
+        width: 70%;
+        height: 70px;
+    }
+
+    .menu-link-container
+    {
+        margin: 0;
+        height: 70px;
+    }
+
+    .menu-link 
+    {
+        height: 66px;
+    }
+
+    .menu-link-word
+    {
+        padding-left: 0;
+        color: var(--text-color);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .menu
+    {
+        width: 50%;
+    }
+
+    .menu-link-container
+    {
+        width: 60%;
+    }
+}
+
+
+/* ***** */
