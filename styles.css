@@ -54,6 +54,8 @@ body{
     margin: 0;
     overflow-x: hidden;
     background-color: var(--main-color);
+    font-family: var(--telefonica-regular);
+    color: var(--text-color);
 }
 
 h1
@@ -99,7 +101,67 @@ p
 
 /* ****** Styles site ******* */ 
 
+/* ** body ** */
+.body
+{
+    padding-bottom: 55px;
+}
+/* *** */
+
+/* ** menu ** */
+.menu
+{
+    background: var(--white-color);
+    display: flex;
+    justify-content: space-evenly;
+    height: 53px;
+    font-size: .9rem;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    position: fixed;
+}
+
+.menu-link
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 53px;
+    width: 15%;
+}
 
 
-/* ***** */
+.menu-link-blue
+{
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--main-color);
+    text-decoration: none;
+    border-bottom: 4px solid var(--main-color);
+}
+
+.menu-link-img
+{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.menu-link-text
+{
+    padding-left: .6rem;
+}
+
+.div
+{
+    width: 100px;
+    height: 1000px;
+    background: red;
+}
+
+/* *** */
+
+/* ********************* */
 
