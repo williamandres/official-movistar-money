@@ -74,7 +74,23 @@ p
 
 /* ***************** utilities **************** */ 
 
+/* ** Buttom ** */
+.buttom
+{
+    padding: 12px 70px 12px 70px;
+    border-radius: 100px;
+    color: var(--white-color);
+    text-decoration: none;
+    font-family: var(--telefonica-regular);
+}
+
+/* *** */
+
 /* ** wrapper ** */
+.wrapper
+{
+    padding: 0 16px 0 16px;
+}
 @media screen and (min-width: 768px) {
     .wrapper
     {
@@ -111,7 +127,7 @@ p
 
 /* ****** Styles site ******* */ 
 
-/* ** Hero ** */
+/* ** Header ** */
 .header
 {
     background-color: var(--white-color);
@@ -141,6 +157,136 @@ p
 }
 
 
+/* *** */
+
+/* ** Hero ** */
+.hero 
+{
+    position: relative;
+    height: 544px;
+    text-align: center;
+}
+
+.hero-image-mobile
+{
+    background-image: url('assets/hero-mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 544px;
+}
+
+.promotion1 
+{
+    position: absolute;
+    top: 20px;
+    height: 200px;
+}
+
+
+.promotion1-title
+{
+    font-family: var(--telefonica-light);
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.promotion1-paragraph
+{
+    margin-top: 10px;
+    font-family: var(--telefonica-regular);
+    font-size: .8rem;
+    
+}
+
+.promotion2-paragraph
+{
+    font-size: .8rem;
+    font-family: var(--telefonica-regular);
+    margin-bottom: 30px;
+}
+
+.second
+{
+    margin-bottom: 30px;
+}
+
+
+.promotion1-link
+{
+    background-color: var(--text-color);
+}
+
+.promotion2
+{
+    position: absolute;
+    bottom: -20px;
+    background-color: #f7f7f6;
+    height: 100px;
+    padding-bottom: 20px;
+}
+
+
+
+.promotion2-link
+{
+    background-color: var(--main-color);
+    
+}
+
+
+@media screen and (min-width: 340px) {
+    .promotion2
+    {
+        
+        bottom: -40px;
+        
+    }
+}
+
+@media screen and (min-width: 360px) {
+    .promotion2
+    {
+        
+        bottom: -80px;
+        
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .promotion2
+    {
+        
+        bottom: -90px;
+        
+    }
+}
+
+@media screen and (min-width: 400px) {
+    .promotion2
+    {
+        
+        bottom: -120px;
+        
+    }
+}
+
+@media screen and (min-width: 414px) {
+    .promotion2
+    {
+        
+        bottom: -90px;
+        background: transparent;
+    }
+
+    .hero-image-mobile
+    {
+        position: absolute;
+        top: -50px;
+        height: 680px;
+        z-index: -100;
+    }
+}
 /* *** */
 
 /* ***** */
