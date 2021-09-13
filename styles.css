@@ -14,6 +14,8 @@
     --telefonica-light: Telefonica-Light;
     --underline-color: #a13ea1;
     --terms-condition-text-color: #313235;
+    --text-benefits: #b6b7b7;
+    --orange-color: #ec624b;
 }
 
 
@@ -491,6 +493,52 @@ p
     }
 }
 
+/* *** */
+
+/* ** Benefits ** */
+.benefits 
+{
+    background-color: var(--section-form-color);
+    color: var(--white-color);
+    padding: 48px 0 50px 0;
+}
+
+.benefits-title
+{
+    color: var(--white-color);
+    text-align: center;
+    font-size: 1rem;
+    padding: 0 66px 0 66px;
+    font-family: var(--telefonica-light);
+    font-weight: 300;
+}
+
+.benefits-article 
+{
+    padding-top: 20px;
+}
+
+.benefits-article-title
+{
+    color: var(--white-color);
+    font-size: .9rem;
+    font-family: var(--telefonica-light);
+    font-weight: 300;
+}
+
+.benefits-article-paragraph
+{
+    font-size: .75rem;
+    font-family: var(--telefonica-regular);
+    color: var(--text-benefits);
+}
+
+.benefits-article-line
+{
+    margin: 5px 0 5px 0;
+    width: 50px;
+    color: var(--orange-color);
+}
 /* *** */
 
 /* ********************* */
