@@ -102,7 +102,7 @@ p
 
 /* *** */
 
-/* ** Buttom ** */
+/* ** Dissapear Big resolution ** */
 @media screen and (min-width: 768px) {
     .dissapear-big-resolution
     {
@@ -111,18 +111,27 @@ p
 }
 /* *** */
 
-/* ** Buttom ** */
-.buttom
+/* ** Button ** */
+.button
 {
-    padding: 12px 70px 12px 70px;
+    padding-top: 8px;
     border-radius: 100px;
     color: var(--white-color);
     text-decoration: none;
     font-family: var(--telefonica-regular);
+    border:none;
+    width: 168px;
+    height: 36px;
 }
 /* *** */
 
-/* ** Buttom ** */
+/* ** Wrapper** */
+
+.wrapper 
+{
+    padding: 0 16px 0 16px;
+}
+
 @media screen and (min-width: 768px) {
     .wrapper 
     {
@@ -255,6 +264,130 @@ p
         margin-right: 60px;
     }
 }
+
+/* *** */
+
+/* ** Hero ** */
+.hero
+{
+    background-image: url('assets/hero-mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 580px;
+    text-align: center;
+}
+
+.hero-promotion-title
+{
+    font-size: 1.1rem;
+    font-family: var(--telefonica-light);
+    padding-top: 20px;
+}
+
+.hero-promotion-paragraph, .hero-promotion2-paragraph
+{
+    font-size: .8rem;
+    padding-top: 10px;
+}
+
+
+.hero-promotion-link
+{
+    background: var(--main-color);
+    display: block;
+    margin: 20px auto;
+}
+
+.hero-promotion2
+{
+    margin-top: 270px;
+}
+
+.hero-promotion2-link 
+{
+    background: var(--text-color);
+    display: block;
+    margin: 20px auto;
+}
+
+
+@media screen and (min-width: 360px) {
+    .hero
+    {
+        height: 600px;
+    }
+
+    .hero-promotion2
+    {
+        margin-top: 290px;
+    }
+}
+
+
+
+
+@media screen and (min-width: 375px) {
+    .hero
+    {
+        height: 620px;
+    }
+
+    .hero-promotion2
+    {
+        margin-top: 310px;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    .hero
+    {
+        height: 650px;
+    }
+
+    .hero-promotion2 
+    {
+        margin-top: 340px;
+    }
+}
+
+@media screen and (min-width: 414px) {
+    .hero
+    {
+        height: 680px;
+    }
+
+    .hero-promotion2 
+    {
+        margin-top: 370px;
+    }
+}
+
+@media screen and (min-width: 430px) {
+    .hero
+    {
+        height: 720px;
+    }
+
+    .hero-promotion2 
+    {
+        margin-top: 400px;
+    }
+}
+
+@media screen and (min-width: 450px) {
+    .hero
+    {
+        height: 780px;
+    }
+
+    .hero-promotion2 
+    {
+        margin-top: 460px;
+    }
+}
+
+
+
 
 /* *** */
 
