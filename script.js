@@ -14,6 +14,7 @@ const featuresList1 = document.getElementById('features-list1')
 const featuresList2 = document.getElementById('features-list2')
 const featuresAlert = document.getElementById('features-alert')
 const features = document.getElementById('features') 
+const featuresNotificationContainer = document.getElementById('features-notification-container')
 
 featuresLink1.addEventListener('click',change)
 
@@ -34,7 +35,7 @@ function change()
     featuresList1.classList.remove('dissapear-element')
     featuresList2.classList.add('dissapear-element')
     featuresAlert.classList.remove('dissapear-element')
-    
+    featuresNotificationContainer.classList.remove('dissapear-element')    
 }
 
 
@@ -57,7 +58,7 @@ function change2()
     featuresList1.classList.add('dissapear-element')
     featuresList2.classList.remove('dissapear-element')
     featuresAlert.classList.add('dissapear-element')
-    
+    featuresNotificationContainer.classList.add('dissapear-element')  
 }
 
 /* ***************** */
