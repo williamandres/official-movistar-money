@@ -657,6 +657,7 @@ a
 {
     background-color: var(--white-color);
     padding-top: 78px;
+    padding-bottom: 50px;
     position: relative;
 }
 
@@ -756,7 +757,6 @@ a
 {
     font-size: .8rem;
     color: var(--text-color);
-    padding-bottom: 50px;
 }
 
 
