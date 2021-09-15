@@ -8,6 +8,8 @@ const featuresImgContainer1 = document.getElementById('features-image-container1
 const featuresImgContainer2 = document.getElementById('features-image-container2')
 const featuresTitle1 = document.getElementById('features-title1')
 const featuresTitle2 = document.getElementById('features-title2')
+const featuresList1 = document.getElementById('features-list1')
+const featuresList2 = document.getElementById('features-list2')
 
 featuresLink1.addEventListener('click',change)
 
@@ -25,6 +27,9 @@ function change()
     featuresImgContainer2.classList.add('dissapear-element')
     featuresTitle1.classList.remove('dissapear-element')
     featuresTitle2.classList.add('dissapear-element')
+    featuresList1.classList.remove('dissapear-element')
+    featuresList2.classList.add('dissapear-element')
+
 }
 
 
@@ -44,4 +49,6 @@ function change2()
     featuresImgContainer2.classList.remove('dissapear-element')
     featuresTitle1.classList.add('dissapear-element') 
     featuresTitle2.classList.remove('dissapear-element')
+    featuresList1.classList.add('dissapear-element')
+    featuresList2.classList.remove('dissapear-element')
 }
