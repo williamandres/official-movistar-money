@@ -91,10 +91,22 @@ ul
     padding: 0;
     margin: 0;
 }
+
+a
+{
+    cursor: pointer;
+}
 /* ***** */
 
 
 /* ***************** utilities **************** */ 
+
+/* **Disappear Element ** */
+    .dissapear-element 
+    {
+        display: none;
+    }
+/* *** */
 
 /* **Appear big resolution ** */
 .appear-big-screen
@@ -655,7 +667,7 @@ ul
     text-decoration: none;
 }
 
-.features-link:last-child
+.features-link-container:last-child
 {
     margin-left: 30px;
 }
