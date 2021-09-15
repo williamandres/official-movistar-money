@@ -1,3 +1,5 @@
+/* ********************** Features section  ****************************** */
+
 const featuresLink1 = document.getElementById('features-link1')
 const featuresLink2 = document.getElementById('features-link2')
 const featuresLinkDecoration1 = document.getElementById('features-link-decoration1')
@@ -32,7 +34,7 @@ function change()
     featuresList1.classList.remove('dissapear-element')
     featuresList2.classList.add('dissapear-element')
     featuresAlert.classList.remove('dissapear-element')
-    features.classList.remove('padding-top')
+    
 }
 
 
@@ -55,5 +57,7 @@ function change2()
     featuresList1.classList.add('dissapear-element')
     featuresList2.classList.remove('dissapear-element')
     featuresAlert.classList.add('dissapear-element')
-    features.classList.add('padding-top')
+    
 }
+
+/* ***************** */
