@@ -1075,7 +1075,55 @@ a
     color: var(--text-link-color);
 }
 
+@media screen and (min-width: 768px) {
+    .benefits2 
+    {
+        padding: 70px 70px 80px 70px;
+        display: flex;
+        align-items: flex-start;
+    }
 
+    .container-benefit
+    {
+        padding-left: 24px;
+        
+    }
+
+    .benefits2-main-message
+    {
+        text-align: left;
+        font-size: 1.9rem;
+    }
+
+    .benefits2-img-desktop
+    {
+        width: 300px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    .benefits2-img-desktop
+    {
+        width: 490px;
+    }
+
+    .benefits2-main-message 
+    {
+        padding-bottom: 40px;
+    }
+
+    .benefits2-list
+    {
+        width: 74%;
+    }
+
+    .benefist2-list-item 
+    {
+        padding-bottom: 16px;
+        font-size: 1.1rem;
+    }
+}
 
 /* *** */
 
