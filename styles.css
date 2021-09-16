@@ -857,7 +857,7 @@ a
 /* *** */
 
 
-/* ** requirement section ** */
+/* ** requirement-contact section ** */
 .requirement
 {
     background: var(--white-color);
@@ -909,10 +909,7 @@ a
     font-size: .8rem;
 }
 
-/* *** */
 
-
-/* ** contact section ** */
 .contact 
 {
     background-color: #09202e;
@@ -943,7 +940,107 @@ a
     text-decoration: none;
     background-color: var(--main-color);
     padding: 7px 20px 7px 20px;
+}
+
+@media screen and (min-width: 768px) {
     
+    .requirement 
+    {
+        width: 50%;
+    }
+
+    .requirement-contact 
+    {
+        display: flex;
+        background: var(--white-color);
+    }
+
+    .requirement-title 
+    {
+        text-align: left;
+        font-size: 1.9rem;
+    }
+
+    .requirement-explanation 
+    {
+        text-align: left;
+        font-size: 1.2rem;
+        padding-right: 16px;
+    }
+
+    .requirement-list
+    {
+        padding-left: 70px;
+        padding-right: 16px;
+    }
+
+    .requirement-list-item-paragraph 
+    {
+        font-size: 1rem;
+    }
+
+    .requirement-notification 
+    {
+        padding-right: 16px;
+    }
+
+    .contact-container
+    {
+        width: 50%;
+    }
+    
+    .contact 
+    {
+        height: 100%;
+    }
+
+    .contact-main-message 
+    {
+        font-size: 1.9rem;
+        padding-top: 70px;
+        
+    }
+
+    .contact-message 
+    {
+        font-size: 1.2rem;
+        padding-top: 40px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .requirement-container 
+    {
+        width: 85%;
+    }
+    
+    .requirement-list 
+    {
+        padding-right: 70px;
+    }
+
+    .requirement-list-item 
+    {
+        padding-bottom: 29px;
+    }
+
+    .contact-container 
+    {
+        background: var(--text-color);
+        border-top-left-radius: 10px;
+    }
+
+    .contact
+    {
+        width: 85%;
+        background: transparent;
+        
+    }
+
+    .contact-message 
+    {
+        padding-bottom: 60px;
+    }
 }
 /* ********************* */
 
