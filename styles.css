@@ -1042,5 +1042,42 @@ a
         padding-bottom: 60px;
     }
 }
+
+
+/* ** Benefits2 section ** */
+
+.benefits2 
+{
+    background: #f2f4f2;
+    padding: 50px 16px 50px 16px ;
+}
+
+.benefits2-main-message 
+{
+    font-size: 1rem;
+    color: var(--main-color);
+    text-align: center;
+    font-family: var(--telefonica-light);
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+
+.benefits2-img 
+{
+    padding-bottom: 20px;
+}
+
+.benefist2-list-item
+{
+    margin-left: 16px;
+    padding-bottom: 10px;
+    font-size: .9rem;
+    color: var(--text-link-color);
+}
+
+
+
+/* *** */
+
 /* ********************* */
 
