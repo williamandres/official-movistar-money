@@ -1127,5 +1127,62 @@ a
 
 /* *** */
 
+/* ** Presentation section ** */
+
+.presentation
+{
+    text-align: center;
+}
+
+.presentation1 
+{
+    padding: 50px 16px 50px 16px;
+    background: var(--white-color);
+    color: var(--terms-condition-text-color);
+}
+
+.presentation1-title 
+{
+    font-size: 1rem;
+    color: var(--main-color);
+    padding-bottom: 20px;
+    font-weight: 300;
+    font-family: var(--telefonica-light);
+}
+
+.presentation1-paragraph 
+{
+    font-size: .9rem;
+}
+
+.presentation2 
+{
+    background: url('assets/background-presentation-section.png');
+    background-repeat: no-repeat;
+    background-position: cover;
+    padding: 50px 16px 50px 16px;
+}
+
+.presentation2-title
+{
+    font-size: 1rem;
+    color: var(--white-color);
+    padding-bottom: 20px;
+    font-weight: 300;
+    font-family: var(--telefonica-light);
+}
+
+.presentation2-paragraph 
+{
+    color: var(--white-color);
+    font-size: .8rem;
+}
+
+.presentation2-paragraph span 
+{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
 /* ********************* */
 
