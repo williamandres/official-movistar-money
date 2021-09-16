@@ -1184,5 +1184,60 @@ a
     font-weight: bolder;
 }
 
+@media screen and (min-width: 768px) {
+    .presentation 
+    {
+        display: flex;
+    }
+
+    .presentation1
+    {
+        width: 50%;
+        padding-left: 70px;
+        
+    }
+
+    .presentation2 
+    {
+        width: 50%;
+        padding-left: 70px;
+        
+    }
+
+    .presentation1-title 
+    {
+        text-align: left;
+        font-size: 1.9rem;
+    }
+
+    .presentation1-paragraph 
+    {
+        text-align: left;
+        font-size: 1.1rem;
+    }
+
+    .presentation2-title 
+    {
+        font-size: 1.9rem;
+    }
+
+    .presentation2-paragraph 
+    {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .presentation1 
+    {
+        padding-right: 8%;
+    }
+
+    .presentation2 
+    {
+        padding-right: 8%;
+    }
+}
+
 /* ********************* */
 
