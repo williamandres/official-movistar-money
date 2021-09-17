@@ -233,6 +233,16 @@ a
     left: 80px;
     z-index: 700;
 }
+
+@media screen and (min-width: 768px) {
+    .my-account 
+    {
+        top: 53px;
+        left: 70px;
+        border-radius: 0px 0px 10px 10px;
+        box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.1);
+    }
+}
 /* *** */
 
 /* ** menu ** */
