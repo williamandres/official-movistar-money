@@ -225,6 +225,7 @@ a
     align-items: center;
     height: 53px;
     text-decoration: none;
+    color: var(--text-color);
 }
 
 
