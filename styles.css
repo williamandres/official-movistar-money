@@ -206,6 +206,34 @@ a
 
 /* *** */
 
+/* ** Button My-account ** */
+.my-account 
+{
+    position: fixed;
+    bottom: 53px;
+    z-index: 800;
+    background-color: var(--main-color);
+    border: 0;
+    color: var(--white-color);
+    font-size: .9rem;
+    width: 109px;
+    height: 30px;
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+}
+
+.div-support-my-account 
+{
+    width: 168px;
+    height: 36px;
+    background-color: var(--main-color);
+    border-radius: 100px;
+    position: fixed;
+    bottom: 25px;
+    left: 80px;
+    z-index: 700;
+}
+/* *** */
 
 /* ** menu ** */
 .menu
@@ -1267,7 +1295,7 @@ a
         display: flex;
         flex-direction: column-reverse;
         padding-top: 20px;
-        padding-bottom: 26px;
+        padding-bottom: 40px;
     }
 
     .more-about
@@ -1325,7 +1353,7 @@ a
             justify-content: space-between;
             width: 90%;
             padding-top: 10px;
-            padding-bottom: 10px;
+            padding-bottom: 26px !important;
         }
 
         .more-about
