@@ -789,6 +789,7 @@ a
     color: transparent;
     margin: 0;
     height: 3px;
+    border-radius: 5px;
     background-color: var(--main-color);
     
 }
