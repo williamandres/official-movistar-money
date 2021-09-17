@@ -234,6 +234,21 @@ a
     z-index: 700;
 }
 
+.pop-up
+{
+    position: fixed;
+    width: 250px;
+    font-size: .8rem;
+    background-color: rgb(195, 193, 193);
+    text-align: left;
+    padding: 10px;
+    border-radius: 10px;
+    top:100px;
+    left: 130px;
+    display: none;
+    z-index: 600;
+}
+
 @media screen and (min-width: 768px) {
     .my-account 
     {
@@ -242,6 +257,11 @@ a
         border-radius: 0px 0px 10px 10px;
         box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.1);
     }
+
+    .my-account:hover+.pop-up  
+    {
+        display: block ;
+    } 
 }
 /* *** */
 
