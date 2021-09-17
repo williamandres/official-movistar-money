@@ -234,7 +234,14 @@ a
     z-index: 700;
 }
 
-.pop-up
+.pop-up 
+{
+    position: fixed;
+    display: none;
+    z-index: 800;
+}
+
+.pop-up-content
 {
     position: fixed;
     width: 250px;
@@ -245,8 +252,18 @@ a
     border-radius: 10px;
     top:100px;
     left: 130px;
-    display: none;
-    z-index: 600;
+}
+
+.arrow-pop-up
+{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(195, 193, 193);
+    position: fixed;
+    top: 90px;
+    left: 150px;
+    transform: rotate(45deg);
+    border-radius: 5px 0 0 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -264,6 +281,8 @@ a
     } 
 }
 /* *** */
+
+
 
 /* ** menu ** */
 .menu
