@@ -206,39 +206,13 @@ a
 
 /* *** */
 
-/* ** Button My-account ** */
-.my-account 
-{
-    position: fixed;
-    bottom: 53px;
-    z-index: 800;
-    background-color: var(--main-color);
-    border: 0;
-    color: var(--white-color);
-    font-size: .9rem;
-    width: 109px;
-    height: 30px;
-    border-radius: 10px 10px 0 0;
-    cursor: pointer;
-}
-
-.div-support-my-account 
-{
-    width: 168px;
-    height: 36px;
-    background-color: var(--main-color);
-    border-radius: 100px;
-    position: fixed;
-    bottom: 25px;
-    left: 80px;
-    z-index: 700;
-}
+/* **pop-up ** */
 
 .pop-up 
 {
     position: fixed;
-    display: none;
     z-index: 800;
+    display: none;
 }
 
 .pop-up-content
@@ -250,8 +224,8 @@ a
     text-align: left;
     padding: 10px;
     border-radius: 10px;
-    top:100px;
-    left: 130px;
+    top:80px;
+    right: 230px;
 }
 
 .arrow-pop-up
@@ -260,24 +234,18 @@ a
     height: 20px;
     background-color: rgb(195, 193, 193);
     position: fixed;
-    top: 90px;
-    left: 150px;
+    top: 70px;
+    right: 260px;
     transform: rotate(45deg);
     border-radius: 5px 0 0 0;
 }
 
 @media screen and (min-width: 768px) {
-    .my-account 
-    {
-        top: 53px;
-        left: 70px;
-        border-radius: 0px 0px 10px 10px;
-        box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.1);
-    }
+    
 
-    .my-account:hover+.pop-up  
+    .my-account:hover+.pop-up
     {
-        display: block ;
+        display: block;
     } 
 }
 /* *** */
@@ -380,12 +348,20 @@ a
     {
         padding-left: 0;
     }
+
+    
+
+    .my-account-icon
+    {
+        width: 15px;
+        margin-right: 6px ;
+    }
 }
 
 @media screen and (min-width: 1200px) {
     .menu
     {
-        width: 45%;
+        width: 60%;
         justify-content: flex-start;
     }
 
@@ -399,6 +375,8 @@ a
     {
         margin-right: 60px;
     }
+
+    
 }
 
 /* *** */
