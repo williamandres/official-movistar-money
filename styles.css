@@ -407,7 +407,7 @@ a
 
 .hero-promotion-link
 {
-    background: var(--main-color);
+    background: var(--text-color);
     display: block;
     margin: 20px auto;
 }
@@ -419,7 +419,7 @@ a
 
 .hero-promotion2-link 
 {
-    background: var(--text-color);
+    background: var(--main-color);
     display: block;
     margin: 20px auto;
 }
