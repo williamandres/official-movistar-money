@@ -20,6 +20,11 @@
     --gray-dark: #313235;
 }
 
+body
+{
+    padding-bottom: 53px;
+}
+
 
 /* ** Hero question ** */
 
@@ -375,6 +380,54 @@
         width: 80%;
     }
 
+}
+/* *** */
+
+
+/* ** Culture Section ** */
+
+.culture
+{
+    padding: 32px 16px 12px 16px;
+    background: var(--text-color);
+    color: white;
+}
+
+.culture-title 
+{
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.culture-description 
+{
+    text-align: left;
+    font-size: .8rem;
+    padding-bottom: 30px;
+}
+
+
+
+
+.culture-list-item 
+{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 20px;
+}
+
+.culture-list-item-icon
+{
+    padding-right: 20px;
+}
+
+.culture-list-item-paragraph 
+{
+    font-size: .8rem;
 }
 /* *** */
 
