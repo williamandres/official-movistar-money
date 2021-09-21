@@ -409,8 +409,6 @@ body
 }
 
 
-
-
 .culture-list-item 
 {
     text-decoration: none;
@@ -428,6 +426,42 @@ body
 .culture-list-item-paragraph 
 {
     font-size: .8rem;
+}
+
+@media screen and (min-width: 768px) {
+    .culture 
+    {
+        padding: 56px 0 194px 70px
+    }
+
+    .culture-title 
+    {
+        text-align: left;
+        font-size: 1.9rem;
+    }
+    
+    .culture-description
+    {
+        font-size: 1.2rem;
+    } 
+
+    .culture-list-container
+    {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+    }
+
+    .culture-list
+    {
+        width: 42%;
+    }
+
+    .culture-list-item-paragraph 
+    {
+        font-size: 1rem;
+    }
+
 }
 /* *** */
 
