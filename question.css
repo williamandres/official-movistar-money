@@ -17,6 +17,7 @@
     --text-benefits: #b6b7b7;
     --orange-color: #ec624b;
     --link-inactive: #86888c;
+    --gray-dark: #313235;
 }
 
 
@@ -195,4 +196,35 @@
         width: 45%;
     }
 }
+
+
 /* *** */
+
+/* ** Partners Section ** */
+.partners
+{
+    padding: 30px 16px 30px 16px;
+    background: var(--section-gray-color);
+}
+
+.partners-paragraph
+{
+    font-size: 1rem;
+    font-family: var(--telefonica-light);
+    text-align: center;
+    color: var(--gray-dark);
+}
+
+@media screen and (min-width: 768px) {
+    .partners 
+    {
+        padding: 66px 166px 63px 166px;
+    }
+
+    .partners-paragraph 
+    {
+        font-size: 1.6rem;
+    }
+}
+/* *** */
+
