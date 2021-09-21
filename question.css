@@ -226,5 +226,49 @@
         font-size: 1.6rem;
     }
 }
+
+
+/* *** */
+
+
+/* ** Mission Section ** */
+
+.mission 
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.mission-article 
+{
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.mission-article:first-child
+{
+    padding-bottom: 50px;
+}
+
+.mission-article-img
+{
+    width: 100%;
+}
+
+.mission-article-tittle
+{
+    font-size: 1rem;
+    font-family: var(--telefonica-light);
+    font-weight: 300;
+    color: var(--main-color);
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.mission-article-paragraph 
+{
+    color: var(--gray-dark);
+    font-size: .8rem;
+}
 /* *** */
 
