@@ -102,3 +102,45 @@
     }
 }
 /* *** */
+
+
+/* ** feature question ** */
+
+.features-question
+{
+    padding: 50px 0 35px 16px;
+}
+
+.feature-question-img
+{
+    width: 288px;
+    
+}
+
+.features-question-articles 
+{
+    padding-top: 18px;
+    padding-bottom: 15px;
+}
+
+.feature-question-article
+{
+    padding-bottom: 20px;
+}
+
+.feature-question-article-title 
+{
+    font-size: 1rem;
+    padding-bottom: 12px;
+    font-family: var(--telefonica-light);
+    font-weight: 300;
+    color: var(--main-color);
+}
+
+.feature-question-article-paragraph
+{
+    font-size: .8rem; 
+    width: 95%;
+    color: #313235;
+}
+/* *** */
