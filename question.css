@@ -1,0 +1,104 @@
+:root{
+    --main-color: #019df4;
+    --text-color: #0b2739;
+    --section-gray-color: #f2f4f2;
+    --section-form-color: #09202e;
+    --footer-color: #fffdfd;
+    --border-footer-color: #d3d4d3;
+    --text-link-color: #50535a;
+    --text-color-menu: #707070;
+    --white-color: #ffff;
+    --border-radius: 20px;
+    --telefonica-bold: Telefonica-Bold;
+    --telefonica-regular: Telefonica-Regular;
+    --telefonica-light: Telefonica-Light;
+    --underline-color: #a13ea1;
+    --terms-condition-text-color: #313235;
+    --text-benefits: #b6b7b7;
+    --orange-color: #ec624b;
+    --link-inactive: #86888c;
+}
+
+
+/* ** Hero question ** */
+
+.hero-question 
+{
+    background: var(--main-color) ;
+    position: relative;
+    width: 100%;
+    height: 190px;
+}
+
+.hero-question-content 
+{
+    padding: 40px 0 0 16px;
+    color: var(--white-color);
+}
+
+.hero-question-title 
+{
+    font-size: 1.3rem;
+    padding-bottom: 20px;
+    font-family: var(--telefonica-light);
+    font-weight: 300;
+}
+
+.hero-question-paragraph 
+{
+    width: 80%;
+    font-size: .8rem;
+}
+
+.hero-question img 
+{
+    position: absolute;
+    right: 0;
+}
+
+@media screen and (min-width: 768px) {
+    
+    .hero-question
+    {
+        display: flex;
+        height: 250px;
+    }
+
+    .hero-question-content 
+    {
+        padding: 68px 0 0 70px;
+    }
+
+    .hero-question-title 
+    {
+        font-size: 2.3rem;
+    }
+    
+    .hero-question-paragraph 
+    {
+        width: 55%;
+        font-size: 1rem;
+    }
+
+    .hero-question-img-desktop
+    {
+        width: 300px;
+        align-self: flex-end;
+    }
+}
+
+@media screen  and (min-width: 1024px) {
+    .hero-question-img-desktop
+    {
+        width: 426px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .hero-question-img-desktop 
+    {
+        margin-right: 20%;
+        
+    }
+}
+/* *** */
