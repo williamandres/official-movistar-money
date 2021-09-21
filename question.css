@@ -113,7 +113,8 @@
 
 .feature-question-img
 {
-    width: 288px;
+    width: 100%;
+    padding-right: 16px;
     
 }
 
@@ -155,6 +156,7 @@
 
     .feature-question-img 
     {
+        width: 40%;
         padding-right: 22px;
     }
 
