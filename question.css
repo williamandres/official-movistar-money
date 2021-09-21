@@ -143,4 +143,54 @@
     width: 95%;
     color: #313235;
 }
+
+@media screen and (min-width: 768px) {
+    .features-question 
+    {
+        display: flex;
+        
+        align-items: flex-start;
+        padding: 70px 0 70px 70px;
+    }
+
+    .feature-question-img 
+    {
+        padding-right: 22px;
+    }
+
+    .features-question-articles  
+    {
+        padding-top: 0;
+        width: 55%;
+    }
+
+    .feature-question-article-title 
+    {
+        font-size: 1.9rem;
+    }
+
+    .feature-question-article-paragraph 
+    {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .feature-question-img 
+    {
+        width: 400px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .feature-question-img 
+    {
+        width: 600px;
+    }
+
+    .features-question-articles 
+    {
+        width: 45%;
+    }
+}
 /* *** */
