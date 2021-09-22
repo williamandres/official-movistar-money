@@ -1263,9 +1263,10 @@ a
 {
     background: url('assets/background-presentation-section.png');
     background-repeat: no-repeat;
-    background-position: left center;
+    background-size: cover;
     left: 0;
     padding: 50px 16px 50px 16px;
+    background-color: var(--main-color);
 }
 
 .presentation2-title
