@@ -64,6 +64,11 @@ body
 
 @media screen and (min-width: 768px) {
     
+    body 
+    {
+        padding-bottom: 0 ;
+    }
+
     .hero-question
     {
         display: flex;
