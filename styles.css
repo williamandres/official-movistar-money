@@ -65,6 +65,7 @@ body{
     overflow-x: hidden;
     font-family: var(--telefonica-regular);
     color: var(--text-color);
+    text-align: justify;
 }
 
 h1
