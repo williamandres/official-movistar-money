@@ -1,0 +1,28 @@
+:root{
+    --main-color: #019df4;
+    --text-color: #0b2739;
+    --section-gray-color: #f2f4f2;
+    --section-form-color: #09202e;
+    --footer-color: #fffdfd;
+    --border-footer-color: #d3d4d3;
+    --text-link-color: #50535a;
+    --text-color-menu: #707070;
+    --white-color: #ffff;
+    --border-radius: 20px;
+    --telefonica-bold: Telefonica-Bold;
+    --telefonica-regular: Telefonica-Regular;
+    --telefonica-light: Telefonica-Light;
+    --underline-color: #a13ea1;
+    --terms-condition-text-color: #313235;
+    --text-benefits: #b6b7b7;
+    --orange-color: #ec624b;
+    --link-inactive: #86888c;
+    --gray-dark: #313235;
+}
+
+/* ** Operation hero ** */
+.operation-hero 
+{
+    background-color: var(--main-color);
+}
+/* *** */

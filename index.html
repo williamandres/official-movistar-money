@@ -299,7 +299,7 @@
         </section>
 
         <div class="contact-container">
-            <section class="contact">
+            <section class="contact" style="display: none;">
             <h2 class="contact-main-message wrapper">
                     Te contactaremos para darte más 
                     información del equipo que quieras
@@ -313,6 +313,73 @@
                     Quiero tener más información
                 </a>
             </section>
+
+            <form class="form" id="sampleForm" action="" >
+
+                <p class="form-message1">
+                    ¡Se el primero en enterarte!
+                </p>
+                <p class="form-message2">
+                    Déjanos tus datos de contacto y selecciona 
+                    en que opción de crédito estas interesado
+                </p>
+
+                <div class="container-main-inputs">
+                    
+                    <label for="LastName" class="label">
+                        <div class="input-icon input-icon-name">
+                        <input class="input input-name" placeholder="Nombre completo" id="last_name" maxlength="80" name="last_name" size="20" type="text"><br>
+                        </div>
+                    </label>
+    
+                    <label for="Email" class="label">
+                        <div class="input-icon input-icon-email">
+                            <input placeholder="Escribe tu correo electrónico" class="input input-name" id="email" maxlength="80" name="email" size="20" type="email"><br>
+                        </div>
+                    </label>
+    
+                    <label for="mobile" class="label">
+                        <div class="input-icon input-icon-mobile">
+                            <input class="input input-name" placeholder="Número de móvil" id="mobile" name="mobile" maxlength="40"  size="20" type="phone"><br>
+                        </div>
+                    </label>
+
+                </div>
+
+
+                <div class="first-checkbox">
+                    <div class="checkbox-container-2">
+                        <input type="checkbox" class="input-text input-text-block w-100" id="lead_equipment_credit" name="lead_equipment_credit">
+                        <label for="lead_equipment_credit" class="checkbox-text label">Crédito de equipos</label>
+                    </div>
+    
+                    <div class="checkbox-container-2">
+                        <input type="checkbox" class="checkbox" id="lead_free_investment_credit" name="lead_free_investment_credit">
+                        <label for="lead_free_investment_credit" class="checkbox-text  label">Crédito libre inversión</label>
+                    </div>
+                </div>
+
+
+                <div class="checkbox-container ">
+                    <input id="00N5e00000eRNZb" name="00N5e00000eRNZb" type="checkbox" value="2" class="checkbox" required="">
+                    <label class="checkbox-text checkbox-text1 label" for="00N5e00000eRNZb" style="text-decoration: underline;">
+                        Acepto los Términos y Condiciones y la Política de Datos Personales, declaro que los he 
+                        leído en su totalidad y que estoy de acuerdo con su contenido.
+                    </label>
+                </div>
+            
+                <div class="checkbox-container">
+                    <input id="lead_authorize_receive_commercial_info" type="checkbox" value="1" class="checkbox" name="lead_authorize_receive_commercial_info">
+                    <label class="checkbox-text label" for="lead_authorize_receive_commercial_info">
+                        Autorizo recibir información comercial conforme a la Política de Datos Personales
+                    </label>
+                </div>
+
+                <br>
+            
+                <input type="submit" id="btnSubmit" name="submit" class="input-submit hero-message-button" value="Enviar">
+            
+            </form>
         </div>
     </div>
 
