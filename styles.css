@@ -1573,6 +1573,7 @@ a
 {
     text-decoration: underline;
     font-weight: bolder;
+    font-family: var(--telefonica-bold);
 }
 
 @media screen and (min-width: 768px) {
