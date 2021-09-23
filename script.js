@@ -62,3 +62,20 @@ function change2()
 }
 
 /* ***************** */
+
+
+/* ********************** Form-Contact section  ****************************** */
+const contactLink = document.getElementById('contact-click') 
+const form = document.getElementById('sampleForm')
+const hola = document.getElementById('hola')
+const contact = document.getElementById('contact')
+
+
+contactLink.addEventListener('click', showForm)
+
+function showForm()
+{
+    contactLink.classList.add('dissapear-element')
+
+}
+/* ***************** */

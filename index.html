@@ -6,23 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Movistar Money</title>
+
+    <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new
+    Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KBVPPT');</script> <!-- End Google Tag Manager
+-->
 </head>
 <body class="body">
+    <!-- Google Tag Manager (noscript) --> <noscript><iframe
+    src="https://www.googletagmanager.com/ns.html?id=GTMKBVPPT" height="0" width="0"
+    style="display:none;visibility:hidden"></iframe></noscript> <!-- End Google Tag Manager
+    (noscript) -->
+
     <header class="header wrapper">
         <div class="container-logo">
             <img src="assets/logo-movistar.png" alt="" class="logo">
         </div>
 
         <nav class="menu">
-            <a href="#" class=" menu-link-blue">
+            <a href="#" class=" menu-link-blue" 
+            onclick="dataLayer.push({
+                'event': 'trackEvent',
+                'eventCategory': 'movistar money',
+                'eventAction': 'click::menú',
+                'eventLabel': 'inicio'
+                });">
+                
                 <img src="assets/home_blue.png" alt="" class="menu-link-img">
                 <div class="menu-link-text">Inicio</div>
                 <div class="menu-link-underline"></div>
+                
             </a>
 
             <a href="question.html" class="menu-link">
                 <img src="assets/question_white.png" alt="" class="menu-link-img">
                 <div class="menu-link-text appear-big-screen ">¿Quiénes Somos?</div>
+                <script>
+                    dataLayer.push({
+                'event': 'trackEvent',
+                'eventCategory': 'movistar money',
+                'eventAction': 'click::menú',
+                'eventLabel': 'inicio'
+                });
+                </script>
             </a>
 
             <a href="more.html" class="menu-link">
@@ -299,7 +327,7 @@
         </section>
 
         <div class="contact-container">
-            <section class="contact" style="display: none;">
+            <section class="contact disappear" >
             <h2 class="contact-main-message wrapper">
                     Te contactaremos para darte más 
                     información del equipo que quieras
@@ -314,7 +342,7 @@
                 </a>
             </section>
 
-            <form class="form" id="sampleForm" action="" >
+            <form class="form " id="sampleForm " action="" >
 
                 <p class="form-message1">
                     ¡Se el primero en enterarte!
@@ -334,7 +362,7 @@
     
                     <label for="Email" class="label">
                         <div class="input-icon input-icon-email">
-                            <input placeholder="Escribe tu correo electrónico" class="input input-name" id="email" maxlength="80" name="email" size="20" type="email"><br>
+                            <input placeholder=" Correo electrónico" class="input input-name" id="email" maxlength="80" name="email" size="20" type="email"><br>
                         </div>
                     </label>
     
@@ -346,20 +374,23 @@
 
                 </div>
 
+                <div class="checkbox-list-container">
+                    
+                    <div class="first-checkbox">
+                        <div class="checkbox-container-2">
+                            <input type="checkbox" class="input-text input-text-block w-100" id="lead_equipment_credit" name="lead_equipment_credit">
+                            <label for="lead_equipment_credit" class="checkbox-text label">Crédito de equipos</label>
+                        </div>
+        
+                        <div class="checkbox-container-2">
+                            <input type="checkbox" class="checkbox" id="lead_free_investment_credit" name="lead_free_investment_credit">
+                            <label for="lead_free_investment_credit" class="checkbox-text  label">Crédito libre inversión</label>
+                        </div>
+                    </div>
 
-                <div class="first-checkbox">
-                    <div class="checkbox-container-2">
-                        <input type="checkbox" class="input-text input-text-block w-100" id="lead_equipment_credit" name="lead_equipment_credit">
-                        <label for="lead_equipment_credit" class="checkbox-text label">Crédito de equipos</label>
-                    </div>
-    
-                    <div class="checkbox-container-2">
-                        <input type="checkbox" class="checkbox" id="lead_free_investment_credit" name="lead_free_investment_credit">
-                        <label for="lead_free_investment_credit" class="checkbox-text  label">Crédito libre inversión</label>
-                    </div>
                 </div>
 
-
+                
                 <div class="checkbox-container ">
                     <input id="00N5e00000eRNZb" name="00N5e00000eRNZb" type="checkbox" value="2" class="checkbox" required="">
                     <label class="checkbox-text checkbox-text1 label" for="00N5e00000eRNZb" style="text-decoration: underline;">
