@@ -26,40 +26,68 @@
         </div>
 
         <nav class="menu">
-            <a href="#" class=" menu-link-blue" >
+            <a href="#" class=" menu-link-blue" 
+            onclick="
+                dataLayer.push({
+                'event': 'trackEvent',
+                'eventCategory': 'movistar money',
+                'eventAction': 'click::menú',
+                'eventLabel': 'inicio'
+                });">
                 
                 <img src="assets/home_blue.png" alt="" class="menu-link-img">
                 <div class="menu-link-text">Inicio</div>
                 <div class="menu-link-underline"></div>
             </a>
 
-            <a href="question.html" class="menu-link">
-                <img src="assets/question_white.png" alt="" class="menu-link-img">
-                <div class="menu-link-text appear-big-screen ">¿Quiénes Somos?</div>
-                <div class="menu-link-underline-hover"></div>
-                <script>
-                    dataLayer.push({
+            <a href="question.html" class="menu-link"
+            onclick="
+                dataLayer.push({
                 'event': 'trackEvent',
                 'eventCategory': 'movistar money',
                 'eventAction': 'click::menú',
-                'eventLabel': 'inicio'
-                });
-                </script>
+                'eventLabel': '¿Quiénes Somos?'
+                });">
+                <img src="assets/question_white.png" alt="" class="menu-link-img">
+                <div class="menu-link-text appear-big-screen ">¿Quiénes Somos?</div>
+                <div class="menu-link-underline-hover"></div>
             </a>
 
-            <a href="more.html" class="menu-link">
+            <a href="more.html" class="menu-link"
+            onclick="
+            dataLayer.push({
+                'event': 'trackEvent',
+                'eventCategory': 'movistar money',
+                'eventAction': 'click::menú',
+                'eventLabel': 'Conoce más'
+                });">
+
                 <img src="assets/more_white.png" alt="" class="menu-link-img">
                 <div class="menu-link-text appear-big-screen">Conoce más</div>
                 <div class="menu-link-underline-hover"></div>
             </a>
 
-            <a href="blog.html" class="menu-link">
+            <a href="blog.html" class="menu-link"
+            onclick="
+            dataLayer.push({
+                'event': 'trackEvent',
+                'eventCategory': 'movistar money',
+                'eventAction': 'click::menú',
+                'eventLabel': 'Blog'
+                });">
                 <img src="assets/blog_white.png" alt="" class="menu-link-img">
                 <div class="menu-link-text appear-big-screen">Blog</div>
                 <div class="menu-link-underline-hover"></div>
             </a>
 
-            <a href="#" class="menu-link-blue my-account">
+            <a href="#" class="menu-link-blue my-account" 
+            onclick="
+            dataLayer.push({
+                'event': 'trackEvent',
+                'eventCategory': 'movistar money',
+                'eventAction': 'click::mi cuenta',
+                'eventLabel': 'mi cuenta'
+                });">
                 <img src="assets/my-account-blue.png" alt="" class="my-account-icon">
                 <div class="menu-link-text appear-big-screen">Mi cuenta</div>
             </a>
@@ -95,7 +123,14 @@
             </p>
 
             
-            <a href="#contact" class="hero-promotion-link button">
+            <a href="#contact" class="hero-promotion-link button"
+            onclick="
+            dataLayer.push({
+                'event': 'trackEvent',
+                'eventCategory': 'movistar money',
+                'eventAction': 'click::banner',
+                'eventLabel': 'Saber más'
+                });">
                 Saber más
             </a>
             
@@ -108,7 +143,14 @@
                 entorno completamente digital
             </p>
 
-            <a href="#" class="hero-promotion2-link button">
+            <a href="#" class="hero-promotion2-link button"
+            onclick="
+            dataLayer.push({
+                'event': 'trackEvent',
+                'eventCategory': 'movistar money',
+                'eventAction': 'click::informativo',
+                'eventLabel': 'Conoce más'
+                });">
                     Conoce más
             </a>
             
@@ -352,19 +394,42 @@
                     
                     <label for="LastName" class="label">
                         <div class="input-icon input-icon-name">
-                        <input class="input input-name" placeholder="Nombre completo" id="last_name" maxlength="80" name="last_name" size="20" type="text"><br>
+                        <input class="input input-name" placeholder="Nombre completo" id="last_name" maxlength="80" name="last_name" size="20" type="text"
+                        onclick="
+                        dataLayer.push({
+                            'event': 'trackEvent',
+                            'eventCategory': 'movistar money',
+                            'eventAction': 'click::informativo',
+                            'eventLabel': 'Nombre completo'
+                            });"><br>
                         </div>
                     </label>
     
                     <label for="Email" class="label">
                         <div class="input-icon input-icon-email">
-                            <input placeholder=" Correo electrónico" class="input input-name" id="email" maxlength="80" name="email" size="20" type="email"><br>
+                            <input placeholder=" Correo electrónico" class="input input-name" id="email" maxlength="80" name="email" size="20" type="email"
+                            onclick="
+                            dataLayer.push({
+                                'event': 'trackEvent',
+                                'eventCategory': 'movistar money',
+                                'eventAction': 'click::informativo',
+                                'eventLabel': 'email'
+                            });
+                            "><br>
                         </div>
                     </label>
     
                     <label for="mobile" class="label">
                         <div class="input-icon input-icon-mobile">
-                            <input class="input input-name" placeholder="Número de móvil" id="mobile" name="mobile" maxlength="40"  size="20" type="phone"><br>
+                            <input class="input input-name" placeholder="Número de móvil" id="mobile" name="mobile" maxlength="40"  size="20" type="phone"
+                            onclick="
+                            dataLayer.push({
+                                'event': 'trackEvent',
+                                'eventCategory': 'movistar money',
+                                'eventAction': 'click::informativo',
+                                'eventLabel': 'mobile'
+                            });
+                            "><br>
                         </div>
                     </label>
 
@@ -374,12 +439,28 @@
                     
                     <div class="first-checkbox">
                         <div class="checkbox-container-2">
-                            <input type="checkbox" class="input-text input-text-block w-100" id="lead_equipment_credit" name="lead_equipment_credit">
+                            <input type="checkbox" class="input-text input-text-block w-100" id="lead_equipment_credit" name="lead_equipment_credit"
+                            onclick="
+                            dataLayer.push({
+                                'event': 'trackEvent',
+                                'eventCategory': 'movistar money',
+                                'eventAction': 'click::tipo de crédito',
+                                'eventLabel': 'Crédito de equipos'
+                            });
+                            ">
                             <label for="lead_equipment_credit" class="checkbox-text label">Crédito de equipos</label>
                         </div>
         
                         <div class="checkbox-container-2">
-                            <input type="checkbox" class="checkbox" id="lead_free_investment_credit" name="lead_free_investment_credit">
+                            <input type="checkbox" class="checkbox" id="lead_free_investment_credit" name="lead_free_investment_credit"
+                            onclick="
+                            dataLayer.push({
+                                'event': 'trackEvent',
+                                'eventCategory': 'movistar money',
+                                'eventAction': 'click::tipo de crédito',
+                                'eventLabel': 'Crédito libre inversión'
+                            });
+                            ">
                             <label for="lead_free_investment_credit" class="checkbox-text  label">Crédito libre inversión</label>
                         </div>
                     </div>
@@ -404,7 +485,16 @@
 
                 <br>
             
-                <input type="submit" id="btnSubmit" name="submit" class="input-submit hero-message-button" value="Enviar">
+                <input type="submit" id="btnSubmit" name="submit" class="input-submit hero-message-button" value="Enviar"
+                onclick="
+                dataLayer.push({
+                    'event': 'trackEvent',
+                    'eventCategory': 'movistar money',
+                    'eventAction': 'click::tipo de crédito',
+                    'eventLabel': 'envío del lead',
+                    'userIdMoney': '{#btnSubmit}'
+                });
+                ">
             
             </form>
         </div>
