@@ -20,7 +20,12 @@
     --gray-dark: #313235;
 }
 
-/* ** Operation hero ** */
+/* ** services hero ** */
+
+.services-description-links-container
+{
+    padding-bottom: 30px;
+}
 .services-hero
 {
     color: var(--white-color);
@@ -112,4 +117,79 @@
         align-self: flex-end;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .services-hero
+    {
+        justify-content: space-between;
+    }
+    .services-hero-content 
+    {
+        width: 55%;
+        
+    }
+
+    .services-hero-title 
+    {
+        font-size: 2.3rem; 
+    }
+}
+/* *** */
+
+
+
+/* ** Services description ** */
+
+    .services-description-title 
+    {
+        padding-left: 16px;
+        padding-right: 16px;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .services-description-links-container 
+    {
+        justify-content: space-between;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .services-article 
+    {
+        border: solid 1px var(--border-footer-color);
+        border-radius: 10px;
+        margin-left: 16px;
+        margin-right: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 25px 20px 25px;
+        margin-bottom: 20px;
+    }
+
+    .services-article-img 
+    {
+        width: 60%;
+        padding-bottom: 40px;
+    }
+
+    .services-article-title 
+    {
+        font-size: 1rem;
+        color: var(--main-color);
+        padding-bottom: 20px;
+        font-family: var(--telefonica-light);
+        font-weight: 300;
+    }
+
+    .services-article-list-item 
+    {
+        font-size: .8rem;
+        color:var(--text-link-color) ;
+    }
+
+    .services-article-list-item:first-child 
+    {
+        padding-bottom: 10px;
+    }
 /* *** */
