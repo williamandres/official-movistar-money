@@ -20,6 +20,9 @@
     --gray-dark: #313235;
 }
 
+
+
+
 body 
 {
     padding-bottom: 53px;
@@ -348,6 +351,16 @@ body
     padding-top: 19px;
 }
 
+.services-description-link-active 
+{
+    color: var(--text-color);
+}
+
+.services-description-link-inactive 
+{
+    color: var(--link-inactive);
+}
+
 @media screen and (min-width: 768px) {
     .services-description-2 
     {
@@ -386,4 +399,12 @@ body
     }
 }
 
+/* *** */
+
+
+/* **Disappear Element ** */
+.dissapear-service 
+{
+    display: none;
+}
 /* *** */
