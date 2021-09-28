@@ -20,6 +20,10 @@
     --gray-dark: #313235;
 }
 
+*:focus {
+    outline: none;
+}
+
 
 
 
@@ -402,9 +406,55 @@ body
 /* *** */
 
 
-/* **Disappear Element ** */
+/* **Disappear Service ** */
 .dissapear-service 
 {
     display: none;
+}
+/* *** */
+
+
+/* **Help section ** */
+
+.services-help
+{
+    background-color: var(--section-gray-color);
+    padding: 30px 16px 40px 16px;
+}
+
+
+
+.services-help-title 
+{
+    font-size: 1rem;
+    color: var(--main-color);
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+
+.service-help-search-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: var(--white-color);
+    padding: 10px;
+    border-radius: 40px;
+}
+
+.service-help-search 
+{
+    width: 90%;
+    background: transparent;
+    border: 0px;
+}
+
+.service-help-search-image
+{
+    padding-right: 11px;
 }
 /* *** */
