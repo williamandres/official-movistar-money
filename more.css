@@ -142,7 +142,9 @@
 
     .services-description-title 
     {
+        padding-top: 50px;
         padding-left: 16px;
+        padding-bottom: 20px;
         padding-right: 16px;
         font-size: 1rem;
         text-align: center;
@@ -154,7 +156,12 @@
         padding-right: 16px;
     }
 
-    .services-article 
+    .services-description-link 
+    {
+        font-size: .9rem;
+    }
+
+    .services-description-article 
     {
         border: solid 1px var(--border-footer-color);
         border-radius: 10px;
@@ -169,8 +176,34 @@
 
     .services-article-img 
     {
-        width: 60%;
+        
         padding-bottom: 40px;
+    }
+
+    .services-article-img1 
+    {
+        width: 180px;
+    }
+
+    .services-article-img2 
+    {
+        width: 100px;
+    }
+
+    
+    .services-article-img3 
+    {
+        width: 104px;
+    }
+    
+    .services-article-img4 
+    {
+        width: 118px;
+    }
+
+    .services-article-img5 
+    {
+        width: 104px;
     }
 
     .services-article-title 
@@ -191,5 +224,95 @@
     .services-article-list-item:first-child 
     {
         padding-bottom: 10px;
+    }
+
+    @media screen and (min-width: 768px) {
+        .services-description-links-container 
+        {
+            justify-content: center;
+            
+        }
+
+        .services-description-title 
+        {
+            font-size: 1.9rem;
+        }
+
+        .services-description-link-container:first-child
+        {
+            padding-right: 40px;
+        }
+
+        .services-description-link-container:last-child
+        {
+            padding-left: 40px;
+        }
+
+        .services-description-article 
+        {
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            margin-left: 70px;
+            margin-right: 70px;
+        }
+
+        .services-description-article-content 
+        {
+            width: 40%;
+            
+        } 
+
+        .services-article-img 
+        {
+            padding-bottom: 0;
+        }
+
+
+        .services-article-img1 
+        {
+            width: 260px;
+        }
+
+        .services-article-img2 
+        {
+            width: 172px;
+        }
+
+        .services-article-img2 
+        {
+            width: 172px;
+        }
+
+        .services-article-img3 
+        {
+            width: 170px;
+        }
+        
+        .services-article-img4 
+        {
+            width: 180px;
+        }
+
+        .services-article-img5 
+        {
+            width: 168px;
+        }
+
+        .services-article-title 
+        {
+            font-size: 1.9rem;
+        }
+
+        .services-article-list 
+        {
+            padding-left: 16px;
+        }
+
+        .services-article-list-item 
+        {
+            font-size: 1.1rem;
+            
+        }
     }
 /* *** */
