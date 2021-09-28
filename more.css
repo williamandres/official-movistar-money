@@ -348,4 +348,42 @@ body
     padding-top: 19px;
 }
 
+@media screen and (min-width: 768px) {
+    .services-description-2 
+    {
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 56px;
+    }
+
+    .services-description-2-img 
+    {
+        width: 200px;
+        padding-top: 0;
+        
+    }
+
+    .services-description-2-paragraph 
+    {
+        width: 50%;
+        font-size: 1rem;
+        padding-top: 0;
+        padding-left: 100px;
+        padding-right: 0;
+    }
+}
+
+@media screen and (min-width: 1024px){
+
+    .services-description-2-img 
+    {
+        width: 390px;
+    }
+
+    .services-description-2-paragraph 
+    {
+        font-size: 1.9rem;
+    }
+}
+
 /* *** */
