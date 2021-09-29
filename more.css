@@ -579,7 +579,22 @@ body
     .services-help-data-answer-p 
     {
         font-size: 1rem;
-    } 
+    }
+    
+    .services-help-data-questions 
+    {
+        height: 500px;
+        display: flex;
+        align-content: space-between;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .services-help-data-question 
+    {
+        width: 48%;
+        height: 70px;
+    }
 }
 /* *** */
 
