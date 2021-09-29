@@ -599,3 +599,35 @@ body
 /* *** */
 
 
+/* ** Service contact section ** */
+.services-contact 
+{
+    background-image: url('assets/background-service-contact.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-bottom: 42px;
+}
+
+.service-contact-first
+{
+    font-family: var(--telefonica-light);
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+.service-contact-second 
+{
+    font-size: .9rem;
+}
+
+.service-contact-second span 
+{
+    font-family: var(--telefonica-bold);
+    text-decoration: underline;
+}
+/* *** */
