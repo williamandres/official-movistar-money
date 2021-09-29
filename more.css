@@ -630,4 +630,27 @@ body
     font-family: var(--telefonica-bold);
     text-decoration: underline;
 }
+
+@media screen and (min-width: 768px) {
+    .services-contact 
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 70px;
+    }
+
+    .service-contact-first 
+    {
+        width: 50%;
+        font-size: 2.3rem;
+    }
+
+    .service-contact-second 
+    {
+        width: 50%;
+        text-align: justify;
+        font-size: 1.1rem;
+    }
+}
 /* *** */
