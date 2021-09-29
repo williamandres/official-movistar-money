@@ -539,4 +539,48 @@ body
     font-weight: 300;
     padding-left: 11px;
 }
+
+@media screen and (min-width: 768px) {
+    
+    .services-help-title 
+    {
+        font-size: 1.9rem;
+        padding-bottom: 40px;
+    }
+
+    .service-help-search-container 
+    {
+        width: 394px;
+        margin: 0 auto;
+    }
+
+    .service-help-buttons
+    {
+        justify-content: center;
+
+    }
+
+    .service-help-button 
+    {
+        padding-right: 26px;
+    }
+
+    .services-help-data 
+    {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .services-help-data-title 
+    {
+        font-size: 1.2rem;
+    }
+
+    .services-help-data-answer-p 
+    {
+        font-size: 1rem;
+    } 
+}
 /* *** */
+
+
