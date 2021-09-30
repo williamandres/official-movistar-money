@@ -1661,6 +1661,7 @@ a
         flex-direction: column-reverse;
         padding-top: 20px;
         padding-bottom: 40px;
+        text-align: center;
     }
 
     .more-about
@@ -1719,6 +1720,7 @@ a
             width: 90%;
             padding-top: 10px;
             padding-bottom: 26px !important;
+
         }
 
         .more-about

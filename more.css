@@ -430,7 +430,17 @@ body
     padding: 30px 16px 40px 16px;
 }
 
+.services-help-background-tree-left
+{
+    position: absolute;
+    left: 70px;
+}
 
+.services-help-background-tree-right 
+{
+    position: absolute;
+    right: 70px;
+}
 
 .services-help-title 
 {
@@ -481,6 +491,11 @@ body
 .service-help-button 
 {
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    height: 90px;
 }
 
 .service-help-button-icon-container-blue 
@@ -505,6 +520,23 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.service-help-button-name 
+{
+    text-align: center;
+    font-size: .8rem;
+    margin-top: 4px;
+}
+
+.service-help-button-name-blue 
+{
+    color: var(--main-color);
+}
+
+.service-help-button-name-gray 
+{
+    color: var(--link-inactive);
 }
 
 .services-help-data-questions 
@@ -550,6 +582,16 @@ body
 
 @media screen and (min-width: 768px) {
     
+    .services-help-background-tree-left 
+    {
+        width: 150px;
+    }
+
+    .services-help-background-tree-right
+    {
+        width: 150px;
+    } 
+    
     .services-help-title 
     {
         font-size: 1.9rem;
@@ -573,6 +615,10 @@ body
         padding-right: 26px;
     }
 
+    .service-help-button:last-child
+    {
+        padding-right: 0;
+    }
     .services-help-data 
     {
         padding-left: 70px;
@@ -602,6 +648,18 @@ body
     {
         width: 48%;
         height: 70px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .services-help-background-tree-left 
+    {
+        width: 340px;
+    }
+
+    .services-help-background-tree-right
+    {
+        width: 340px;
     }
 }
 /* *** */
@@ -660,5 +718,10 @@ body
         text-align: justify;
         font-size: 1.1rem;
     }
+}
+
+@media screen and (min-width: 1200px)
+{
+
 }
 /* *** */
