@@ -570,6 +570,7 @@ body
 .services-help-data-title-container 
 {
     display: flex;
+    align-items: flex-end;
     margin-top: 45px;
 }
 
@@ -642,6 +643,16 @@ body
         align-content: space-between;
         flex-direction: column;
         flex-wrap: wrap;
+    }
+
+    .services-help-data-questions2 
+    {
+        height: 250px;
+    }
+
+    .services-help-data-questions4
+    {
+        height: 150px;
     }
 
     .services-help-data-question 
