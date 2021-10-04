@@ -619,6 +619,7 @@ body
     .service-help-button 
     {
         padding-right: 26px;
+        cursor: pointer;
     }
 
     .service-help-button:last-child
