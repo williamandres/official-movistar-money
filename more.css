@@ -414,12 +414,7 @@ body
 /* *** */
 
 
-/* **Disappear Service ** */
-.dissapear-service 
-{
-    display: none;
-}
-/* *** */
+
 
 
 /* **Help section ** */
@@ -496,6 +491,16 @@ body
     align-items: center;
     width: 100px;
     height: 90px;
+}
+
+.help-button-icon
+{
+    width: 20px;
+}
+
+.help-button-icon1
+{
+    
 }
 
 .service-help-button-icon-container-blue 
@@ -734,5 +739,12 @@ body
 @media screen and (min-width: 1200px)
 {
 
+}
+/* *** */
+
+/* **Disappear Service ** */
+.dissapear-service 
+{
+    display: none ;
 }
 /* *** */
