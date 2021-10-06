@@ -543,18 +543,27 @@ body
 
 .services-help-data-questions 
 {
-    margin-top: 34px;
+    margin-top: 34px; 
+    
 }
 
 .services-help-data-question 
 {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
     width: 100%;
-    border-bottom: 1px solid var(--border-footer-color);
     padding-top: 20px;
     padding-bottom: 10px;
+    
+}
+
+.services-help-data-answer-container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    cursor: pointer;
 }
 
 .services-help-data-answer-p 
@@ -569,6 +578,29 @@ body
     display: flex;
     justify-content: flex-end;
 }
+
+
+
+.services-help-data-text 
+{
+    padding-top: 10px;
+    transition: .2s;
+}
+
+.services-help-data-line-gray
+{
+    width: 100%;
+    margin-top: 10px;
+    border-bottom: 1px solid var(--border-footer-color);
+}
+
+.services-help-data-line-orange 
+{
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid var(--orange-color);
+}
+
 .services-help-data-title-container 
 {
     display: flex;
@@ -661,7 +693,6 @@ body
     .services-help-data-question 
     {
         width: 48%;
-        height: 70px;
     }
 }
 
