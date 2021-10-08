@@ -215,6 +215,18 @@ function extendInformation(){
     servicesArrowUp4.classList.add('dissapear-service');
     servicesArrowDown5.classList.remove('dissapear-service');
     servicesArrowUp5.classList.add('dissapear-service');
+    servicesArrowDown6.classList.remove('dissapear-service');
+    servicesArrowUp6.classList.add('dissapear-service');
+    servicesArrowDown7.classList.remove('dissapear-service');
+    servicesArrowUp7.classList.add('dissapear-service');
+    servicesArrowDown8.classList.remove('dissapear-service');
+    servicesArrowUp8.classList.add('dissapear-service');
+    servicesArrowDown9.classList.remove('dissapear-service');
+    servicesArrowUp9.classList.add('dissapear-service');
+    servicesArrowDown10.classList.remove('dissapear-service');
+    servicesArrowUp10.classList.add('dissapear-service'); 
+    servicesArrowDown11.classList.remove('dissapear-service');
+    servicesArrowUp11.classList.add('dissapear-service');
 
     servicesLineOrange1.classList.toggle('dissapear-service');
     servicesLineGray1.classList.toggle('dissapear-service');
@@ -226,12 +238,30 @@ function extendInformation(){
     servicesLineOrange4.classList.add('dissapear-service');
     servicesLineGray5.classList.remove('dissapear-service');
     servicesLineOrange5.classList.add('dissapear-service');
+    servicesLineGray6.classList.remove('dissapear-service');
+    servicesLineOrange6.classList.add('dissapear-service');
+    servicesLineGray7.classList.remove('dissapear-service');
+    servicesLineOrange7.classList.add('dissapear-service');
+    servicesLineGray8.classList.remove('dissapear-service');
+    servicesLineOrange8.classList.add('dissapear-service');
+    servicesLineGray9.classList.remove('dissapear-service');
+    servicesLineOrange9.classList.add('dissapear-service'); 
+    servicesLineGray10.classList.remove('dissapear-service');
+    servicesLineOrange10.classList.add('dissapear-service'); 
+    servicesLineGray11.classList.remove('dissapear-service');
+    servicesLineOrange11.classList.add('dissapear-service');
 
     commercialInformationAnswer1.classList.toggle('dissapear-service');
     commercialInformationAnswer2.classList.add('dissapear-service');
     commercialInformationAnswer3.classList.add('dissapear-service');
     commercialInformationAnswer4.classList.add('dissapear-service');
     commercialInformationAnswer5.classList.add('dissapear-service');
+    commercialInformationAnswer6.classList.add('dissapear-service');
+    commercialInformationAnswer7.classList.add('dissapear-service');
+    commercialInformationAnswer8.classList.add('dissapear-service');
+    commercialInformationAnswer9.classList.add('dissapear-service');
+    commercialInformationAnswer10.classList.add('dissapear-service');
+    commercialInformationAnswer11.classList.add('dissapear-service');
     
 }
 /* ****** */
@@ -263,6 +293,18 @@ function extendInformation2()
     servicesArrowUp4.classList.add('dissapear-service');
     servicesArrowDown5.classList.remove('dissapear-service');
     servicesArrowUp5.classList.add('dissapear-service');
+    servicesArrowDown6.classList.remove('dissapear-service');
+    servicesArrowUp6.classList.add('dissapear-service');
+    servicesArrowDown7.classList.remove('dissapear-service');
+    servicesArrowUp7.classList.add('dissapear-service');
+    servicesArrowDown8.classList.remove('dissapear-service');
+    servicesArrowUp8.classList.add('dissapear-service');
+    servicesArrowDown9.classList.remove('dissapear-service');
+    servicesArrowUp9.classList.add('dissapear-service');
+    servicesArrowDown10.classList.remove('dissapear-service');
+    servicesArrowUp10.classList.add('dissapear-service');
+    servicesArrowDown11.classList.remove('dissapear-service');
+    servicesArrowUp11.classList.add('dissapear-service');
 
 
     commercialInformationAnswer2.classList.toggle('dissapear-service');
@@ -270,6 +312,12 @@ function extendInformation2()
     commercialInformationAnswer3.classList.add('dissapear-service');
     commercialInformationAnswer4.classList.add('dissapear-service');
     commercialInformationAnswer5.classList.add('dissapear-service');
+    commercialInformationAnswer6.classList.add('dissapear-service');
+    commercialInformationAnswer7.classList.add('dissapear-service');
+    commercialInformationAnswer8.classList.add('dissapear-service');
+    commercialInformationAnswer9.classList.add('dissapear-service');
+    commercialInformationAnswer10.classList.add('dissapear-service');
+    commercialInformationAnswer11.classList.add('dissapear-service');
     
     servicesLineGray2.classList.toggle('dissapear-service');
     servicesLineOrange2.classList.toggle('dissapear-service');
@@ -281,6 +329,18 @@ function extendInformation2()
     servicesLineOrange4.classList.add('dissapear-service');
     servicesLineGray5.classList.remove('dissapear-service');
     servicesLineOrange5.classList.add('dissapear-service');
+    servicesLineGray6.classList.remove('dissapear-service');
+    servicesLineOrange6.classList.add('dissapear-service');
+    servicesLineGray7.classList.remove('dissapear-service');
+    servicesLineOrange7.classList.add('dissapear-service');
+    servicesLineGray8.classList.remove('dissapear-service');
+    servicesLineOrange8.classList.add('dissapear-service');
+    servicesLineGray9.classList.remove('dissapear-service');
+    servicesLineOrange9.classList.add('dissapear-service'); 
+    servicesLineGray10.classList.remove('dissapear-service');
+    servicesLineOrange10.classList.add('dissapear-service'); 
+    servicesLineGray11.classList.remove('dissapear-service');
+    servicesLineOrange11.classList.add('dissapear-service');
 }
 /* ****** */
 
@@ -311,6 +371,18 @@ function extendInformation3()
     servicesArrowUp4.classList.add('dissapear-service');
     servicesArrowDown5.classList.remove('dissapear-service');
     servicesArrowUp5.classList.add('dissapear-service');
+    servicesArrowDown6.classList.remove('dissapear-service');
+    servicesArrowUp6.classList.add('dissapear-service');
+    servicesArrowDown7.classList.remove('dissapear-service');
+    servicesArrowUp7.classList.add('dissapear-service');
+    servicesArrowDown8.classList.remove('dissapear-service');
+    servicesArrowUp8.classList.add('dissapear-service');
+    servicesArrowDown9.classList.remove('dissapear-service');
+    servicesArrowUp9.classList.add('dissapear-service');
+    servicesArrowDown10.classList.remove('dissapear-service');
+    servicesArrowUp10.classList.add('dissapear-service'); 
+    servicesArrowDown11.classList.remove('dissapear-service');
+    servicesArrowUp11.classList.add('dissapear-service');
     
 
     commercialInformationAnswer3.classList.toggle('dissapear-service');
@@ -318,6 +390,12 @@ function extendInformation3()
     commercialInformationAnswer2.classList.add('dissapear-service');
     commercialInformationAnswer4.classList.add('dissapear-service');
     commercialInformationAnswer5.classList.add('dissapear-service');
+    commercialInformationAnswer6.classList.add('dissapear-service');
+    commercialInformationAnswer7.classList.add('dissapear-service');
+    commercialInformationAnswer8.classList.add('dissapear-service');
+    commercialInformationAnswer9.classList.add('dissapear-service');
+    commercialInformationAnswer10.classList.add('dissapear-service');
+    commercialInformationAnswer11.classList.add('dissapear-service');
 
     servicesLineGray3.classList.toggle('dissapear-service');
     servicesLineOrange3.classList.toggle('dissapear-service');
@@ -329,7 +407,18 @@ function extendInformation3()
     servicesLineOrange4.classList.add('dissapear-service');
     servicesLineGray5.classList.remove('dissapear-service');
     servicesLineOrange5.classList.add('dissapear-service');
-    
+    servicesLineGray6.classList.remove('dissapear-service');
+    servicesLineOrange6.classList.add('dissapear-service');
+    servicesLineGray7.classList.remove('dissapear-service');
+    servicesLineOrange7.classList.add('dissapear-service');
+    servicesLineGray8.classList.remove('dissapear-service');
+    servicesLineOrange8.classList.add('dissapear-service');
+    servicesLineGray9.classList.remove('dissapear-service');
+    servicesLineOrange9.classList.add('dissapear-service'); 
+    servicesLineGray10.classList.remove('dissapear-service');
+    servicesLineOrange10.classList.add('dissapear-service'); 
+    servicesLineGray11.classList.remove('dissapear-service');
+    servicesLineOrange11.classList.add('dissapear-service');
 }
 
 /* ****** */
@@ -362,12 +451,31 @@ function extendInformation4(){
     servicesArrowUp3.classList.add('dissapear-service');
     servicesArrowDown5.classList.remove('dissapear-service');
     servicesArrowUp5.classList.add('dissapear-service');
+    servicesArrowDown6.classList.remove('dissapear-service');
+    servicesArrowUp6.classList.add('dissapear-service');
+    servicesArrowDown7.classList.remove('dissapear-service');
+    servicesArrowUp7.classList.add('dissapear-service');
+    servicesArrowDown8.classList.remove('dissapear-service');
+    servicesArrowUp8.classList.add('dissapear-service');
+    servicesArrowDown9.classList.remove('dissapear-service');
+    servicesArrowUp9.classList.add('dissapear-service');
+    servicesArrowDown10.classList.remove('dissapear-service');
+    servicesArrowUp10.classList.add('dissapear-service');
+    servicesArrowDown11.classList.remove('dissapear-service');
+    servicesArrowUp11.classList.add('dissapear-service');
+    
 
     commercialInformationAnswer4.classList.toggle('dissapear-service');
     commercialInformationAnswer1.classList.add('dissapear-service');
     commercialInformationAnswer2.classList.add('dissapear-service');
     commercialInformationAnswer3.classList.add('dissapear-service');
     commercialInformationAnswer5.classList.add('dissapear-service');
+    commercialInformationAnswer6.classList.add('dissapear-service');
+    commercialInformationAnswer7.classList.add('dissapear-service');
+    commercialInformationAnswer8.classList.add('dissapear-service');
+    commercialInformationAnswer9.classList.add('dissapear-service');
+    commercialInformationAnswer10.classList.add('dissapear-service');
+    commercialInformationAnswer11.classList.add('dissapear-service');
 
     
     servicesLineGray4.classList.toggle('dissapear-service');
@@ -380,6 +488,18 @@ function extendInformation4(){
     servicesLineOrange3.classList.add('dissapear-service');
     servicesLineGray5.classList.remove('dissapear-service');
     servicesLineOrange5.classList.add('dissapear-service');
+    servicesLineGray6.classList.remove('dissapear-service');
+    servicesLineOrange6.classList.add('dissapear-service');
+    servicesLineGray7.classList.remove('dissapear-service');
+    servicesLineOrange7.classList.add('dissapear-service');
+    servicesLineGray8.classList.remove('dissapear-service');
+    servicesLineOrange8.classList.add('dissapear-service');
+    servicesLineGray9.classList.remove('dissapear-service');
+    servicesLineOrange9.classList.add('dissapear-service');
+    servicesArrowDown10.classList.remove('dissapear-service');
+    servicesArrowUp10.classList.add('dissapear-service');  
+    servicesLineGray11.classList.remove('dissapear-service');
+    servicesLineOrange11.classList.add('dissapear-service');
 }
 
 /* ****** */
@@ -411,12 +531,30 @@ function extendInformation5(){
     servicesArrowUp3.classList.add('dissapear-service');
     servicesArrowDown4.classList.remove('dissapear-service');
     servicesArrowUp4.classList.add('dissapear-service');
+    servicesArrowDown6.classList.remove('dissapear-service');
+    servicesArrowUp6.classList.add('dissapear-service');
+    servicesArrowDown7.classList.remove('dissapear-service');
+    servicesArrowUp7.classList.add('dissapear-service');
+    servicesArrowDown8.classList.remove('dissapear-service');
+    servicesArrowUp8.classList.add('dissapear-service');
+    servicesArrowDown9.classList.remove('dissapear-service');
+    servicesArrowUp9.classList.add('dissapear-service');
+    servicesArrowDown10.classList.remove('dissapear-service');
+    servicesArrowUp10.classList.add('dissapear-service');
+    servicesArrowDown11.classList.remove('dissapear-service');
+    servicesArrowUp11.classList.add('dissapear-service');
 
     commercialInformationAnswer5.classList.toggle('dissapear-service');
-    commercialInformationAnswer4.classList.add('dissapear-service');
-    commercialInformationAnswer3.classList.add('dissapear-service');
     commercialInformationAnswer1.classList.add('dissapear-service');
     commercialInformationAnswer2.classList.add('dissapear-service');
+    commercialInformationAnswer3.classList.add('dissapear-service');
+    commercialInformationAnswer4.classList.add('dissapear-service');
+    commercialInformationAnswer6.classList.add('dissapear-service');
+    commercialInformationAnswer7.classList.add('dissapear-service');
+    commercialInformationAnswer8.classList.add('dissapear-service');
+    commercialInformationAnswer9.classList.add('dissapear-service');
+    commercialInformationAnswer10.classList.add('dissapear-service');
+    commercialInformationAnswer11.classList.add('dissapear-service');
 
     
     servicesLineGray5.classList.toggle('dissapear-service');
@@ -429,10 +567,517 @@ function extendInformation5(){
     servicesLineOrange3.classList.add('dissapear-service');
     servicesLineGray4.classList.remove('dissapear-service');
     servicesLineOrange4.classList.add('dissapear-service');
+    servicesLineGray6.classList.remove('dissapear-service');
+    servicesLineOrange6.classList.add('dissapear-service');
+    servicesLineGray7.classList.remove('dissapear-service');
+    servicesLineOrange7.classList.add('dissapear-service');
+    servicesLineGray8.classList.remove('dissapear-service');
+    servicesLineOrange8.classList.add('dissapear-service');
+    servicesLineGray9.classList.remove('dissapear-service');
+    servicesLineOrange9.classList.add('dissapear-service'); 
+    servicesLineGray10.classList.remove('dissapear-service');
+    servicesLineOrange10.classList.add('dissapear-service');
+    servicesLineGray11.classList.remove('dissapear-service');
+    servicesLineOrange11.classList.add('dissapear-service');
+}
+
+
+/* ****** */  
+
+
+
+/* ***commercial-information-question6/answer6  *** */
+
+const servicesArrowUp6 = document.getElementById('services-arrow-up6'); 
+const servicesArrowDown6 = document.getElementById('services-arrow-down6');
+
+const commercialInformationQuestion6 = document.getElementById('commercial-information-question6');
+const commercialInformationAnswer6 = document.getElementById('commercial-information-answer6'); 
+
+const servicesLineOrange6 = document.getElementById('services-line-orange6'); 
+const servicesLineGray6 = document.getElementById('services-line-gray6');
+
+
+commercialInformationQuestion6.addEventListener('click', extendInformation6)
+
+function extendInformation6(){
+
+    servicesArrowDown6.classList.toggle('dissapear-service');
+    servicesArrowUp6.classList.toggle('dissapear-service');
+    servicesArrowDown1.classList.remove('dissapear-service');
+    servicesArrowUp1.classList.add('dissapear-service');
+    servicesArrowDown2.classList.remove('dissapear-service');
+    servicesArrowUp2.classList.add('dissapear-service');
+    servicesArrowDown3.classList.remove('dissapear-service');
+    servicesArrowUp3.classList.add('dissapear-service');
+    servicesArrowDown4.classList.remove('dissapear-service');
+    servicesArrowUp4.classList.add('dissapear-service');
+    servicesArrowDown5.classList.remove('dissapear-service');
+    servicesArrowUp5.classList.add('dissapear-service');
+    servicesArrowDown7.classList.remove('dissapear-service');
+    servicesArrowUp7.classList.add('dissapear-service');
+    servicesArrowDown8.classList.remove('dissapear-service');
+    servicesArrowUp8.classList.add('dissapear-service');
+    servicesArrowDown9.classList.remove('dissapear-service');
+    servicesArrowUp9.classList.add('dissapear-service');
+    servicesArrowDown10.classList.remove('dissapear-service');
+    servicesArrowUp10.classList.add('dissapear-service');
+    servicesArrowDown11.classList.remove('dissapear-service');
+    servicesArrowUp11.classList.add('dissapear-service');
+
+    commercialInformationAnswer6.classList.toggle('dissapear-service');
+    commercialInformationAnswer1.classList.add('dissapear-service');
+    commercialInformationAnswer2.classList.add('dissapear-service');
+    commercialInformationAnswer3.classList.add('dissapear-service');
+    commercialInformationAnswer4.classList.add('dissapear-service');
+    commercialInformationAnswer5.classList.add('dissapear-service');
+    commercialInformationAnswer7.classList.add('dissapear-service');
+    commercialInformationAnswer8.classList.add('dissapear-service');
+    commercialInformationAnswer9.classList.add('dissapear-service');
+    commercialInformationAnswer10.classList.add('dissapear-service');
+    commercialInformationAnswer11.classList.add('dissapear-service');
+
+
+    
+    servicesLineGray6.classList.toggle('dissapear-service');
+    servicesLineOrange6.classList.toggle('dissapear-service');
+    servicesLineGray1.classList.remove('dissapear-service');
+    servicesLineOrange1.classList.add('dissapear-service');
+    servicesLineGray2.classList.remove('dissapear-service');
+    servicesLineOrange2.classList.add('dissapear-service');
+    servicesLineGray3.classList.remove('dissapear-service');
+    servicesLineOrange3.classList.add('dissapear-service');
+    servicesLineGray4.classList.remove('dissapear-service');
+    servicesLineOrange4.classList.add('dissapear-service');
+    servicesLineGray5.classList.remove('dissapear-service');
+    servicesLineOrange5.classList.add('dissapear-service');
+    servicesLineGray7.classList.remove('dissapear-service');
+    servicesLineOrange7.classList.add('dissapear-service');
+    servicesLineGray8.classList.remove('dissapear-service');
+    servicesLineOrange8.classList.add('dissapear-service');
+    servicesLineGray9.classList.remove('dissapear-service');
+    servicesLineOrange9.classList.add('dissapear-service'); 
+    servicesLineGray10.classList.remove('dissapear-service');
+    servicesLineOrange10.classList.add('dissapear-service');
+    servicesLineGray11.classList.remove('dissapear-service');
+    servicesLineOrange11.classList.add('dissapear-service');
 }
 
 
 /* ****** */
+
+
+
+/* ***commercial-information-question7/answer7 *** */
+
+const servicesArrowUp7 = document.getElementById('services-arrow-up7'); 
+const servicesArrowDown7 = document.getElementById('services-arrow-down7');
+
+const commercialInformationQuestion7 = document.getElementById('commercial-information-question7');
+const commercialInformationAnswer7 = document.getElementById('commercial-information-answer7'); 
+
+const servicesLineOrange7 = document.getElementById('services-line-orange7'); 
+const servicesLineGray7 = document.getElementById('services-line-gray7');
+
+
+commercialInformationQuestion7.addEventListener('click', extendInformation7)
+
+function extendInformation7(){
+
+    servicesArrowDown7.classList.toggle('dissapear-service');
+    servicesArrowUp7.classList.toggle('dissapear-service');
+    servicesArrowDown1.classList.remove('dissapear-service');
+    servicesArrowUp1.classList.add('dissapear-service');
+    servicesArrowDown2.classList.remove('dissapear-service');
+    servicesArrowUp2.classList.add('dissapear-service');
+    servicesArrowDown3.classList.remove('dissapear-service');
+    servicesArrowUp3.classList.add('dissapear-service');
+    servicesArrowDown4.classList.remove('dissapear-service');
+    servicesArrowUp4.classList.add('dissapear-service');
+    servicesArrowDown5.classList.remove('dissapear-service');
+    servicesArrowUp5.classList.add('dissapear-service');
+    servicesArrowDown6.classList.remove('dissapear-service');
+    servicesArrowUp6.classList.add('dissapear-service');
+    servicesArrowDown8.classList.remove('dissapear-service');
+    servicesArrowUp8.classList.add('dissapear-service');
+    servicesArrowDown9.classList.remove('dissapear-service');
+    servicesArrowUp9.classList.add('dissapear-service');
+    servicesArrowDown10.classList.remove('dissapear-service');
+    servicesArrowUp10.classList.add('dissapear-service');
+    servicesArrowDown11.classList.remove('dissapear-service');
+    servicesArrowUp11.classList.add('dissapear-service');
+
+    commercialInformationAnswer7.classList.toggle('dissapear-service');
+    commercialInformationAnswer1.classList.add('dissapear-service');
+    commercialInformationAnswer2.classList.add('dissapear-service');
+    commercialInformationAnswer3.classList.add('dissapear-service');
+    commercialInformationAnswer4.classList.add('dissapear-service');
+    commercialInformationAnswer5.classList.add('dissapear-service');
+    commercialInformationAnswer6.classList.add('dissapear-service');
+    commercialInformationAnswer8.classList.add('dissapear-service');
+    commercialInformationAnswer9.classList.add('dissapear-service');
+    commercialInformationAnswer10.classList.add('dissapear-service');
+    commercialInformationAnswer11.classList.add('dissapear-service');
+
+    
+    servicesLineGray7.classList.toggle('dissapear-service');
+    servicesLineOrange7.classList.toggle('dissapear-service');
+    servicesLineGray1.classList.remove('dissapear-service');
+    servicesLineOrange1.classList.add('dissapear-service');
+    servicesLineGray2.classList.remove('dissapear-service');
+    servicesLineOrange2.classList.add('dissapear-service');
+    servicesLineGray3.classList.remove('dissapear-service');
+    servicesLineOrange3.classList.add('dissapear-service');
+    servicesLineGray4.classList.remove('dissapear-service');
+    servicesLineOrange4.classList.add('dissapear-service');
+    servicesLineGray5.classList.remove('dissapear-service');
+    servicesLineOrange5.classList.add('dissapear-service');
+    servicesLineGray6.classList.remove('dissapear-service');
+    servicesLineOrange6.classList.add('dissapear-service');
+    servicesLineGray8.classList.remove('dissapear-service');
+    servicesLineOrange8.classList.add('dissapear-service');
+    servicesLineGray9.classList.remove('dissapear-service');
+    servicesLineOrange9.classList.add('dissapear-service'); 
+    servicesLineGray10.classList.remove('dissapear-service');
+    servicesLineOrange10.classList.add('dissapear-service');
+    servicesLineGray11.classList.remove('dissapear-service');
+    servicesLineOrange11.classList.add('dissapear-service');
+}
+
+
+/* ****** */
+
+
+/* ***commercial-information-question8/answer8 *** */
+
+const servicesArrowUp8 = document.getElementById('services-arrow-up8'); 
+const servicesArrowDown8 = document.getElementById('services-arrow-down8');
+
+const commercialInformationQuestion8 = document.getElementById('commercial-information-question8');
+const commercialInformationAnswer8 = document.getElementById('commercial-information-answer8'); 
+
+const servicesLineOrange8 = document.getElementById('services-line-orange8'); 
+const servicesLineGray8 = document.getElementById('services-line-gray8');
+
+
+commercialInformationQuestion8.addEventListener('click', extendInformation8)
+
+function extendInformation8(){
+
+    servicesArrowDown8.classList.toggle('dissapear-service');
+    servicesArrowUp8.classList.toggle('dissapear-service');
+    servicesArrowDown1.classList.remove('dissapear-service');
+    servicesArrowUp1.classList.add('dissapear-service');
+    servicesArrowDown2.classList.remove('dissapear-service');
+    servicesArrowUp2.classList.add('dissapear-service');
+    servicesArrowDown3.classList.remove('dissapear-service');
+    servicesArrowUp3.classList.add('dissapear-service');
+    servicesArrowDown4.classList.remove('dissapear-service');
+    servicesArrowUp4.classList.add('dissapear-service');
+    servicesArrowDown5.classList.remove('dissapear-service');
+    servicesArrowUp5.classList.add('dissapear-service');
+    servicesArrowDown6.classList.remove('dissapear-service');
+    servicesArrowUp6.classList.add('dissapear-service');
+    servicesArrowDown7.classList.remove('dissapear-service');
+    servicesArrowUp7.classList.add('dissapear-service');
+    servicesArrowDown9.classList.remove('dissapear-service');
+    servicesArrowUp9.classList.add('dissapear-service');
+    servicesArrowDown10.classList.remove('dissapear-service');
+    servicesArrowUp10.classList.add('dissapear-service');
+    servicesArrowDown11.classList.remove('dissapear-service');
+    servicesArrowUp11.classList.add('dissapear-service');
+
+    commercialInformationAnswer8.classList.toggle('dissapear-service');
+    commercialInformationAnswer1.classList.add('dissapear-service');
+    commercialInformationAnswer2.classList.add('dissapear-service');
+    commercialInformationAnswer3.classList.add('dissapear-service');
+    commercialInformationAnswer4.classList.add('dissapear-service');
+    commercialInformationAnswer5.classList.add('dissapear-service');
+    commercialInformationAnswer6.classList.add('dissapear-service');
+    commercialInformationAnswer9.classList.add('dissapear-service');
+    commercialInformationAnswer10.classList.add('dissapear-service');
+    commercialInformationAnswer11.classList.add('dissapear-service');
+
+    
+    servicesLineGray8.classList.toggle('dissapear-service');
+    servicesLineOrange8.classList.toggle('dissapear-service');
+    servicesLineGray1.classList.remove('dissapear-service');
+    servicesLineOrange1.classList.add('dissapear-service');
+    servicesLineGray2.classList.remove('dissapear-service');
+    servicesLineOrange2.classList.add('dissapear-service');
+    servicesLineGray3.classList.remove('dissapear-service');
+    servicesLineOrange3.classList.add('dissapear-service');
+    servicesLineGray4.classList.remove('dissapear-service');
+    servicesLineOrange4.classList.add('dissapear-service');
+    servicesLineGray5.classList.remove('dissapear-service');
+    servicesLineOrange5.classList.add('dissapear-service');
+    servicesLineGray6.classList.remove('dissapear-service');
+    servicesLineOrange6.classList.add('dissapear-service');
+    servicesLineGray7.classList.remove('dissapear-service');
+    servicesLineOrange7.classList.add('dissapear-service');
+    servicesLineGray9.classList.remove('dissapear-service');
+    servicesLineOrange9.classList.add('dissapear-service'); 
+    servicesLineGray10.classList.remove('dissapear-service');
+    servicesLineOrange10.classList.add('dissapear-service');
+    servicesLineGray11.classList.remove('dissapear-service');
+    servicesLineOrange11.classList.add('dissapear-service');
+    
+}
+
+
+/* ****** */
+
+
+
+
+
+/* ***commercial-information-question9/answer9 *** */
+
+const servicesArrowUp9 = document.getElementById('services-arrow-up9'); 
+const servicesArrowDown9 = document.getElementById('services-arrow-down9');
+
+const commercialInformationQuestion9 = document.getElementById('commercial-information-question9');
+const commercialInformationAnswer9 = document.getElementById('commercial-information-answer9'); 
+
+const servicesLineOrange9 = document.getElementById('services-line-orange9'); 
+const servicesLineGray9 = document.getElementById('services-line-gray9');
+
+
+commercialInformationQuestion9.addEventListener('click', extendInformation9)
+
+function extendInformation9(){
+
+    servicesArrowDown9.classList.toggle('dissapear-service');
+    servicesArrowUp9.classList.toggle('dissapear-service');
+    servicesArrowDown1.classList.remove('dissapear-service');
+    servicesArrowUp1.classList.add('dissapear-service');
+    servicesArrowDown2.classList.remove('dissapear-service');
+    servicesArrowUp2.classList.add('dissapear-service');
+    servicesArrowDown3.classList.remove('dissapear-service');
+    servicesArrowUp3.classList.add('dissapear-service');
+    servicesArrowDown4.classList.remove('dissapear-service');
+    servicesArrowUp4.classList.add('dissapear-service');
+    servicesArrowDown5.classList.remove('dissapear-service');
+    servicesArrowUp5.classList.add('dissapear-service');
+    servicesArrowDown6.classList.remove('dissapear-service');
+    servicesArrowUp6.classList.add('dissapear-service');
+    servicesArrowDown7.classList.remove('dissapear-service');
+    servicesArrowUp7.classList.add('dissapear-service');
+    servicesArrowDown8.classList.remove('dissapear-service');
+    servicesArrowUp8.classList.add('dissapear-service');
+    servicesArrowDown10.classList.remove('dissapear-service');
+    servicesArrowUp10.classList.add('dissapear-service');
+    servicesArrowDown11.classList.remove('dissapear-service');
+    servicesArrowUp11.classList.add('dissapear-service');
+
+    commercialInformationAnswer9.classList.toggle('dissapear-service');
+    commercialInformationAnswer1.classList.add('dissapear-service');
+    commercialInformationAnswer2.classList.add('dissapear-service');
+    commercialInformationAnswer3.classList.add('dissapear-service');
+    commercialInformationAnswer4.classList.add('dissapear-service');
+    commercialInformationAnswer5.classList.add('dissapear-service');
+    commercialInformationAnswer6.classList.add('dissapear-service');
+    commercialInformationAnswer7.classList.add('dissapear-service');
+    commercialInformationAnswer8.classList.add('dissapear-service');
+    commercialInformationAnswer10.classList.add('dissapear-service');
+    commercialInformationAnswer11.classList.add('dissapear-service');
+    
+
+    
+    servicesLineGray9.classList.toggle('dissapear-service');
+    servicesLineOrange9.classList.toggle('dissapear-service');
+    servicesLineGray1.classList.remove('dissapear-service');
+    servicesLineOrange1.classList.add('dissapear-service');
+    servicesLineGray2.classList.remove('dissapear-service');
+    servicesLineOrange2.classList.add('dissapear-service');
+    servicesLineGray3.classList.remove('dissapear-service');
+    servicesLineOrange3.classList.add('dissapear-service');
+    servicesLineGray4.classList.remove('dissapear-service');
+    servicesLineOrange4.classList.add('dissapear-service');
+    servicesLineGray5.classList.remove('dissapear-service');
+    servicesLineOrange5.classList.add('dissapear-service');
+    servicesLineGray6.classList.remove('dissapear-service');
+    servicesLineOrange6.classList.add('dissapear-service');
+    servicesLineGray7.classList.remove('dissapear-service');
+    servicesLineOrange7.classList.add('dissapear-service');
+    servicesLineGray8.classList.remove('dissapear-service');
+    servicesLineOrange8.classList.add('dissapear-service');
+    servicesLineGray10.classList.remove('dissapear-service');
+    servicesLineOrange10.classList.add('dissapear-service');
+    servicesLineGray11.classList.remove('dissapear-service');
+    servicesLineOrange11.classList.add('dissapear-service');
+}
+
+
+/* ****** */
+
+
+
+/* ***commercial-information-question10/answer10 *** */
+
+const servicesArrowUp10 = document.getElementById('services-arrow-up10'); 
+const servicesArrowDown10 = document.getElementById('services-arrow-down10');
+
+const commercialInformationQuestion10 = document.getElementById('commercial-information-question10');
+const commercialInformationAnswer10 = document.getElementById('commercial-information-answer10'); 
+
+const servicesLineOrange10 = document.getElementById('services-line-orange10'); 
+const servicesLineGray10 = document.getElementById('services-line-gray10');
+
+
+commercialInformationQuestion10.addEventListener('click', extendInformation10)
+
+function extendInformation10(){
+
+    servicesArrowDown10.classList.toggle('dissapear-service');
+    servicesArrowUp10.classList.toggle('dissapear-service');
+    servicesArrowDown1.classList.remove('dissapear-service');
+    servicesArrowUp1.classList.add('dissapear-service');
+    servicesArrowDown2.classList.remove('dissapear-service');
+    servicesArrowUp2.classList.add('dissapear-service');
+    servicesArrowDown3.classList.remove('dissapear-service');
+    servicesArrowUp3.classList.add('dissapear-service');
+    servicesArrowDown4.classList.remove('dissapear-service');
+    servicesArrowUp4.classList.add('dissapear-service');
+    servicesArrowDown5.classList.remove('dissapear-service');
+    servicesArrowUp5.classList.add('dissapear-service');
+    servicesArrowDown6.classList.remove('dissapear-service');
+    servicesArrowUp6.classList.add('dissapear-service');
+    servicesArrowDown7.classList.remove('dissapear-service');
+    servicesArrowUp7.classList.add('dissapear-service');
+    servicesArrowDown8.classList.remove('dissapear-service');
+    servicesArrowUp8.classList.add('dissapear-service');
+    servicesArrowDown9.classList.remove('dissapear-service');
+    servicesArrowUp9.classList.add('dissapear-service');
+    servicesArrowDown11.classList.remove('dissapear-service');
+    servicesArrowUp11.classList.add('dissapear-service');
+
+    commercialInformationAnswer10.classList.toggle('dissapear-service');
+    commercialInformationAnswer1.classList.add('dissapear-service');
+    commercialInformationAnswer2.classList.add('dissapear-service');
+    commercialInformationAnswer3.classList.add('dissapear-service');
+    commercialInformationAnswer4.classList.add('dissapear-service');
+    commercialInformationAnswer5.classList.add('dissapear-service');
+    commercialInformationAnswer6.classList.add('dissapear-service');
+    commercialInformationAnswer7.classList.add('dissapear-service');
+    commercialInformationAnswer8.classList.add('dissapear-service');
+    commercialInformationAnswer9.classList.add('dissapear-service');
+    commercialInformationAnswer11.classList.add('dissapear-service');
+    
+
+    
+    servicesLineGray10.classList.toggle('dissapear-service');
+    servicesLineOrange10.classList.toggle('dissapear-service');
+    servicesLineGray1.classList.remove('dissapear-service');
+    servicesLineOrange1.classList.add('dissapear-service');
+    servicesLineGray2.classList.remove('dissapear-service');
+    servicesLineOrange2.classList.add('dissapear-service');
+    servicesLineGray3.classList.remove('dissapear-service');
+    servicesLineOrange3.classList.add('dissapear-service');
+    servicesLineGray4.classList.remove('dissapear-service');
+    servicesLineOrange4.classList.add('dissapear-service');
+    servicesLineGray5.classList.remove('dissapear-service');
+    servicesLineOrange5.classList.add('dissapear-service');
+    servicesLineGray6.classList.remove('dissapear-service');
+    servicesLineOrange6.classList.add('dissapear-service');
+    servicesLineGray7.classList.remove('dissapear-service');
+    servicesLineOrange7.classList.add('dissapear-service');
+    servicesLineGray8.classList.remove('dissapear-service');
+    servicesLineOrange8.classList.add('dissapear-service');
+    servicesLineGray9.classList.remove('dissapear-service');
+    servicesLineOrange9.classList.add('dissapear-service');
+    servicesLineGray11.classList.remove('dissapear-service');
+    servicesLineOrange11.classList.add('dissapear-service');
+    
+}
+
+
+/* ****** */
+
+
+/* ***commercial-information-question11/answer11 *** */
+
+const servicesArrowUp11 = document.getElementById('services-arrow-up11'); 
+const servicesArrowDown11 = document.getElementById('services-arrow-down11');
+
+const commercialInformationQuestion11 = document.getElementById('commercial-information-question11');
+const commercialInformationAnswer11 = document.getElementById('commercial-information-answer11'); 
+
+const servicesLineOrange11 = document.getElementById('services-line-orange11'); 
+const servicesLineGray11 = document.getElementById('services-line-gray11');
+
+
+commercialInformationQuestion11.addEventListener('click', extendInformation11)
+
+function extendInformation11(){
+
+    servicesArrowDown11.classList.toggle('dissapear-service');
+    servicesArrowUp11.classList.toggle('dissapear-service');
+    servicesArrowDown1.classList.remove('dissapear-service');
+    servicesArrowUp1.classList.add('dissapear-service');
+    servicesArrowDown2.classList.remove('dissapear-service');
+    servicesArrowUp2.classList.add('dissapear-service');
+    servicesArrowDown3.classList.remove('dissapear-service');
+    servicesArrowUp3.classList.add('dissapear-service');
+    servicesArrowDown4.classList.remove('dissapear-service');
+    servicesArrowUp4.classList.add('dissapear-service');
+    servicesArrowDown5.classList.remove('dissapear-service');
+    servicesArrowUp5.classList.add('dissapear-service');
+    servicesArrowDown6.classList.remove('dissapear-service');
+    servicesArrowUp6.classList.add('dissapear-service');
+    servicesArrowDown7.classList.remove('dissapear-service');
+    servicesArrowUp7.classList.add('dissapear-service');
+    servicesArrowDown8.classList.remove('dissapear-service');
+    servicesArrowUp8.classList.add('dissapear-service');
+    servicesArrowDown9.classList.remove('dissapear-service');
+    servicesArrowUp9.classList.add('dissapear-service');
+    servicesArrowDown10.classList.remove('dissapear-service');
+    servicesArrowUp10.classList.add('dissapear-service');
+
+    commercialInformationAnswer11.classList.toggle('dissapear-service');
+    commercialInformationAnswer1.classList.add('dissapear-service');
+    commercialInformationAnswer2.classList.add('dissapear-service');
+    commercialInformationAnswer3.classList.add('dissapear-service');
+    commercialInformationAnswer4.classList.add('dissapear-service');
+    commercialInformationAnswer5.classList.add('dissapear-service');
+    commercialInformationAnswer6.classList.add('dissapear-service');
+    commercialInformationAnswer7.classList.add('dissapear-service');
+    commercialInformationAnswer8.classList.add('dissapear-service');
+    commercialInformationAnswer9.classList.add('dissapear-service');
+    commercialInformationAnswer10.classList.add('dissapear-service');
+    
+
+    
+    servicesLineGray11.classList.toggle('dissapear-service');
+    servicesLineOrange11.classList.toggle('dissapear-service');
+    servicesLineGray1.classList.remove('dissapear-service');
+    servicesLineOrange1.classList.add('dissapear-service');
+    servicesLineGray2.classList.remove('dissapear-service');
+    servicesLineOrange2.classList.add('dissapear-service');
+    servicesLineGray3.classList.remove('dissapear-service');
+    servicesLineOrange3.classList.add('dissapear-service');
+    servicesLineGray4.classList.remove('dissapear-service');
+    servicesLineOrange4.classList.add('dissapear-service');
+    servicesLineGray5.classList.remove('dissapear-service');
+    servicesLineOrange5.classList.add('dissapear-service');
+    servicesLineGray6.classList.remove('dissapear-service');
+    servicesLineOrange6.classList.add('dissapear-service');
+    servicesLineGray7.classList.remove('dissapear-service');
+    servicesLineOrange7.classList.add('dissapear-service');
+    servicesLineGray8.classList.remove('dissapear-service');
+    servicesLineOrange8.classList.add('dissapear-service');
+    servicesLineGray9.classList.remove('dissapear-service');
+    servicesLineOrange9.classList.add('dissapear-service');
+    servicesLineGray10.classList.remove('dissapear-service');
+    servicesLineOrange10.classList.add('dissapear-service');
+    
+}
+
+
+/* ****** */
+
+
+
 
 
 
