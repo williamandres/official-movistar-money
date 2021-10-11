@@ -1078,6 +1078,279 @@ function extendInformation11(){
 
 
 
+/* -------------------------------------------------------------------------------------------------- */
+
+
+
+/* *** services help section / Question and Answer interctivity / My Account section  *** */
+
+
+/* *** My Account question12/answer12  *** */
+
+const servicesHelpDataQuestions2 = document.getElementById('services-help-data-questions2')
+
+const servicesArrowUp12 = document.getElementById('services-arrow-up12'); 
+const servicesArrowDown12 = document.getElementById('services-arrow-down12');
+
+const myAccountQuestion12 = document.getElementById('my-account-question12');
+const myAccountAnswer12 = document.getElementById('my-account-answer12'); 
+
+const servicesLineOrange12 = document.getElementById('services-line-orange12'); 
+const servicesLineGray12 = document.getElementById('services-line-gray12');
+
+myAccountQuestion12.addEventListener('click', extendInformation12)
+
+function extendInformation12()
+{
+    servicesArrowDown12.classList.toggle('dissapear-service');
+    servicesArrowUp12.classList.toggle('dissapear-service');
+    servicesArrowDown13.classList.remove('dissapear-service');
+    servicesArrowUp13.classList.add('dissapear-service');
+    servicesArrowDown14.classList.remove('dissapear-service');
+    servicesArrowUp14.classList.add('dissapear-service');
+    servicesArrowDown15.classList.remove('dissapear-service');
+    servicesArrowUp15.classList.add('dissapear-service'); 
+    servicesArrowDown16.classList.remove('dissapear-service');
+    servicesArrowUp16.classList.add('dissapear-service');
+
+    myAccountAnswer12.classList.toggle('dissapear-service');
+    myAccountAnswer13.classList.add('dissapear-service');
+    myAccountAnswer14.classList.add('dissapear-service');
+    myAccountAnswer15.classList.add('dissapear-service');
+    myAccountAnswer16.classList.add('dissapear-service');
+
+    servicesLineGray12.classList.toggle('dissapear-service');
+    servicesLineOrange12.classList.toggle('dissapear-service');
+    servicesLineGray13.classList.remove('dissapear-service');
+    servicesLineOrange13.classList.add('dissapear-service');
+    servicesLineGray14.classList.remove('dissapear-service');
+    servicesLineOrange14.classList.add('dissapear-service');
+    servicesLineGray15.classList.remove('dissapear-service');
+    servicesLineOrange15.classList.add('dissapear-service');
+    servicesLineGray16.classList.remove('dissapear-service');
+    servicesLineOrange16.classList.add('dissapear-service');
+
+    servicesHelpDataQuestions2.classList.toggle('services-help-data-questions2-click');
+
+    servicesHelpDataQuestions2.classList.remove('service-height14');
+}
+
+/* ****** */
+
+
+/* *** My Account question13/answer13  *** */
+
+const servicesArrowUp13 = document.getElementById('services-arrow-up13'); 
+const servicesArrowDown13 = document.getElementById('services-arrow-down13');
+
+
+const myAccountQuestion13 = document.getElementById('my-account-question13');
+const myAccountAnswer13 = document.getElementById('my-account-answer13'); 
+
+const servicesLineOrange13 = document.getElementById('services-line-orange13'); 
+const servicesLineGray13 = document.getElementById('services-line-gray13');
+
+myAccountQuestion13.addEventListener('click', extendInformation13);
+
+function extendInformation13()
+{
+    servicesArrowDown13.classList.toggle('dissapear-service');
+    servicesArrowUp13.classList.toggle('dissapear-service');
+    servicesArrowDown12.classList.remove('dissapear-service');
+    servicesArrowUp12.classList.add('dissapear-service');
+    servicesArrowDown14.classList.remove('dissapear-service');
+    servicesArrowUp14.classList.add('dissapear-service');
+    servicesArrowDown15.classList.remove('dissapear-service');
+    servicesArrowUp15.classList.add('dissapear-service'); 
+    servicesArrowDown16.classList.remove('dissapear-service');
+    servicesArrowUp16.classList.add('dissapear-service');
+
+
+    myAccountAnswer13.classList.toggle('dissapear-service');
+    myAccountAnswer12.classList.add('dissapear-service'); 
+    myAccountAnswer14.classList.add('dissapear-service');   
+    myAccountAnswer15.classList.add('dissapear-service');
+    myAccountAnswer16.classList.add('dissapear-service');
+
+    servicesLineGray13.classList.toggle('dissapear-service');
+    servicesLineOrange13.classList.toggle('dissapear-service');
+    servicesLineGray12.classList.remove('dissapear-service');
+    servicesLineOrange12.classList.add('dissapear-service');
+    servicesLineGray14.classList.remove('dissapear-service');
+    servicesLineOrange14.classList.add('dissapear-service');
+    servicesLineGray15.classList.remove('dissapear-service');
+    servicesLineOrange15.classList.add('dissapear-service');
+    servicesLineGray16.classList.remove('dissapear-service');
+    servicesLineOrange16.classList.add('dissapear-service');
+
+    servicesHelpDataQuestions2.classList.remove('services-help-data-questions2-click');
+
+    servicesHelpDataQuestions2.classList.remove('service-height14')
+}
+
+/* ****** */
+
+
+/* *** My Account question14/answer14  *** */
+
+const servicesArrowUp14 = document.getElementById('services-arrow-up14'); 
+const servicesArrowDown14 = document.getElementById('services-arrow-down14');
+
+
+const myAccountQuestion14 = document.getElementById('my-account-question14');
+const myAccountAnswer14 = document.getElementById('my-account-answer14'); 
+
+const servicesLineOrange14 = document.getElementById('services-line-orange14'); 
+const servicesLineGray14 = document.getElementById('services-line-gray14');
+
+myAccountQuestion14.addEventListener('click', extendInformation14)
+
+function extendInformation14()
+{
+    servicesArrowDown14.classList.toggle('dissapear-service');
+    servicesArrowUp14.classList.toggle('dissapear-service');
+    servicesArrowDown12.classList.remove('dissapear-service');
+    servicesArrowUp12.classList.add('dissapear-service');
+    servicesArrowDown13.classList.remove('dissapear-service');
+    servicesArrowUp13.classList.add('dissapear-service');
+    servicesArrowDown15.classList.remove('dissapear-service');
+    servicesArrowUp15.classList.add('dissapear-service');
+    servicesArrowDown16.classList.remove('dissapear-service');
+    servicesArrowUp16.classList.add('dissapear-service');
+
+    myAccountAnswer14.classList.toggle('dissapear-service');
+    myAccountAnswer12.classList.add('dissapear-service');
+    myAccountAnswer13.classList.add('dissapear-service');
+    myAccountAnswer15.classList.add('dissapear-service');
+    myAccountAnswer16.classList.add('dissapear-service');
+
+
+    servicesLineGray14.classList.toggle('dissapear-service');
+    servicesLineOrange14.classList.toggle('dissapear-service');
+    servicesLineGray12.classList.remove('dissapear-service');
+    servicesLineOrange12.classList.add('dissapear-service');
+    servicesLineGray13.classList.remove('dissapear-service');
+    servicesLineOrange13.classList.add('dissapear-service');
+    servicesLineGray15.classList.remove('dissapear-service');
+    servicesLineOrange15.classList.add('dissapear-service');
+    servicesLineGray16.classList.remove('dissapear-service');
+    servicesLineOrange16.classList.add('dissapear-service');
+
+    servicesHelpDataQuestions2.classList.remove('services-help-data-questions2-click');
+    
+    servicesHelpDataQuestions2.classList.toggle('service-height14');
+}
+
+/* ****** */
+
+
+
+/* *** My Account question15/answer15  *** */
+
+const servicesArrowUp15 = document.getElementById('services-arrow-up15'); 
+const servicesArrowDown15 = document.getElementById('services-arrow-down15');
+
+
+const myAccountQuestion15 = document.getElementById('my-account-question15');
+const myAccountAnswer15 = document.getElementById('my-account-answer15'); 
+
+const servicesLineOrange15 = document.getElementById('services-line-orange15'); 
+const servicesLineGray15 = document.getElementById('services-line-gray15');
+
+myAccountQuestion15.addEventListener('click', extendInformation15)
+
+function extendInformation15()
+{
+    servicesArrowDown15.classList.toggle('dissapear-service');
+    servicesArrowUp15.classList.toggle('dissapear-service');
+    servicesArrowDown12.classList.remove('dissapear-service');
+    servicesArrowUp12.classList.add('dissapear-service');
+    servicesArrowDown13.classList.remove('dissapear-service');
+    servicesArrowUp13.classList.add('dissapear-service');
+    servicesArrowDown14.classList.remove('dissapear-service');
+    servicesArrowUp14.classList.add('dissapear-service');
+    servicesArrowDown16.classList.remove('dissapear-service');
+    servicesArrowUp16.classList.add('dissapear-service')
+
+
+    myAccountAnswer15.classList.toggle('dissapear-service');
+    myAccountAnswer12.classList.add('dissapear-service');
+    myAccountAnswer13.classList.add('dissapear-service');
+    myAccountAnswer14.classList.add('dissapear-service');
+    myAccountAnswer16.classList.add('dissapear-service');
+
+
+    servicesLineGray15.classList.toggle('dissapear-service');
+    servicesLineOrange15.classList.toggle('dissapear-service');
+    servicesLineGray12.classList.remove('dissapear-service');
+    servicesLineOrange12.classList.add('dissapear-service');
+    servicesLineGray13.classList.remove('dissapear-service');
+    servicesLineOrange13.classList.add('dissapear-service');
+    servicesLineGray14.classList.remove('dissapear-service');
+    servicesLineOrange14.classList.add('dissapear-service');
+    servicesLineGray16.classList.remove('dissapear-service');
+    servicesLineOrange16.classList.add('dissapear-service');
+
+    servicesHelpDataQuestions2.classList.remove('services-help-data-questions2-click');
+    
+    servicesHelpDataQuestions2.classList.remove('service-height14');
+}
+
+/* ****** */
+
+
+/* *** My Account question16/answer16  *** */
+
+const servicesArrowUp16 = document.getElementById('services-arrow-up16'); 
+const servicesArrowDown16 = document.getElementById('services-arrow-down16');
+
+
+const myAccountQuestion16 = document.getElementById('my-account-question16');
+const myAccountAnswer16 = document.getElementById('my-account-answer16'); 
+
+const servicesLineOrange16 = document.getElementById('services-line-orange16'); 
+const servicesLineGray16 = document.getElementById('services-line-gray16');
+
+myAccountQuestion16.addEventListener('click', extendInformation16)
+
+function extendInformation16()
+{
+    servicesArrowDown16.classList.toggle('dissapear-service');
+    servicesArrowUp16.classList.toggle('dissapear-service');
+    servicesArrowDown12.classList.remove('dissapear-service');
+    servicesArrowUp12.classList.add('dissapear-service');
+    servicesArrowDown13.classList.remove('dissapear-service');
+    servicesArrowUp13.classList.add('dissapear-service');
+    servicesArrowDown14.classList.remove('dissapear-service');
+    servicesArrowUp14.classList.add('dissapear-service');
+    servicesArrowDown15.classList.remove('dissapear-service');
+    servicesArrowUp15.classList.add('dissapear-service')
+
+
+    myAccountAnswer16.classList.toggle('dissapear-service');
+    myAccountAnswer12.classList.add('dissapear-service');
+    myAccountAnswer13.classList.add('dissapear-service');
+    myAccountAnswer14.classList.add('dissapear-service');
+    myAccountAnswer15.classList.add('dissapear-service');
+
+
+    servicesLineGray16.classList.toggle('dissapear-service');
+    servicesLineOrange16.classList.toggle('dissapear-service');
+    servicesLineGray12.classList.remove('dissapear-service');
+    servicesLineOrange12.classList.add('dissapear-service');
+    servicesLineGray13.classList.remove('dissapear-service');
+    servicesLineOrange13.classList.add('dissapear-service');
+    servicesLineGray14.classList.remove('dissapear-service');
+    servicesLineOrange14.classList.add('dissapear-service');
+    servicesLineGray15.classList.remove('dissapear-service');
+    servicesLineOrange15.classList.add('dissapear-service');
+
+    servicesHelpDataQuestions2.classList.remove('services-help-data-questions2-click');
+    
+    servicesHelpDataQuestions2.classList.remove('service-height14');
+}
+
+/* ****** */
 
 
 

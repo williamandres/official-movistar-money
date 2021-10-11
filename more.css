@@ -585,6 +585,13 @@ body
 {
     padding-top: 10px;
     transition: .2s;
+    color: var(--text-link-color);
+}
+
+.services-help-data-text-link 
+{
+    text-decoration: underline;
+    color: var(--main-color);
 }
 
 .services-help-data-line-gray
@@ -614,6 +621,71 @@ body
     font-weight: 300;
     padding-left: 11px;
 }
+
+.services-my-account 
+{
+    font-size: .9rem;
+    color: var(--text-color-menu);
+    padding-top: 20px;
+}
+
+.services-my-account-tittle 
+{
+    font-size: 1rem;
+    color: var(--text-link-color);
+}
+
+.services-my-account-first-p 
+{
+    padding-bottom: 20px;
+    
+}
+
+.services-my-account-link 
+{
+    color: var(--main-color);
+    text-decoration: none;
+    
+}
+
+.services-my-account-link img 
+{
+    width: 24px;
+    padding-left: 5px;
+    padding-right: 3px;
+
+}
+
+.services-my-account-tittle 
+{
+    padding-bottom: 20px;
+}
+
+.services-my-account-list-item
+{
+    padding-bottom: 20px;
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+}
+
+.services-my-account-list-item span
+{
+    background-color: var(--text-color);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .8rem;
+    color: white;
+}
+
+.services-my-account-list-item div{
+    padding-right: 22px;
+}
+
 
 @media screen and (min-width: 768px) {
     
@@ -682,7 +754,18 @@ body
 
     .services-help-data-questions2 
     {
-        height: 250px;
+        height: 230px; 
+        /* height: 410px; */
+    }
+
+    .services-help-data-questions2-click
+    {
+        height: 560px;
+    }
+
+    .service-height14
+    {
+        height: 300px;
     }
 
     .services-help-data-questions4
