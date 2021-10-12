@@ -1617,7 +1617,6 @@ function extendInformation21()
     servicesPaymentsClick.classList.remove('services-payments-click');
 }
 
-
 /* ****** */
 
 
@@ -1625,7 +1624,156 @@ function extendInformation21()
 
 
 
+/* -------------------------------------------------------------------------------------------------- */
 
+
+
+/* *** services help section / Question and Answer interctivity / Security section  *** */
+
+
+/* *** Security question22/answer22  *** */
+
+
+
+const servicesArrowUp22 = document.getElementById('services-arrow-up22'); 
+const servicesArrowDown22 = document.getElementById('services-arrow-down22');
+
+
+const securityQuestion22 = document.getElementById('security-question22');
+const securityAnswer22 = document.getElementById('security-answer22'); 
+
+const servicesLineOrange22 = document.getElementById('services-line-orange22'); 
+const servicesLineGray22 = document.getElementById('services-line-gray22');
+
+const securityClick = document.getElementById('security-click');
+
+securityQuestion22.addEventListener('click', extendInformation22);
+
+
+
+function extendInformation22() 
+{
+    servicesArrowDown22.classList.toggle('dissapear-service');
+    servicesArrowUp22.classList.toggle('dissapear-service');
+    servicesArrowDown23.classList.remove('dissapear-service');
+    servicesArrowUp23.classList.add('dissapear-service'); 
+    servicesArrowDown24.classList.remove('dissapear-service');
+    servicesArrowUp24.classList.add('dissapear-service');  
+
+    securityAnswer22.classList.toggle('dissapear-service');
+    securityAnswer23.classList.add('dissapear-service');
+
+    servicesLineGray22.classList.toggle('dissapear-service');
+    servicesLineOrange22.classList.toggle('dissapear-service');
+    servicesLineGray23.classList.remove('dissapear-service');
+    servicesLineOrange23.classList.add('dissapear-service');
+
+    securityClick.classList.toggle('security-click');
+    securityClick.classList.remove('security-click2');
+
+}
+
+
+/* ****** */ 
+
+
+
+/* *** Security question23/answer23  *** */
+
+
+const servicesArrowUp23 = document.getElementById('services-arrow-up23'); 
+const servicesArrowDown23 = document.getElementById('services-arrow-down23');
+
+
+
+
+const securityQuestion23 = document.getElementById('security-question23');
+const securityAnswer23 = document.getElementById('security-answer23'); 
+
+
+const servicesLineOrange23 = document.getElementById('services-line-orange23'); 
+const servicesLineGray23 = document.getElementById('services-line-gray23');
+
+
+
+securityQuestion23.addEventListener('click', extendInformation23);
+
+
+function extendInformation23() 
+{
+    servicesArrowDown23.classList.toggle('dissapear-service');
+    servicesArrowUp23.classList.toggle('dissapear-service'); 
+    servicesArrowDown22.classList.remove('dissapear-service');
+    servicesArrowUp22.classList.add('dissapear-service'); 
+    servicesArrowDown24.classList.remove('dissapear-service');
+    servicesArrowUp24.classList.add('dissapear-service'); 
+
+    securityAnswer23.classList.toggle('dissapear-service');
+    securityAnswer22.classList.add('dissapear-service');
+    securityAnswer24.classList.add('dissapear-service');
+
+    servicesLineGray23.classList.toggle('dissapear-service');
+    servicesLineOrange23.classList.toggle('dissapear-service');
+    servicesLineGray22.classList.remove('dissapear-service');
+    servicesLineOrange22.classList.add('dissapear-service');
+    servicesLineGray24.classList.remove('dissapear-service');
+    servicesLineOrange24.classList.add('dissapear-service');
+
+    securityClick.classList.remove('security-click');
+    securityClick.classList.toggle('security-click2');
+
+}
+
+
+/* ****** */
+
+
+
+/* *** Security question24/answer24  *** */
+
+
+const servicesArrowUp24 = document.getElementById('services-arrow-up24'); 
+const servicesArrowDown24 = document.getElementById('services-arrow-down24');
+
+
+const securityQuestion24 = document.getElementById('security-question24');
+const securityAnswer24 = document.getElementById('security-answer24'); 
+
+const servicesLineOrange24 = document.getElementById('services-line-orange24'); 
+const servicesLineGray24 = document.getElementById('services-line-gray24');
+
+
+
+securityQuestion24.addEventListener('click', extendInformation24);
+
+
+function extendInformation24() 
+{
+    servicesArrowDown24.classList.toggle('dissapear-service');
+    servicesArrowUp24.classList.toggle('dissapear-service'); 
+    servicesArrowDown22.classList.remove('dissapear-service');
+    servicesArrowUp22.classList.add('dissapear-service'); 
+    servicesArrowDown23.classList.remove('dissapear-service');
+    servicesArrowUp23.classList.add('dissapear-service'); 
+
+    securityAnswer24.classList.toggle('dissapear-service');
+    securityAnswer22.classList.add('dissapear-service');
+    securityAnswer23.classList.add('dissapear-service');
+
+    servicesLineGray24.classList.toggle('dissapear-service');
+    servicesLineOrange24.classList.toggle('dissapear-service');
+    servicesLineGray22.classList.remove('dissapear-service');
+    servicesLineOrange22.classList.add('dissapear-service');
+    servicesLineGray23.classList.remove('dissapear-service');
+    servicesLineOrange23.classList.add('dissapear-service');
+
+    securityClick.classList.remove('security-click');
+    securityClick.classList.remove('security-click2');
+
+}
+
+
+/* ****** */
 
 
 
