@@ -1373,7 +1373,7 @@ const paymentsAnswer17 = document.getElementById('payments-answer17');
 const servicesLineOrange17 = document.getElementById('services-line-orange17'); 
 const servicesLineGray17 = document.getElementById('services-line-gray17');
 
-
+const servicesPaymentsClick = document.getElementById('servicesPaymentsClick')
 
 paymentsQuestion17.addEventListener('click', extendInformation17);
 
@@ -1406,7 +1406,7 @@ function extendInformation17()
     servicesLineGray21.classList.remove('dissapear-service');
     servicesLineOrange21.classList.add('dissapear-service');
 
-    servicesDataQuestionsClick.classList.add('servicesDataQuestionsClick')
+    servicesPaymentsClick.classList.add('services-payments-click');
 }
 
 
@@ -1457,6 +1457,8 @@ function extendInformation18()
     servicesLineOrange20.classList.add('dissapear-service');
     servicesLineGray21.classList.remove('dissapear-service');
     servicesLineOrange21.classList.add('dissapear-service');
+
+    servicesPaymentsClick.classList.remove('services-payments-click');
 }
 
 
@@ -1507,6 +1509,8 @@ function extendInformation19()
     servicesLineOrange20.classList.add('dissapear-service');
     servicesLineGray21.classList.remove('dissapear-service');
     servicesLineOrange21.classList.add('dissapear-service');
+
+    servicesPaymentsClick.classList.remove('services-payments-click');
 }
 
 
@@ -1557,6 +1561,8 @@ function extendInformation20()
     servicesLineOrange19.classList.add('dissapear-service');
     servicesLineGray21.classList.remove('dissapear-service');
     servicesLineOrange21.classList.add('dissapear-service');
+
+    servicesPaymentsClick.classList.remove('services-payments-click');
 }
 
 
@@ -1607,6 +1613,8 @@ function extendInformation21()
     servicesLineOrange19.classList.add('dissapear-service');
     servicesLineGray20.classList.remove('dissapear-service');
     servicesLineOrange20.classList.add('dissapear-service');
+
+    servicesPaymentsClick.classList.remove('services-payments-click');
 }
 
 
