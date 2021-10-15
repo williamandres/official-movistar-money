@@ -272,6 +272,29 @@ a
     color: var(--text-link-color);
 }
 
+.blog-message-p 
+{
+    text-align: center; 
+    padding-left: 16px;
+    padding-right: 16px;
+    font-family: var(--telefonica-light);
+    font-weight: 300;
+    margin-top: 50px;
+    margin-bottom: 19px;
+}
+
+.blog-message-line 
+{
+    margin: 10px 0 20px 0;
+    width: 160px;
+    height: 1px;
+    border-radius: 5px;
+    background-color: var(--orange-color);
+    color: transparent; 
+    margin: 0 auto;
+} 
+
+
 @media screen and (min-width: 768px) {
     .blog-post1-content-container
     {
@@ -374,6 +397,8 @@ a
     {
         width: 1226px;
     }
+
+    
 }
 
 
