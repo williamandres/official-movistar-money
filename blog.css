@@ -225,7 +225,7 @@ a
     transition: .5s;
 }
 
-.blog-post2:hover .blog-post2-title, .blog-post1:hover .blog-post1-title
+.blog-post2-title:hover , .blog-post1-title:hover 
 {
     color: var(--main-color);
 } 
@@ -241,7 +241,7 @@ a
     transition: .5s;
 }
 
-.blog-post2:hover .blog-post2-line, .blog-post1:hover .blog-post1-line 
+.blog-post2-title:hover+.blog-post2-line, .blog-post1-title:hover+.blog-post1-line 
 {
     width: 85%;
 } 
