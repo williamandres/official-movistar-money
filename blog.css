@@ -284,6 +284,7 @@ a
     color: var(--text-link-color);
 }
 
+
 .blog-message-line 
 {
     margin: 10px 0 20px 0;
@@ -293,8 +294,8 @@ a
     background-color: var(--border-footer-color);
     color: transparent; 
     margin: 0 auto;
+    margin-bottom: 100px;
 } 
-
 
 @media screen and (min-width: 768px) {
     .blog-post1-content-container
@@ -420,3 +421,86 @@ a
 
 
 /* ***** */
+
+
+/* ****** Blog Contact ******* */
+
+
+
+.blog-contact 
+{
+    background-image: url('assets/blog-contact-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--white-color);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.blog-contact-message
+{
+    font-family: var(--telefonica-light);
+    font-weight: 300;
+    margin-left: 28px;
+    margin-right: 28px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+.blog-contact-second-message
+{
+    font-size: .8rem;
+    width: 260px;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 10px;
+    
+}
+
+.blog-contact-form
+{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.blog-contact-input 
+{
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    font-size: .8rem;
+}
+
+.blog-contact-input-img 
+{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.blog-contact-input-container
+{
+    background-color: var(--white-color);
+    height: 36px;
+    width: 288px;
+    border-radius: 40px;
+    position: relative;
+}
+
+.blog-contact-send 
+{
+    background-color: var(--main-color);
+    border: 0;
+    padding: 0;
+    width: 86px;
+    color: var(--white-color);
+    border-radius:  0 40px 40px 0;
+    position: absolute;
+    right: 0;
+    height: 36px;
+    cursor: pointer;
+}
+
+/* ***** */
+
