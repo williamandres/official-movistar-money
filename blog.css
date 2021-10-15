@@ -281,15 +281,16 @@ a
     font-weight: 300;
     margin-top: 50px;
     margin-bottom: 19px;
+    color: var(--text-link-color);
 }
 
 .blog-message-line 
 {
     margin: 10px 0 20px 0;
     width: 160px;
-    height: 1px;
+    height: 2px;
     border-radius: 5px;
-    background-color: var(--orange-color);
+    background-color: var(--border-footer-color);
     color: transparent; 
     margin: 0 auto;
 } 
@@ -389,6 +390,22 @@ a
     .blog-post1-heart-counter, .blog-post2-heart-counter 
     {
         align-self: flex-end;
+    }
+
+    .blog-message 
+    {
+        width: 648px;
+        margin: 0 auto;
+    }
+
+    .blog-message-p 
+    {
+        font-size: 1.8rem;
+    }
+
+    .blog-message-line 
+    {
+        width: 394px;
     }
 }
 
