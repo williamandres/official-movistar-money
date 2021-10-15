@@ -194,6 +194,7 @@ a
     margin: 0 auto;
     text-align: left;
     border-radius: 16px;
+    cursor: pointer;
 }
 
 .blog-post2 
@@ -221,7 +222,13 @@ a
     padding-top: 12px;
     font-family: var(--telefonica-light);
     font-weight: 300;
+    transition: .5s;
 }
+
+.blog-post2:hover .blog-post2-title, .blog-post1:hover .blog-post1-title
+{
+    color: var(--main-color);
+} 
 
 .blog-post1-line, .blog-post2-line  
 {
@@ -231,8 +238,13 @@ a
     border-radius: 5px;
     background-color: var(--orange-color);
     color: transparent;
-    
+    transition: .5s;
 }
+
+.blog-post2:hover .blog-post2-line, .blog-post1:hover .blog-post1-line 
+{
+    width: 85%;
+} 
 
 .blog-post1-message, .blog-post2-message 
 {
