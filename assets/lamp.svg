@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="82.26" height="88.636">
+    <g data-name="Scene/Home">
+        <g transform="translate(0 41.274)">
+            <ellipse cx="35.314" cy="18.695" rx="35.314" ry="18.695" transform="translate(5.816 9.971)" style="fill:#f2f2f2"/>
+            <path data-name="Hanging-Lamp" d="M82.26 41.545A41.339 41.339 0 0 0 41.13 0 41.339 41.339 0 0 0 0 41.545" style="fill-rule:evenodd;fill:#dde3e9"/>
+        </g>
+        <path transform="translate(39.053)" style="fill:#dde3e9" d="M0 0h4.155v47.362H0z"/>
+    </g>
+</svg>
