@@ -309,6 +309,13 @@ a
     border-radius: 8px;
     background-color: var(--orange-color);
     width: 100%;
+    transition: .5s;
+}
+
+.menu-link-underline-hover 
+{
+    width: 0;
+    transition: .3s;
 }
 
 .menu-link:hover .menu-link-underline-hover
@@ -318,6 +325,7 @@ a
     border-radius: 8px;
     background-color: var(--orange-color);
     width: 100%;
+    
 }
 
 
