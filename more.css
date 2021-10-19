@@ -250,7 +250,7 @@ body
         .services-description-links-container 
         {
             justify-content: center;
-            
+            padding-bottom: 54px;
         }
 
         .services-description-title 
@@ -275,6 +275,14 @@ body
             align-items: center;
             margin-left: 70px;
             margin-right: 70px;
+            margin-bottom: 30px;
+        }
+
+        
+
+        .services-description-article:last-child 
+        {
+            margin-bottom: 70px;
         }
 
         .services-description-article-content 
@@ -361,6 +369,8 @@ body
     font-family: var(--telefonica-light);
     font-weight: 300;
     padding-top: 19px;
+    padding-bottom: 50px;
+    text-align: center;
 }
 
 .services-description-link-active 
