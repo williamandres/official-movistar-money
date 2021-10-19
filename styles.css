@@ -1151,6 +1151,8 @@ a
     .requirement-container 
     {
         width: 85%;
+        padding-top: 110px;
+        
     }
     
     .requirement-list 
