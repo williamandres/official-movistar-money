@@ -379,6 +379,7 @@ body
         flex-direction: row;
         justify-content: center;
         padding-top: 56px;
+        padding-bottom: 70px;
     }
 
     .services-description-2-img 
@@ -422,12 +423,13 @@ body
 .services-help
 {
     background-color: var(--section-gray-color);
-    padding: 30px 16px 40px 16px;
+    padding: 40px 16px 40px 16px;
 }
 
 .services-help-background-tree-left
 {
     position: absolute;
+    
     left: 70px;
 }
 
@@ -480,7 +482,7 @@ body
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 40px;
+    
 }
 
 .service-help-button 
@@ -798,12 +800,12 @@ body
 @media screen and (min-width: 1200px){
     .services-help-background-tree-left 
     {
-        width: 340px;
+        width: 360px;
     }
 
     .services-help-background-tree-right
     {
-        width: 340px;
+        width: 360px;
     }
 }
 /* *** */
