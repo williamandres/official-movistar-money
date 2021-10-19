@@ -1224,18 +1224,20 @@ a
 
 .input
 {
-    padding-top: 15px;
+    padding-top: 20px;
 }
 
 .input-icon
 {
     width: 240px;
-    padding: 0 0 5px 38px;
+    padding: 0 0 5px 26px;
     height: 46px;
     border-bottom: 1px solid #ec624b;
     margin-bottom: 20px;
     
 }
+
+
 
 .input-icon:last-child
 {
@@ -1244,30 +1246,33 @@ a
 
 .input-icon-email
 {
-    background-image: url('assets/email-icon.png');
-    background-position: center left;
+    background-image: url('assets/form-mail.svg');
+    background-position-y: 23px;
     background-repeat: no-repeat;
-    
-    background-size: 30px;
+    background-size: 20px;
     
 }
 
 .input-icon-mobile
 {
-    background-image: url('assets/phone-icon.png');
-    background-position: center left;
+    background-image: url('assets/form-phone.svg');
+    background-position-y: 19px;
+    background-position-x: 4px;
     background-repeat: no-repeat;
-    background-size: 20px;
+    background-size: 12px;
 
 }
 
 .input-icon-name
 {
-    background-image: url('assets/person.png');
-    background-position: left;
+    background-image: url('assets/form-person.svg');
+    
+    background-position-y: 19px;
     background-repeat: no-repeat;
-    background-size: 26px;
+    background-size: 16px;
 }
+
+
 
 .input
 {
@@ -1403,7 +1408,7 @@ a
 
     .container-main-inputs 
     {
-        width: 100%;
+        width: 400px;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
@@ -1416,7 +1421,7 @@ a
 
     .input::placeholder 
     {
-        font-size: .65rem;
+        font-size: .9rem;
     }
 
     .input-submit 
@@ -1436,7 +1441,10 @@ a
         font-size: 1.1rem;
     }
 
-    
+    .first-checkbox 
+    {
+        margin-top: 20px;
+    }
 }
 
 /* *** */
