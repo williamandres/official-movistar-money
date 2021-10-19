@@ -4,8 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="facebook-domain-verification" content="8rdtc0py1zf6potj8s3s2cwpuvec9c" />
+    <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
     <link rel="stylesheet" href="styles.css">
     <title>Movistar Money</title>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+
+    <script>
+        function timestamp() { var response = document.getElementById("g-recaptcha-response");
+            if (response == null || response.value.trim() == "")
+            {var elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value);elems["ts"] 
+            = JSON.stringify(new Date().getTime());
+            document.getElementsByName("captcha_settings")[0].value = JSON.stringify(elems); } 
+            } setInterval(timestamp, 500); 
+    </script> 
 
     <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new
     Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -380,7 +392,12 @@
                 </a>
             </section>
 
-            <form class="form " id="sampleForm " action="" >
+            <form class="form" id="sampleForm" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"  method="POST"  id="form" name="my-form" >
+
+                <input type=hidden name='captcha_settings' value='{"keyname":"movistar","fallback":"true","orgId":"00D5e000000L8kE","ts":""}'> 
+                <input type=hidden name="oid" value="00D5e000000L8kE">
+                <input type=hidden name="retURL" value="https://www.movistarmoney.co/succes.html">
+                <input type=hidden name="company" value="MovistarMoney" />
 
                 <p class="form-message1">
                     ¡Se el primero en enterarte!
@@ -407,7 +424,7 @@
     
                     <label for="Email" class="label">
                         <div class="input-icon input-icon-email">
-                            <input placeholder=" Correo electrónico" class="input input-name" id="email" maxlength="80" name="email" size="20" type="email"
+                            <input placeholder="Correo electrónico" class="input input-name" id="email" maxlength="80" name="email" size="20" type="email"
                             onclick="
                             dataLayer.push({
                                 'event': 'trackEvent',
@@ -421,7 +438,7 @@
     
                     <label for="mobile" class="label">
                         <div class="input-icon input-icon-mobile">
-                            <input class="input input-name" placeholder="Número de móvil" id="mobile" name="mobile" maxlength="40"  size="20" type="phone"
+                            <input class="input input-name" placeholder="Número de móvil" id="00N5e00000bDrUC" name="00N5e00000bDrUC" maxlength="40"  size="20" type="phone"
                             onclick="
                             dataLayer.push({
                                 'event': 'trackEvent',
@@ -433,13 +450,16 @@
                         </div>
                     </label>
 
+                    
                 </div>
 
+                <div class="error" id="error"></div>
+                
                 <div class="checkbox-list-container">
                     
                     <div class="first-checkbox">
                         <div class="checkbox-container-2">
-                            <input type="checkbox" class="input-text input-text-block w-100" id="lead_equipment_credit" name="lead_equipment_credit"
+                            <input type="checkbox" class="input-text input-text-block w-100" id="00N5e00000eRocs" name="00N5e00000eRocs" checked value="1"
                             onclick="
                             dataLayer.push({
                                 'event': 'trackEvent',
@@ -448,11 +468,11 @@
                                 'eventLabel': 'Crédito de equipos'
                             });
                             ">
-                            <label for="lead_equipment_credit" class="checkbox-text label">Crédito de equipos</label>
+                            <label for="00N5e00000eRocs" class="checkbox-text label">Crédito de equipos</label>
                         </div>
         
                         <div class="checkbox-container-2">
-                            <input type="checkbox" class="checkbox" id="lead_free_investment_credit" name="lead_free_investment_credit"
+                            <input type="checkbox" class="checkbox" id="00N5e00000eRoct" name="00N5e00000eRoct" value="1"
                             onclick="
                             dataLayer.push({
                                 'event': 'trackEvent',
@@ -461,7 +481,7 @@
                                 'eventLabel': 'Crédito libre inversión'
                             });
                             ">
-                            <label for="lead_free_investment_credit" class="checkbox-text  label">Crédito libre inversión</label>
+                            <label for="00N5e00000eRoct" class="checkbox-text  label">Crédito libre inversión</label>
                         </div>
                     </div>
 
@@ -469,25 +489,32 @@
 
                 
                 <div class="checkbox-container ">
-                    <input id="00N5e00000eRNZb" name="00N5e00000eRNZb" type="checkbox" value="2" class="checkbox" required="">
-                    <label class="checkbox-text checkbox-text1 label" for="00N5e00000eRNZb" style="text-decoration: underline;">
-                        Acepto los Términos y Condiciones y la Política de Datos Personales, declaro que los he 
+                    <input id="accept-terms" name="accept-terms" type="checkbox" value="2" class="checkbox">
+                    <label class="checkbox-text checkbox-text1 label" for="accept-terms" >
+                        <a href="terminos_condiciones.html" style="color: white;">Acepto los Términos y Condiciones</a>  y la <a href="politica_tratamiento.html" style="color: white;">Política de Datos Personales</a> , declaro que los he 
                         leído en su totalidad y que estoy de acuerdo con su contenido.
                     </label>
                 </div>
             
                 <div class="checkbox-container">
-                    <input id="lead_authorize_receive_commercial_info" type="checkbox" value="1" class="checkbox" name="lead_authorize_receive_commercial_info">
-                    <label class="checkbox-text label" for="lead_authorize_receive_commercial_info">
+                    <input id="00N5e00000eRNZb" type="checkbox" value="1" class="checkbox" name="00N5e00000eRNZb" required checked>
+                    <label class="checkbox-text label" for="00N5e00000eRNZb">
                         Autorizo recibir información comercial conforme a la Política de Datos Personales
                     </label>
                 </div>
 
+                <p class="errorInput" id="errorInput" style="display: none;"> La autorización del uso de tus datos es necesario para nosotros</p>
                 <br>
 
-                
+                <p class="errorInput " id="errorInput" style="display: none;"> La autorización del uso de tus datos es necesario para nosotros</p>
+                <br>
+
+                <div class="g-recaptcha" data-sitekey="6LckX7MUAAAAADDNzVnFn6GJseEGBD0qRVEL-dIl" ></div> 
+                <br/>
+
+                <p class="message-captcha" id="messageCaptcha" style="display: none;">Debes darle check al Captcha</p>
             
-                <input type="submit" id="btnSubmit" name="submit" class="input-submit hero-message-button" value="Enviar"
+                <input type="submit" id="btnSubmit" name="submit" class="input-submit hero-message-button" value="Enviar" onclick="return sendForm()"
                 onclick="
                 dataLayer.push({
                     'event': 'trackEvent',
@@ -588,6 +615,6 @@
 
     </footer>
 
-    <script src="script.js"></script>
+    <script src="form.js"></script>
 </body>
 </html>
