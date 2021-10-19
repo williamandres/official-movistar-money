@@ -1235,6 +1235,11 @@ a
     
 }
 
+.input-icon:last-child
+{
+    margin-bottom: 10px;
+}
+
 .input-icon-email
 {
     background-image: url('assets/email-icon.png');
@@ -1368,7 +1373,7 @@ a
     font-family: var(--telefonica-regular);
     font-size: 12px;
     color: #E63780;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     margin: 0 auto;
 }
 
