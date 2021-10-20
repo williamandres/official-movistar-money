@@ -1645,6 +1645,7 @@ a
 {
     color: var(--white-color);
     font-size: .8rem;
+    text-align: left;
 }
 
 .presentation2-paragraph span 
