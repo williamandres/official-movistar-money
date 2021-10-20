@@ -627,6 +627,11 @@ body
     margin-top: 35px;
 }
 
+.services-help-data-title-image 
+{
+    width: 34px;
+}
+
 .services-help-data-title 
 {
     font-family: var(--telefonica-light);
