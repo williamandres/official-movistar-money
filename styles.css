@@ -886,7 +886,17 @@ a
     margin-top: 20px;
 }
 
+.features-notification-container 
+{
+    padding-top: 10px;
+}
 
+.features-notification-link 
+{
+    padding-bottom: 10px;
+    color: var(--text-link-color);
+    font-size: .8rem;
+}
 
 .features-notification 
 {
@@ -956,6 +966,7 @@ a
     .features-notification-container 
     {
         padding-left: 22px;
+        padding-top: 0;
     }
 
     .features-notification
