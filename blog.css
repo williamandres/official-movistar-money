@@ -995,13 +995,16 @@ a
     color: var(--text-color);
     padding-bottom: 20px;
     font-family: var(--telefonica-light);
-
+    width: 493px;
+    text-align: left;
 }
 
 .blog-article-banner-messaje2 
 {
     font-size: .8rem;
     padding-bottom: 20px;
+    width: 400px;
+    text-align: left;
 }
 
 .blog-article-banner-link 
@@ -1044,6 +1047,7 @@ a
     .blog-article-banner-content 
     {
         width: 493px;
+        left: 40px;
     }
 
     .blog-article-banner-messaje 
@@ -1061,6 +1065,8 @@ a
     .blog-article-banner-link 
     {
         margin-top: 44px;
+        width: 240px;
+        text-align: center;
     }
 
     .blog-article-aside-post-title
