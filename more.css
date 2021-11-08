@@ -377,6 +377,11 @@ body
     text-align: center;
 }
 
+.services-description-2-paragraph span 
+{
+    font-family: var(--telefonica-regular);
+}
+
 .services-description-link-active 
 {
     color: var(--text-color);
