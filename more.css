@@ -74,6 +74,7 @@ body
     padding-bottom: 20px;
     font-family: var(--telefonica-light);
     font-weight: 300;
+    text-align: left;
 }
 
 .services-hero-paragraph 
@@ -81,7 +82,8 @@ body
     padding-left: 16px;
     padding-right: 16px;
     font-size: .8rem;
-    padding-bottom: 30px;
+    padding-bottom: 30px; 
+    text-align: left;
 }
 
 @media screen and (min-width: 340px) {
@@ -233,12 +235,14 @@ body
         padding-bottom: 20px;
         font-family: var(--telefonica-light);
         font-weight: 300;
+        text-align: left;
     }
 
     .services-article-list-item 
     {
         font-size: .8rem;
-        color:var(--text-link-color) ;
+        color: var(--gray-dark);
+        text-align: left;
     }
 
     .services-article-list-item:first-child 

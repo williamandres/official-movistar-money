@@ -893,15 +893,16 @@ a
 
 .features-notification-link 
 {
-    padding-bottom: 10px;
-    color: var(--text-link-color);
+    
     font-size: .8rem;
+    color: var(--text-color);
 }
 
 .features-notification 
 {
     font-size: .8rem;
     color: var(--text-color);
+    margin-top: 10px;
 }
 
 

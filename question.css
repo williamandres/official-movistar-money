@@ -445,6 +445,7 @@ body
     display: flex;
     align-items: flex-start;
     padding-bottom: 20px;
+    height: 100px;
 }
 
 .culture-list-item-icon
@@ -455,6 +456,7 @@ body
 .culture-list-item-paragraph 
 {
     font-size: .8rem;
+    text-align: left;
 }
 
 @media screen and (min-width: 768px) {
@@ -476,6 +478,7 @@ body
     .culture-description
     {
         font-size: 1.2rem;
+        width: 38%;
     } 
 
     .culture-list-container
