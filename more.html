@@ -10,861 +10,963 @@
     <title>Movistar Money</title>
 </head>
 <body>
-    <header class="header wrapper">
-        <div class="container-logo">
-            <img src="assets/logo-movistar.png" alt="" class="logo">
-        </div>
+<header class="header wrapper">
+    <div class="container-logo">
+        <a href="index.html">
+            <img src="assets/logo-movistar.svg" alt="" class="logo">
+        </a>
+    </div>
 
-        <nav class="menu">
+    <nav class="menu">
+        <a href="index.html" class=" menu-link"
+           onclick="
+                dataLayer.push({
+                'event': 'trackEvent',
+                'eventCategory': 'movistar money',
+                'eventAction': 'click::menú',
+                'eventLabel': 'inicio'
+                });">
 
-            <a href="index.html" class="menu-link">
-                <img src="assets/home-white.svg" alt="" class="menu-link-img">
-                <div class="menu-link-text appear-big-screen">Inicio</div>
-                <div class="menu-link-underline-hover"></div>
-            </a>
+            <img src="assets/home_blue.svg" alt="" class="menu-link-img">
+            <div class="menu-link-text">Inicio</div>
+            <div class="menu-link-underline-hover"></div>
+        </a>
 
-            <a href="question.html" class="menu-link">
-                <img src="assets/question-white.svg" alt="" class="menu-link-img">
-                <div class="menu-link-text appear-big-screen">¿Quiénes Somos?</div>
-                <div class="menu-link-underline-hover"></div>
-            </a>
+        <a href="question.html" class="menu-link"
+           onclick="
+                dataLayer.push({
+                'event': 'trackEvent',
+                'eventCategory': 'movistar money',
+                'eventAction': 'click::menú',
+                'eventLabel': '¿Quiénes Somos?'
+                });">
+            <img src="assets/question-white.svg" alt="" class="menu-link-img">
+            <div class="menu-link-text appear-big-screen ">¿Quiénes Somos?</div>
+            <div class="menu-link-underline-hover"></div>
+        </a>
 
-            <a href="#" class="menu-link-blue">
-                <img src="assets/more-blue.svg" alt="" class="menu-link-img">
-                <div class="menu-link-text">Conoce más</div>
-                <div class="menu-link-underline"></div>
-            </a>
+        <a href="more.html" class="menu-link-blue"
+           onclick="
+            dataLayer.push({
+                'event': 'trackEvent',
+                'eventCategory': 'movistar money',
+                'eventAction': 'click::menú',
+                'eventLabel': 'Conoce más'
+                });">
 
-            <a href="blog.html" class="menu-link">
-                <img src="assets/blog-white.svg" alt="" class="menu-link-img">
-                <div class="menu-link-text appear-big-screen">Blog</div>
-                <div class="menu-link-underline-hover"></div>
-            </a>
+            <img src="assets/more-white.svg" alt="" class="menu-link-img">
+            <div class="menu-link-text appear-big-screen"> Conoce más</div>
+            <div class="menu-link-underline"></div>
+        </a>
 
-            <a href="#" class="menu-link-blue my-account">
-                <img src="assets/my-account-blue.svg" alt="" class="my-account-icon">
-                <div class="menu-link-text appear-big-screen">Mi cuenta</div>
-            </a>
+        <a href="blog.html" class="menu-link"
+           onclick="
+            dataLayer.push({
+                'event': 'trackEvent',
+                'eventCategory': 'movistar money',
+                'eventAction': 'click::menú',
+                'eventLabel': 'Blog'
+                });">
+            <img src="assets/blog-white.svg" alt="" class="menu-link-img">
+            <div class="menu-link-text appear-big-screen">Blog</div>
+            <div class="menu-link-underline-hover"></div>
+        </a>
 
-            <div class="pop-up">
-                <div class="pop-up-content">
-                    Si ya tienes un crédito de equipo con Movistar Money, 
-                    puedes consultar detalles de tu crédito ingresando a tu cuenta
-                </div>
-            
-                <div class="arrow-pop-up"></div>
+        <a href="https://personas.movistarmoney.co/login" class="menu-link-blue my-account"
+           onclick="
+            dataLayer.push({
+                'event': 'trackEvent',
+                'eventCategory': 'movistar money',
+                'eventAction': 'click::mi cuenta',
+                'eventLabel': 'mi cuenta'
+                });">
+            <img src="assets/my-account-blue.svg" alt="" class="my-account-icon">
+            <div class="menu-link-text appear-big-screen">Mi cuenta</div>
+        </a>
+
+        <div class="pop-up">
+            <div class="pop-up-content">
+                Si ya tienes un crédito de equipo con Movistar Money,
+                puedes consultar detalles de tu crédito ingresando a tu cuenta
             </div>
-        </nav>
-    </header>
 
-    <section class="services-hero">
-        <img src="assets/background-services-hero-section.png" alt="" class="services-hero-image dissapear-big-resolution" >
-        <div class="services-hero-content">
-            
-            <h2 class="services-hero-title">
-                Desafiamos la forma tradicional de solicitar un crédito en Colombia  
-            </h2>
-            <p class="services-hero-paragraph">
-                ¡Traemos para ti una nueva manera de solicitar un crédito 100% digital! 
-                Con solo 5 pasos, sin papeles ni trámites físicos.
-            </p>
+            <div class="arrow-pop-up"></div>
         </div>
-        <img src="assets/background-services-hero-section2.png" alt="" class="services-hero-image2 appear-big-screen">
-    </section>
+    </nav>
 
-    <section class="services-description" >
-        <h2 class="services-description-title">
-            En pocos pasos puedes solicitar tu crédito 
+</header>
+
+<section class="services-hero">
+    <img src="assets/background-services-hero-section.png" alt="" class="services-hero-image dissapear-big-resolution">
+    <div class="services-hero-content">
+
+        <h2 class="services-hero-title">
+            Desafiamos la forma tradicional de solicitar un crédito en Colombia
         </h2>
+        <p class="services-hero-paragraph">
+            ¡Traemos para ti una nueva manera de solicitar un crédito 100% digital!
+            Con solo 5 pasos, sin papeles ni trámites físicos.
+        </p>
+    </div>
+    <img src="assets/background-services-hero-section2.png" alt="" class="services-hero-image2 appear-big-screen">
+</section>
 
-        <div class="features-links-container services-description-links-container"> 
-            <div class="features-link-container services-description-link-container">
-                <a  class="features-link  services-description-link services-description-link-active" id="services-description-link1">Crédito de equipos </a>
-                <div class=" features-link-decoration services-description-link-decoration " id="services-description-link-decoration">
-                    <div class="features-link-underline"></div>
-                    <div class="features-link-arrow"></div>
-                    <div class="features-link-square"></div>
-                </div>
-            </div>
-    
-            <div class="features-link-container services-description-link-container">
-                <a  class="features-link  services-description-link services-description-link-inactive" id="services-description-link2">Crédito libre inversión </a>
-                <div class=" features-link-decoration services-description-link-decoration dissapear-service" id="services-description-link-decoration2">
-                    <div class="features-link-underline"></div>
-                    <div class="features-link-arrow"></div>
-                    <div class="features-link-square"></div>
-                </div>
+<section class="services-description">
+    <h2 class="services-description-title">
+        En pocos pasos puedes solicitar tu crédito
+    </h2>
+
+    <div class="features-links-container services-description-links-container">
+        <div class="features-link-container services-description-link-container">
+            <a class="features-link  services-description-link services-description-link-active"
+               id="services-description-link1">Crédito de equipos </a>
+            <div class=" features-link-decoration services-description-link-decoration "
+                 id="services-description-link-decoration">
+                <div class="features-link-underline"></div>
+                <div class="features-link-arrow"></div>
+                <div class="features-link-square"></div>
             </div>
         </div>
 
-        <div class="services-description-articles-container" id="services-description1">
-            <article class="services-description-article">
-                <img src="assets/services-article-img1.svg" alt="" class="services-article-img services-article-img1">
+        <div class="features-link-container services-description-link-container">
+            <a class="features-link  services-description-link services-description-link-inactive"
+               id="services-description-link2">Crédito libre inversión </a>
+            <div class=" features-link-decoration services-description-link-decoration dissapear-service"
+                 id="services-description-link-decoration2">
+                <div class="features-link-underline"></div>
+                <div class="features-link-arrow"></div>
+                <div class="features-link-square"></div>
+            </div>
+        </div>
+    </div>
 
-                <div class="services-description-article-content">
-                    <h3 class="services-article-title">
-                        1. ¡Elige tu equipo y págalo después!
-                    </h3>
+    <div class="services-description-articles-container" id="services-description1">
+        <article class="services-description-article">
+            <img src="assets/services-article-img1.svg" alt="" class="services-article-img services-article-img1">
 
-                    <ul class="services-article-list">
-                        <li class="services-article-list-item">
-                            Selecciona tu equipo deseado en el link que ha llegado como 
-                            mensaje de texto a tu celular.
-                        </li>
-                        <li class="services-article-list-item">
-                            ¡Diligencia tus datos personales! Son solo 3 y debes asegurarte 
-                            de ingresar el correo electrónico al cual llega tu factura Movistar.
-                        </li>
-                    </ul>
-                </div>
-            </article>
+            <div class="services-description-article-content">
+                <h3 class="services-article-title">
+                    1. ¡Elige tu equipo y págalo después!
+                </h3>
 
-            <article class="services-description-article">
-                <img src="assets/services-article-img2.svg" alt="" class="services-article-img services-article-img2">
+                <ul class="services-article-list">
+                    <li class="services-article-list-item">
+                        Selecciona tu equipo deseado en el link que ha llegado como
+                        mensaje de texto a tu celular.
+                    </li>
+                    <li class="services-article-list-item">
+                        ¡Diligencia tus datos personales! Son solo 3 y debes asegurarte
+                        de ingresar el correo electrónico al cual llega tu factura Movistar.
+                    </li>
+                </ul>
+            </div>
+        </article>
 
-                <div class="services-description-article-content">
-                    <h3 class="services-article-title">
-                        2. ¡Un crédito a tu propio ritmo!
-                    </h3>
-                    
-                    <ul class="services-article-list">
-                        <li class="services-article-list-item">
-                            Puedes escoger de acuerdo a tus necesidades las cuotas de tu crédito.
-                            Ofrecemos plazos entre 3 y 36 cuotas
-                        </li>
-                    </ul>
-                </div>
-            </article>
+        <article class="services-description-article">
+            <img src="assets/services-article-img2.svg" alt="" class="services-article-img services-article-img2">
 
-            <article class="services-description-article">
-                <img src="assets/services-article-img3.svg" alt="" class="services-article-img services-article-img3">
+            <div class="services-description-article-content">
+                <h3 class="services-article-title">
+                    2. ¡Un crédito a tu propio ritmo!
+                </h3>
 
-                <div class="services-description-article-content">
-                    <h3 class="services-article-title">
-                        3. ¡Primero tu seguridad!. 
-                        Confirma tu identidad con un proceso innovador y tecnológico.
-                    </h3>
+                <ul class="services-article-list">
+                    <li class="services-article-list-item">
+                        Puedes escoger de acuerdo a tus necesidades las cuotas de tu crédito.
+                        Ofrecemos plazos entre 3 y 36 cuotas
+                    </li>
+                </ul>
+            </div>
+        </article>
 
-                    <ul class="services-article-list">
-                        <li class="services-article-list-item">
-                            Solo sigue los pasos que se te indicarán mediante al proceso y ten a la 
-                            mano tu cédula original para registrarla por ambos lados frente a la cámara.
-                        </li>
+        <article class="services-description-article">
+            <img src="assets/services-article-img3.svg" alt="" class="services-article-img services-article-img3">
 
-                        <li class="services-article-list-item">
-                            Luego te recomendamos ubicarte en un sitio con buena
-                            luz en donde puedas enfocar tu rostro. 
-                        </li>
-                    </ul>
-                </div>
-            </article>
+            <div class="services-description-article-content">
+                <h3 class="services-article-title">
+                    3. ¡Primero tu seguridad!
+                    Confirma tu identidad con un proceso innovador y tecnológico.
+                </h3>
 
-            <article class="services-description-article">
-                <img src="assets/services-article-img4.svg" alt="" class="services-article-img services-article-img4">
+                <ul class="services-article-list">
+                    <li class="services-article-list-item">
+                        Solo sigue los pasos que se te indicarán mediante al proceso y ten a la
+                        mano tu cédula original para registrarla por ambos lados frente a la cámara.
+                    </li>
 
-                <div class="services-description-article-content">
-                    <h3 class="services-article-title">
-                        4. Desde donde estés gestiona 
-                        tus datos de envío.
-                    </h3>
-                    <ul class="services-article-list">
-                        <li class="services-article-list-item">
-                            Confirma la dirección y fecha en la cual recibirás tu equipo
-                        </li>
-                    </ul>
-                </div>
-            </article>
+                    <li class="services-article-list-item">
+                        Luego te recomendamos ubicarte en un sitio con buena
+                        luz en donde puedas enfocar tu rostro.
+                    </li>
+                </ul>
+            </div>
+        </article>
 
-            <article class="services-description-article">
-                <img src="assets/services-article-img5.svg" alt="" class="services-article-img services-article-img5">
+        <article class="services-description-article">
+            <img src="assets/services-article-img4.svg" alt="" class="services-article-img services-article-img4">
 
-                <div class="services-description-article-content">
-                    <h3 class="services-article-title">
-                        5. ¡En minutos tu crédito será aprobado!
-                        Confirma tu compra aceptando el contrato.
-                    </h3>
-                    <ul class="services-article-list">
-                        <li class="services-article-list-item">
-                            Acepta y recibe el contrato en tu correo electrónico registrado.
-                        </li>
-                        <li class="services-article-list-item">
-                            Verifica que los datos de tu compra sean correctos. 
-                        </li>
-                    </ul>
-                </div>
-            </article>
+            <div class="services-description-article-content">
+                <h3 class="services-article-title">
+                    4. Desde donde estés gestiona
+                    tus datos de envío.
+                </h3>
+                <ul class="services-article-list">
+                    <li class="services-article-list-item">
+                        Confirma la dirección y fecha en la cual recibirás tu equipo
+                    </li>
+                </ul>
+            </div>
+        </article>
+
+        <article class="services-description-article">
+            <img src="assets/services-article-img5.svg" alt="" class="services-article-img services-article-img5">
+
+            <div class="services-description-article-content">
+                <h3 class="services-article-title">
+                    5. ¡En minutos tu crédito será aprobado!
+                    Confirma tu compra aceptando el contrato.
+                </h3>
+                <ul class="services-article-list">
+                    <li class="services-article-list-item">
+                        Acepta y recibe el contrato en tu correo electrónico registrado.
+                    </li>
+                    <li class="services-article-list-item">
+                        Verifica que los datos de tu compra sean correctos.
+                    </li>
+                </ul>
+            </div>
+        </article>
+    </div>
+
+    <section class=" dissapear-service services-description-2 " id="services-description2">
+        <img src="assets/sevices-description-2-img.svg" alt="" class="services-description-2-img">
+
+        <p class="services-description-2-paragraph">
+            Estamos preparando un nuevo producto de crédito hecho especialmente para tí,
+            <span>espéralo muy pronto</span>.
+        </p>
+    </section>
+
+</section>
+
+<section class="services-help">
+    <img src="assets/service-help-background-trees-left.svg" alt=""
+         class="services-help-background-tree-left appear-big-screen">
+
+    <img src="assets/service-help-background-trees-right.svg" alt=""
+         class="services-help-background-tree-right appear-big-screen">
+
+    <h3 class="services-help-title">
+        ¿En qué podemos ayudarte?
+    </h3>
+
+
+    <ul class="service-help-buttons">
+        <li class="service-help-button " id="commercial-information">
+
+            <div class="service-help-button-icon-container-gray dissapear-service" id="service-button1-gray">
+                <img src="assets/help-button-icon-gray-1.svg" alt="" class="help-button-icon help-button-icon1 ">
+            </div>
+
+            <div class="service-help-button-icon-container-blue" id="service-button1-blue">
+                <img src="assets/help-button-icon-blue-1.svg" alt="" class="help-button-icon">
+            </div>
+
+            <p class="service-help-button-name service-help-button-name-blue" id="service-button-name1">Información <br>
+                comercial</p>
+        </li>
+
+        <li class="service-help-button" id="my-account">
+            <div class="service-help-button-icon-container-gray" id="service-button2-gray">
+                <img src="assets/help-button-icon-gray-2.svg" alt="" class="help-button-icon">
+            </div>
+
+            <div class="service-help-button-icon-container-blue dissapear-service" id="service-button2-blue">
+                <img src="assets/help-button-icon-blue-2.svg" alt="" class="help-button-icon">
+            </div>
+
+            <p class="service-help-button-name service-help-button-name-gray" id="service-button-name2"> Mi cuenta</p>
+        </li>
+
+        <li class="service-help-button" id="payments">
+            <div class=" service-help-button-icon-container-gray" id="service-button3-gray">
+                <img src="assets/help-button-icon-gray-3.svg" alt="" class="help-button-icon">
+            </div>
+
+            <div class=" service-help-button-icon-container-blue dissapear-service" id="service-button3-blue">
+                <img src="assets/help-button-icon-blue-3.svg" alt="" class="help-button-icon">
+            </div>
+
+            <p class="service-help-button-name service-help-button-name-gray" id="service-button-name3">Pagos</p>
+        </li>
+
+        <li class="service-help-button" id="security">
+            <div class=" service-help-button-icon-container-gray" id="service-button4-gray">
+                <img src="assets/help-button-icon-gray-4.svg" alt="" class="help-button-icon">
+            </div>
+
+            <div class=" service-help-button-icon-container-blue dissapear-service" id="service-button4-blue">
+                <img src="assets/help-button-icon-blue-4.svg" alt="" class="help-button-icon">
+            </div>
+
+            <p class="service-help-button-name service-help-button-name-gray" id="service-button-name4">Seguridad</p>
+        </li>
+    </ul>
+
+    <section class="services-help-data" id="commercial-innformation-questions">
+
+        <div class="services-help-data-title-container">
+            <img src="assets/services-help-data-title-image1.svg" alt="" class="services-help-data-title-image">
+            <h3 class="services-help-data-title">Información comercial</h3>
         </div>
 
-        <section class=" dissapear-service services-description-2 " id="services-description2">
-            <img src="assets/sevices-description-2-img.svg" alt="" class="services-description-2-img">
 
-            <p class="services-description-2-paragraph">
-                Estamos preparando un nuevo producto de crédito hecho especialmente para tí, 
-                <span>espéralo muy pronto</span> .
-            </p>
-        </section>
+        <ul class="services-help-data-questions">
+            <li class="services-help-data-question">
+                <div class="services-help-data-answer-container" id="commercial-information-question1">
+                    <p class="services-help-data-answer-p">¿Qué es Movistar Money?</p>
 
-    </section>
-
-    <section class="services-help">
-        <img src="assets/service-help-background-trees-left.svg" alt="" class="services-help-background-tree-left appear-big-screen">
-
-        <img src="assets/service-help-background-trees-right.svg" alt="" class="services-help-background-tree-right appear-big-screen">
-
-        <h3 class="services-help-title">
-            ¿En qué podemos ayudarte?
-        </h3>
-
-        
-
-        <ul class="service-help-buttons">
-            <li class="service-help-button " id="commercial-information">
-
-                <div class="service-help-button-icon-container-gray dissapear-service" id="service-button1-gray">
-                    <img src="assets/help-button-icon-gray-1.svg" alt="" class="help-button-icon help-button-icon1 ">
+                    <div class="services-help-data-answer-arrows">
+                        <img src="assets/services-help-data-answer-drop-down.svg" alt=""
+                             class="services-help-data-answer-drop-down" id="services-arrow-down1">
+                        <img src="assets/services-help-data-answer-drop-up.svg " alt=""
+                             class="services-help-data-answer-drop-up dissapear-service" id="services-arrow-up1">
+                    </div>
                 </div>
 
-                <div class="service-help-button-icon-container-blue" id="service-button1-blue">
-                    <img src="assets/help-button-icon-blue-1.svg" alt="" class="help-button-icon">
-                </div>
-
-                <p class="service-help-button-name service-help-button-name-blue" id="service-button-name1">Información <br> comercial</p>
-            </li>
-
-            <li class="service-help-button" id="my-account">
-                <div class="service-help-button-icon-container-gray" id="service-button2-gray" >
-                    <img src="assets/help-button-icon-gray-2.svg" alt="" class="help-button-icon">
-                </div>
-
-                <div class="service-help-button-icon-container-blue dissapear-service" id="service-button2-blue" >
-                    <img src="assets/help-button-icon-blue-2.svg" alt="" class="help-button-icon">
-                </div>
-
-                <p class="service-help-button-name service-help-button-name-gray" id="service-button-name2"> Mi cuenta</p>
-            </li>
-
-            <li class="service-help-button" id="payments">
-                <div class=" service-help-button-icon-container-gray" id="service-button3-gray">
-                    <img src="assets/help-button-icon-gray-3.svg" alt="" class="help-button-icon">
-                </div>
-
-                <div class=" service-help-button-icon-container-blue dissapear-service" id="service-button3-blue">
-                    <img src="assets/help-button-icon-blue-3.svg" alt="" class="help-button-icon">
-                </div>
-
-                <p class="service-help-button-name service-help-button-name-gray" id="service-button-name3">Pagos</p>
-            </li>
-
-            <li class="service-help-button" id="security">
-                <div class=" service-help-button-icon-container-gray" id="service-button4-gray">
-                    <img src="assets/help-button-icon-gray-4.svg" alt="" class="help-button-icon">
-                </div>
-
-                <div class=" service-help-button-icon-container-blue dissapear-service" id="service-button4-blue">
-                    <img src="assets/help-button-icon-blue-4.svg" alt="" class="help-button-icon">
-                </div>
-
-                <p class="service-help-button-name service-help-button-name-gray" id="service-button-name4">Seguridad</p>
-            </li>
-        </ul>
-
-        <section class="services-help-data" id="commercial-innformation-questions">
-
-            <div class="services-help-data-title-container">
-                <img src="assets/services-help-data-title-image1.svg" alt="" class="services-help-data-title-image">
-                <h3 class="services-help-data-title">Información comercial</h3>
-            </div>
-
-
-            <ul class="services-help-data-questions">
-                <li class="services-help-data-question">
-                    <div class="services-help-data-answer-container" id="commercial-information-question1">
-                        <p class="services-help-data-answer-p" >¿Qué es Movistar Money?</p>
-
-                        <div class="services-help-data-answer-arrows">
-                            <img src="assets/services-help-data-answer-drop-down.svg" alt="" class="services-help-data-answer-drop-down" id="services-arrow-down1">
-                            <img src="assets/services-help-data-answer-drop-up.svg " alt="" class="services-help-data-answer-drop-up dissapear-service" id="services-arrow-up1">
-                        </div>
-                    </div>
-
-                    <p class="services-help-data-text dissapear-service" id="commercial-information-answer1">
-                        Movistar Money es una FinTech, empresa de servicio financieros que 
-                        brinda soluciones de crédito 100% digital, sin papeleos ni trámites 
-                        con un proceso ágil y sencillo.
-                    </p>
-
-                    <div class="services-help-data-line-gray" id="services-line-gray1"> </div>
-                    <div class="services-help-data-line-orange dissapear-service" id="services-line-orange1"> </div>
-                </li>
-
-                <li class="services-help-data-question">
-                    
-                    <div class="services-help-data-answer-container" id="commercial-information-question2">
-                        <p class="services-help-data-answer-p">¿Cómo me contacto con Movistar Money?</p>
-
-                        <div class="services-help-data-answer-arrows">
-                            <img src="" alt="" class="services-help-data-answer-drop-down">
-                            <img src="assets/services-help-data-answer-drop-down.svg" alt="" class="services-help-data-answer-drop-up" id="services-arrow-down2">
-                            <img src="assets/services-help-data-answer-drop-up.svg " alt="" class="services-help-data-answer-drop-up dissapear-service" id="services-arrow-up2">
-                        </div>
-                    </div>
-
-                    <p class="services-help-data-text dissapear-service" id="commercial-information-answer2">
-                        Nuestras líneas de atención: <a href="tel:#409" class="services-link"> #409</a> - <a href="tel:018000930160" class="services-link">018000930160</a>  o 
-                        interactúa con "Bot" para que te ayude a solucionar tus 
-                        inquietudes o te comunique con uno de nuestros agentes.
-                    </p>
-
-                    <div class="services-help-data-line-gray"  id="services-line-gray2"> </div>
-                    <div class="services-help-data-line-orange dissapear-service" id="services-line-orange2"> </div>
-                </li>
-
-                <li class="services-help-data-question">
-                    
-                    <div class="services-help-data-answer-container" id="commercial-information-question3">
-                        <p class="services-help-data-answer-p">¿Quién financia mi crédito?</p>
-
-                        <div class="services-help-data-answer-arrows">
-                            <img src="" alt="" class="services-help-data-answer-drop-down">
-                            <img src="assets/services-help-data-answer-drop-down.svg" alt="" class="services-help-data-answer-arrow-down" id="services-arrow-down3">
-                            <img src="assets/services-help-data-answer-drop-up.svg" alt="" class="services-help-data-answer-arrow-up dissapear-service" id="services-arrow-up3" >
-                        </div>
-                    </div>
-
-                    <p class="services-help-data-text dissapear-service" id="commercial-information-answer3">
-                        Movistar Consumer Finance Colombia SAS es la empresa que concede al cliente el 
-                        cupo de crédito.
-                    </p>
-
-                    <div class="services-help-data-line-gray" id="services-line-gray3"> </div>
-                    <div class="services-help-data-line-orange dissapear-service" id="services-line-orange3"> </div>
-                </li>
-
-                <li class="services-help-data-question">
-                    <div class="services-help-data-answer-container" id="commercial-information-question4">
-                        <p class="services-help-data-answer-p">¿Qué tasa de interés manejan los créditos?</p>
-
-                        <div class="services-help-data-answer-arrows">
-                            <img src="assets/services-help-data-answer-drop-down.svg" alt="" class="services-help-data-answer-drop-up" id="services-arrow-down4">
-                            <img src="assets/services-help-data-answer-drop-up.svg" alt="" class="services-help-data-answer-arrow-up dissapear-service" id="services-arrow-up4" >
-                        </div>
-                    </div>
-
-                    <p class="services-help-data-text dissapear-service" id="commercial-information-answer4">
-                        Manejamos diferentes tasas de interes de acuerdo al producto, 
-                        siempre buscando las mejores opciones para cada cliente. 
-                        En este momento manejamos tasas del 21% al 25%
-                    </p>
-
-                    <div class="services-help-data-line-gray" id="services-line-gray4"> </div>
-                    <div class="services-help-data-line-orange dissapear-service" id="services-line-orange4"> </div>
-                </li>
-
-                <li class="services-help-data-question">
-                    
-                    <div class="services-help-data-answer-container" id="commercial-information-question5">
-                        <p class="services-help-data-answer-p">¿Qué plazos manejan los créditos?</p>
-
-                        <div class="services-help-data-answer-arrows">
-                            <img src="assets/services-help-data-answer-drop-down.svg" alt="" class="services-help-data-answer-drop-up" id="services-arrow-down5">
-                            <img src="assets/services-help-data-answer-drop-up.svg" alt="" class="services-help-data-answer-arrow-up dissapear-service" id="services-arrow-up5" >
-                        </div>
-                    </div>
-
-                    <p class="services-help-data-text dissapear-service" id="commercial-information-answer5">
-                        3, 6, 12, 18, 24 y 36 meses
-                    </p>
-
-                    <div class="services-help-data-line-gray" id="services-line-gray5"> </div>
-                    <div class="services-help-data-line-orange dissapear-service" id="services-line-orange5"> </div>
-                </li>
-
-                <li class="services-help-data-question">
-                    
-                    <div class="services-help-data-answer-container" id="commercial-information-question6">
-                        <p class="services-help-data-answer-p">¿Qué montos manejan los créditos? </p>
-                        <div class="services-help-data-answer-arrows">
-                            <img src="assets/services-help-data-answer-drop-down.svg " alt="" class="services-help-data-answer-drop-down" id="services-arrow-down6">
-                            <img src="assets/services-help-data-answer-drop-up.svg " alt="" class="services-help-data-answer-drop-up dissapear-service" id="services-arrow-up6">
-                        </div>
-                    </div>
-
-                    <p class="services-help-data-text dissapear-service" id="commercial-information-answer6">
-                        Los créditos para compra de celulares, son aprobados por el valor exacto del equipo a comprar. 
-                    </p>
-
-                    <div class="services-help-data-line-gray" id="services-line-gray6"> </div>
-                    <div class="services-help-data-line-orange dissapear-service" id="services-line-orange6"> </div>
-                    
-                </li>
-
-                <li class="services-help-data-question">
-                    
-                    <div class="services-help-data-answer-container" id="commercial-information-question7">
-                        <p class="services-help-data-answer-p"> ¿Para qué puedo usar mi crédito?</p>
-                        
-                        <div class="services-help-data-answer-arrows">
-                            <img src="assets/services-help-data-answer-drop-down.svg " alt="" class="services-help-data-answer-drop-down" id="services-arrow-down7">
-                            <img src="assets/services-help-data-answer-drop-up.svg " alt="" class="services-help-data-answer-drop-up dissapear-service" id="services-arrow-up7">
-                        </div>
-                    </div>
-
-                    <p class="services-help-data-text dissapear-service" id="commercial-information-answer7">
-                        Los créditos para compra de celulares, son aprobados por el valor exacto del equipo a comprar. 
-                    </p>
-
-                    <div class="services-help-data-line-gray" id="services-line-gray7"> </div>
-                    <div class="services-help-data-line-orange dissapear-service" id="services-line-orange7"> </div>
-                </li>
-
-                <li class="services-help-data-question">
-                    <div class="services-help-data-answer-container" id="commercial-information-question8">
-                        <p class="services-help-data-answer-p">¿Qué pasa si no tengo productos con Movistar?</p>
-
-                        <div class="services-help-data-answer-arrows">
-                            <img src="assets/services-help-data-answer-drop-down.svg " alt="" class="services-help-data-answer-drop-down" id="services-arrow-down8">
-                            <img src="assets/services-help-data-answer-drop-up.svg " alt="" class="services-help-data-answer-drop-up dissapear-service" id="services-arrow-up8">
-                        </div>
-                    </div>
-
-                    <p class="services-help-data-text dissapear-service" id="commercial-information-answer8">
-                        Para adquirir créditos con Movistar Money, 
-                        es necesario ser cliente Movistar, por lo tanto, 
-                        te invitamos a adquirir un plan pospago en <a href="https://www.movistar.co/" class="services-link">www.movistar.co </a> 
-                    </p>
-
-                    <div class="services-help-data-line-gray" id="services-line-gray8"> </div>
-                    <div class="services-help-data-line-orange dissapear-service" id="services-line-orange8"> </div>
-                </li>
-
-                <li class="services-help-data-question">
-                    
-                    <div class="services-help-data-answer-container" id="commercial-information-question9">
-                        <p class="services-help-data-answer-p">¿Cuándo llega mi celular?</p>
-
-                        <div class="services-help-data-answer-arrows">
-                            <img src="assets/services-help-data-answer-drop-down.svg " alt="" class="services-help-data-answer-drop-down" id="services-arrow-down9">
-                            <img src="assets/services-help-data-answer-drop-up.svg " alt="" class="services-help-data-answer-drop-up dissapear-service" id="services-arrow-up9">
-                        </div>
-                    </div>
-
-                    <p class="services-help-data-text dissapear-service" id="commercial-information-answer9">
-                        Recuerda que el equipo ha sido vendido por Movistar Colombia. Para consultar el estado de
-                        tu compra de celulares, puedes ingresar a <a href="https://www.movistar.co/" class="services-link">www.movistar.co </a>
-                    </p>
-
-                    <div class="services-help-data-line-gray" id="services-line-gray9"> </div>
-                    <div class="services-help-data-line-orange dissapear-service" id="services-line-orange9"> </div>
-                </li>
-
-                <li class="services-help-data-question">
-                    <div class="services-help-data-answer-container" id="commercial-information-question10">
-                        <p class="services-help-data-answer-p">¿Cómo adquiero un celular con el crédito 
-                            de Movistar Money?
-                        </p>
-
-                        <div class="services-help-data-answer-arrows">
-                            <img src="assets/services-help-data-answer-drop-down.svg " alt="" class="services-help-data-answer-drop-down" id="services-arrow-down10">
-                            <img src="assets/services-help-data-answer-drop-up.svg " alt="" class="services-help-data-answer-drop-up dissapear-service" id="services-arrow-up10">
-                        </div>
-                    </div>
-
-                    <p class="services-help-data-text dissapear-service" id="commercial-information-answer10">
-                        En la primera etapa llegará un mensaje de texto o correo electrónico a determinado 
-                        número de clientes. Pronto tendremos disponibilidad de ofrecer el crédito a través de otros canales.
-                        ¡Si eres cliente Movistar y cumples con los requisitos puedes <a href="index.html#contact" class="services-link">enviarnos tus
-                            datos por medio del formulario!</a> 
-                    </p>
-
-                    <div class="services-help-data-line-gray" id="services-line-gray10"> </div>
-                    <div class="services-help-data-line-orange dissapear-service" id="services-line-orange10"> </div>
-                </li>
-
-                <li class="services-help-data-question">
-                    
-                    <div class="services-help-data-answer-container" id="commercial-information-question11">
-                        <p class="services-help-data-answer-p">¿Cuáles son los requisitos para adquirir un crédito de equipos?</p>
-    
-                        <div class="services-help-data-answer-arrows">
-                            <img src="assets/services-help-data-answer-drop-down.svg " alt="" class="services-help-data-answer-drop-down" id="services-arrow-down11">
-                            <img src="assets/services-help-data-answer-drop-up.svg " alt="" class="services-help-data-answer-drop-up dissapear-service" id="services-arrow-up11">
-                        </div>
-                    </div>
-
-                    <p class="services-help-data-text dissapear-service" id="commercial-information-answer11">
-                        Se requiere ser cliente Movistar persona natural con un plan móvil pospago con minimo 6 meses
-                        de antiguedad. Además, ser mayor de edad, colombiano y tener cuenta de correo electrónico activa
-                    </p>
-    
-                    <div class="services-help-data-line-gray" id="services-line-gray11"> </div>
-                    <div class="services-help-data-line-orange dissapear-service" id="services-line-orange11"> </div>
-                </li>
-
-            </ul>
-        </section>
-
-
-
-        <section class="services-help-data services-help-data2 dissapear-service" id="my-account-questions">
-
-            <div class="services-help-data-title-container">
-                <img src="assets/services-help-data-title-image2.svg" alt="" class="services-help-data-title-image">
-                <h3 class="services-help-data-title">Mi cuenta</h3>
-            </div>
-
-
-            <ul class="services-help-data-questions services-help-data-questions2 " id="services-help-data-questions2">
-
-                <li class="services-help-data-question">
-                    
-                    <div class="services-help-data-answer-container" id="my-account-question12">
-                        <p class="services-help-data-answer-p">¿Cómo ingreso a mi cuenta?</p>
-
-                        <div class="services-help-data-answer-arrows">
-                            <img src="assets/services-help-data-answer-drop-down.svg " alt="" class="services-help-data-answer-drop-down" id="services-arrow-down12">
-                            <img src="assets/services-help-data-answer-drop-up.svg " alt="" class="services-help-data-answer-drop-up dissapear-service" id="services-arrow-up12">
-                        </div>
-                    </div> 
-
-                    <div class="services-help-data-text services-my-account dissapear-service" id="my-account-answer12">
-                        <p class="services-my-account-first-p">
-                            Entra a www.movistarmoney.co y haz clic en
-                            <a href="" class="services-link">
-                                <img src="assets/my-account-blue.svg" alt="" class="services-my-account-link">
-                                <span>Mi cuenta</span>  
-                            </a>
-                        </p>
-
-                        <h4 class="services-my-account-tittle">Ingreso por primera vez</h4>
-                        <ol class="services-my-account-list">
-                            <li class="services-my-account-list-item">
-                                <div><span>1</span></div>
-                                Dígita tu número de documento y
-                                los 3 últimos números de tu línea móvil registrada en el crédito.
-                            </li>
-                            
-                            <li class="services-my-account-list-item">
-                                <div><span>2</span></div>
-                                Asigna una contraseña segura 
-                                (de 8 a 12 caracteres con letras minúsculas y mayúsculas,
-                                símbolos y números).
-                            </li>
-                        </ol>
-
-                        <h4 class="services-my-account-tittle">He olvidado mi usuario y contraseña</h4>
-                        <ol class="services-my-account-list">
-                            <li class="services-my-account-list-item">
-                                <div><span>1</span></div>
-                                Puedes dar clic en “recuperar contraseña”
-                            </li>
-                            
-                            <li class="services-my-account-list-item">
-                                <div><span>2</span></div>
-                                Te llegará un link al correo electrónico registrado para que recuperes tu 
-                                contraseña y asignes una nueva.
-                            </li>
-                        </ol>
-                    </div>
-
-                    <div class="services-help-data-line-gray" id="services-line-gray12"> </div>
-                    <div class="services-help-data-line-orange dissapear-service" id="services-line-orange12"> </div>
-                </li>
-
-                <li class="services-help-data-question">
-                    <div class="services-help-data-answer-container" id="my-account-question13">
-                        <p class="services-help-data-answer-p">¿Cuál es mi usuario de cuenta?</p>
-
-                        <div class="services-help-data-answer-arrows">
-                            <img src="assets/services-help-data-answer-drop-down.svg " alt="" class="services-help-data-answer-drop-down" id="services-arrow-down13">
-                            <img src="assets/services-help-data-answer-drop-up.svg " alt="" class="services-help-data-answer-drop-up dissapear-service" id="services-arrow-up13">
-                        </div>
-                    </div>
-
-                    <p class="services-help-data-text dissapear-service" id="my-account-answer13">
-                        Tu usuario de cuenta es tu numero de identidad
-                    </p>
-
-                    <div class="services-help-data-line-gray" id="services-line-gray13"> </div>
-                    <div class="services-help-data-line-orange dissapear-service" id="services-line-orange13"> </div>
-                </li>
-
-                <li class="services-help-data-question">
-                    <div class="services-help-data-answer-container" id="my-account-question14">
-                        <p class="services-help-data-answer-p">¿Qué puedo hacer a través de mi cuenta?</p>
-
-                        <div class="services-help-data-answer-arrows">
-                            <img src="assets/services-help-data-answer-drop-down.svg " alt="" class="services-help-data-answer-drop-down" id="services-arrow-down14">
-                            <img src="assets/services-help-data-answer-drop-up.svg " alt="" class="services-help-data-answer-drop-up dissapear-service" id="services-arrow-up14">
-                        </div>
-                    </div>
-
-                    <p class="services-help-data-text dissapear-service" id="my-account-answer14">
-                        Al ingresar a <a href="#" class="services-link">tu cuenta</a> , puedes visualizar todo el detalle de tu crédito, 
-                        ver tu saldo, cuotas pagas, cuotas pendientes, intereses, amoritzaciones, 
-                        solicitudes, ver tu factura, y hablar con un asesor desde nuestro Bot 
-                        para generar algúna solicitud sobre tu crédito.
-                    </p>
-
-                    <div class="services-help-data-line-gray" id="services-line-gray14"> </div>
-                    <div class="services-help-data-line-orange dissapear-service" id="services-line-orange14"> </div>
-                </li>
-
-                <li class="services-help-data-question">
-
-                    <div class="services-help-data-answer-container" id="my-account-question15">
-                        <p class="services-help-data-answer-p">¿Existe algún contrato?</p>
-
-                        <div class="services-help-data-answer-arrows">
-                            <img src="assets/services-help-data-answer-drop-down.svg " alt="" class="services-help-data-answer-drop-down" id="services-arrow-down15">
-                            <img src="assets/services-help-data-answer-drop-up.svg " alt="" class="services-help-data-answer-drop-up dissapear-service" id="services-arrow-up15">
-                        </div>
-                    </div>
-
-                    <p class="services-help-data-text dissapear-service" id="my-account-answer15">
-                        Sí, el contrato debe ser aceptado durante el proceso y llega a tu correo electrónico registrado.
-                    </p>
-
-                    <div class="services-help-data-line-gray" id="services-line-gray15"> </div>
-                    <div class="services-help-data-line-orange dissapear-service" id="services-line-orange15"> </div>
-                </li>
-
-                <li class="services-help-data-question">
-                    <div class="services-help-data-answer-container" id="my-account-question16">
-                        <p class="services-help-data-answer-p">¿Cómo creo una petición, queja o reclamo?</p>
-
-                        <div class="services-help-data-answer-arrows">
-                            <img src="assets/services-help-data-answer-drop-down.svg " alt="" class="services-help-data-answer-drop-down" id="services-arrow-down16">
-                            <img src="assets/services-help-data-answer-drop-up.svg " alt="" class="services-help-data-answer-drop-up dissapear-service" id="services-arrow-up16">
-                        </div>
-                    </div>
-
-                    <p class="services-help-data-text dissapear-service" id="my-account-answer16">
-                        Puedes crear una PQR por medio de nuestro Chatbot, opción "crear PQR" y escribir tu Petición, 
-                        queja o reclamo. También puedes contactar a un asesor y comentarle tu caso.
-                    </p>
-
-                    <div class="services-help-data-line-gray" id="services-line-gray16"> </div>
-                    <div class="services-help-data-line-orange dissapear-service" id="services-line-orange16"> </div>
-                </li>
-
-                
-            </ul>
-        </section>
-
-        <section class="services-help-data services-help-data3 dissapear-service" id="payments-questions">
-
-            <div class="services-help-data-title-container">
-                <img src="assets/services-help-data-title-image3.svg" alt="" class="services-help-data-title-image">
-                <h3 class="services-help-data-title">Pagos</h3>
-            </div>
-
-
-            <ul class="services-help-data-questions services-help-data-questions2" id="servicesPaymentsClick">
-
-                <li class="services-help-data-question">
-                    <div class="services-help-data-answer-container" id="payments-question17">
-                        <p class="services-help-data-answer-p">¿En dónde pago las cuotas del crédito?</p>
-
-                        <div class="services-help-data-answer-arrows">
-                            <img src="assets/services-help-data-answer-drop-down.svg " alt="" class="services-help-data-answer-drop-down" id="services-arrow-down17">
-                            <img src="assets/services-help-data-answer-drop-up.svg " alt="" class="services-help-data-answer-drop-up dissapear-service" id="services-arrow-up17">
-                        </div>
-                    </div>
-
-                    <p class="services-help-data-text dissapear-service" id="payments-answer17">
-                        Puedes pagar tu crédito junto con la factura de servicios de Movistar en los puntos autorizados. 
-                        Si ya no eres cliente Movistar, ingresa por Autogestión y allí podrás pagar por PSE, tarjetas y 
-                        puntos autorizados como Baloto o Efecty.
-                    </p>
-
-                    <div class="services-help-data-line-gray" id="services-line-gray17"> </div>
-                    <div class="services-help-data-line-orange dissapear-service" id="services-line-orange17"> </div>
-                </li>
-
-                <li class="services-help-data-question">
-                    <div class="services-help-data-answer-container" id="payments-question18">
-                        <p class="services-help-data-answer-p">¿Puedo hacer pagos anticipados?</p>
-
-                        <div class="services-help-data-answer-arrows">
-                            <img src="assets/services-help-data-answer-drop-down.svg " alt="" class="services-help-data-answer-drop-down" id="services-arrow-down18">
-                            <img src="assets/services-help-data-answer-drop-up.svg " alt="" class="services-help-data-answer-drop-up dissapear-service" id="services-arrow-up18">
-                        </div>
-                    </div>
-
-                    <p class="services-help-data-text dissapear-service" id="payments-answer18">
-                        Si, a partir de octubre podrás realizar pago anticipados sin penalización alguna.
-                    </p>
-
-                    <div class="services-help-data-line-gray" id="services-line-gray18"> </div>
-                    <div class="services-help-data-line-orange dissapear-service" id="services-line-orange18"> </div>
-                </li>
-
-                <li class="services-help-data-question">
-                    <div class="services-help-data-answer-container" id="payments-question19">
-                        <p class="services-help-data-answer-p">¿Puedo hacer refinanciaciones?</p>
-
-                        <div class="services-help-data-answer-arrows">
-                            <img src="assets/services-help-data-answer-drop-down.svg " alt="" class="services-help-data-answer-drop-down" id="services-arrow-down19">
-                            <img src="assets/services-help-data-answer-drop-up.svg " alt="" class="services-help-data-answer-drop-up dissapear-service" id="services-arrow-up19">
-                        </div>
-                    </div>
-
-                    <p class="services-help-data-text dissapear-service" id="payments-answer19">
-                        Si, a partir de octubre podrás solicitar refinanciaciones en tu crédito.
-                    </p>
-
-                    <div class="services-help-data-line-gray" id="services-line-gray19"> </div>
-                    <div class="services-help-data-line-orange dissapear-service" id="services-line-orange19"> </div>
-                </li>
-
-                <li class="services-help-data-question">
-                    <div class="services-help-data-answer-container" id="payments-question20">
-                        <p class="services-help-data-answer-p">¿Qué pasa si me atraso en los pagos?</p>
-
-                        <div class="services-help-data-answer-arrows">
-                            <img src="assets/services-help-data-answer-drop-down.svg " alt="" class="services-help-data-answer-drop-down" id="services-arrow-down20">
-                            <img src="assets/services-help-data-answer-drop-up.svg " alt="" class="services-help-data-answer-drop-up dissapear-service" id="services-arrow-up20">
-                        </div>
-                    </div>
-
-                    <p class="services-help-data-text dissapear-service" id="payments-answer20">
-                        El no pago oportuno y 
-                        completo de una cuota generará intereses de 
-                        mora a la tasa máxima permitida por la ley aplicable.
-                    </p>
-
-                    <div class="services-help-data-line-gray" id="services-line-gray20"> </div>
-                    <div class="services-help-data-line-orange dissapear-service" id="services-line-orange20"> </div>
-                </li>
-
-                <li class="services-help-data-question">
-                    <div class="services-help-data-answer-container" id="payments-question21">
-                        <p class="services-help-data-answer-p">¿Por qué mi crédito tiene IVA?</p>
-
-                        <div class="services-help-data-answer-arrows">
-                            <img src="assets/services-help-data-answer-drop-down.svg " alt="" class="services-help-data-answer-drop-down" id="services-arrow-down21">
-                            <img src="assets/services-help-data-answer-drop-up.svg " alt="" class="services-help-data-answer-drop-up dissapear-service" id="services-arrow-up21">
-                        </div>
-                    </div>
-
-                    <p class="services-help-data-text dissapear-service" id="payments-answer21">
-                        Los intereses de tu crédito tienen IVA porque según el Estatuto tributario colombiano,
-                        al ser un medio de pago de una operación de compra de un equipo que tiene IVA, 
-                        los intereses se deben gravar con este impuesto.
-                    </p>
-
-                    <div class="services-help-data-line-gray" id="services-line-gray21"> </div>
-                    <div class="services-help-data-line-orange dissapear-service" id="services-line-orange21"> </div>
-                </li>
-
-                
-            </ul>
-        </section>
-
-        <section class="services-help-data services-help-data4 dissapear-service" id="security-questions">
-
-            <div class="services-help-data-title-container">
-                <img src="assets/services-help-data-title-image4.svg" alt="" class="services-help-data-title-image">
-                <h3 class="services-help-data-title">Seguridad</h3>
-            </div>
-
-
-            <ul class="services-help-data-questions services-help-data-questions4 " id="security-click">
-
-                <li class="services-help-data-question">
-                    <div class="services-help-data-answer-container" id="security-question22">
-                        <p class="services-help-data-answer-p">¿Qué hago si tengo problemas con mi autenticación?</p>
-
-                        <div class="services-help-data-answer-arrows">
-                            <img src="assets/services-help-data-answer-drop-down.svg " alt="" class="services-help-data-answer-drop-down" id="services-arrow-down22">
-                            <img src="assets/services-help-data-answer-drop-up.svg " alt="" class="services-help-data-answer-drop-up dissapear-service" id="services-arrow-up22">
-                        </div>
-                    </div>
-
-                    <p class="services-help-data-text dissapear-service" id="security-answer22">
-                        Te sugerimos hacer el proceso a traves de un celular,
-                        sigue los pasos que te arroja tu pantalla, permanece en un lugar con luz suficiente 
-                        y usa tu documento de identidad original. Si persisten las fallas puedes comunicarte
-                        a nuestras líneas de atención: <a href="tel:#409" class="services-link">#409</a>  -  
-                        <a href="tel:018000930160" class="services-link">018000930160</a>  
-                        o interactúa con "Bot" para que te ayude a solucionar 
-                        tus inquietudes o te comunique con uno de nuestros agentes.
-                    </p>
-
-                    <div class="services-help-data-line-gray" id="services-line-gray22"> </div>
-                    <div class="services-help-data-line-orange dissapear-service" id="services-line-orange22"> </div>
-                </li>
-
-                <li class="services-help-data-question">
-                    <div class="services-help-data-answer-container" id="security-question23">
-                        <p class="services-help-data-answer-p">¿Por qué debo mostrar mi rostro? </p>
-
-                        <div class="services-help-data-answer-arrows">
-                            <img src="assets/services-help-data-answer-drop-down.svg " alt="" class="services-help-data-answer-drop-down" id="services-arrow-down23">
-                            <img src="assets/services-help-data-answer-drop-up.svg " alt="" class="services-help-data-answer-drop-up dissapear-service" id="services-arrow-up23">
-                        </div>
-                    </div>
-
-                    <p class="services-help-data-text dissapear-service" id="security-answer23">
-                        De esta manera nos aseguramos que eres tú quien solicita el crédito y con 
-                        esto evitamos suplantaciones y mantenemos nuestro proceso seguro y ágil para evitar tu desplazamiento.
-                    </p>
-
-                    <div class="services-help-data-line-gray" id="services-line-gray23"> </div>
-                    <div class="services-help-data-line-orange dissapear-service" id="services-line-orange23"> </div>
-                </li>
-
-                <li class="services-help-data-question">
-                    <div class="services-help-data-answer-container" id="security-question24">
-                        <p class="services-help-data-answer-p"> ¿Qué pasa con mis datos personales? </p>
-
-                        <div class="services-help-data-answer-arrows">
-                            <img src="assets/services-help-data-answer-drop-down.svg " alt="" class="services-help-data-answer-drop-down" id="services-arrow-down24">
-                            <img src="assets/services-help-data-answer-drop-up.svg " alt="" class="services-help-data-answer-drop-up dissapear-service" id="services-arrow-up24">
-                        </div>
-                    </div>
-
-                    <p class="services-help-data-text dissapear-service" id="security-answer24">
-                        Todos tus datos personales están protegidos y son confidenciales.
-                        En nuestro proceso tratamos tu información conforme a nuestra <a href="politica_tratamiento.html" class="services-link"> política de datos personales</a>.
-                    </p>
-
-                    <div class="services-help-data-line-gray" id="services-line-gray24"> </div>
-                    <div class="services-help-data-line-orange dissapear-service" id="services-line-orange24"> </div>
-                </li>
-                
-            </ul>
-        </section>
-    </section>
-
-    <section class="services-contact">
-        <p class="service-contact-first">
-            Estamos para ti 24/7
-        </p>
-        <p class="service-contact-second">
-            Comunícate con nosotros al <span>#409</span>, al <span> 01 8000 930 160</span> o escríbenos al 
-            <span>servicioalcliente@movistarmoney.co</span>  para ayudarte con tus inquietudes.
-        </p>
-    </section>
-
-    <footer class="service-footer">
-        <div class="footer-container">
-            <div class="more-about">
-                <h4 class="more-about-title"> Más de nosotros </h4>
-                <a href="politica_cobranza.html" class="more-about-link">Política de cobranzas</a>
-                <a href="politica_tratamiento.html" class="more-about-link">Política de tratamiento de datos</a>
-                <a href="terminos_condiciones.html" class="more-about-link">Términos y Condiciones de Movistar Money</a>
-            </div>
-    
-            <div class="secure-section">
-                <img src="assets/security-movistar-logo.png" alt="" class="secure-section-symbol">
-                <p class="secure-section-content"> Contamos con un protocolo seguro para 
-                    proteger tus datos durante el proceso. 
+                <p class="services-help-data-text dissapear-service" id="commercial-information-answer1">
+                    Movistar Money es una FinTech, empresa de servicio financieros que
+                    brinda soluciones de crédito 100% digital, sin papeleos ni trámites
+                    con un proceso ágil y sencillo.
                 </p>
-            </div>
-        </div>
-    </footer>
 
-    <script src="services.js"></script>
+                <div class="services-help-data-line-gray" id="services-line-gray1"></div>
+                <div class="services-help-data-line-orange dissapear-service" id="services-line-orange1"></div>
+            </li>
+
+            <li class="services-help-data-question">
+
+                <div class="services-help-data-answer-container" id="commercial-information-question2">
+                    <p class="services-help-data-answer-p">¿Cómo me contacto con Movistar Money?</p>
+
+                    <div class="services-help-data-answer-arrows">
+                        <img src="" alt="" class="services-help-data-answer-drop-down">
+                        <img src="assets/services-help-data-answer-drop-down.svg" alt=""
+                             class="services-help-data-answer-drop-up" id="services-arrow-down2">
+                        <img src="assets/services-help-data-answer-drop-up.svg " alt=""
+                             class="services-help-data-answer-drop-up dissapear-service" id="services-arrow-up2">
+                    </div>
+                </div>
+
+                <p class="services-help-data-text dissapear-service" id="commercial-information-answer2">
+                    Nuestras líneas de atención: <a href="tel:#409" class="services-link"> #409</a> - <a
+                        href="tel:018000930160" class="services-link">018000930160</a> o
+                    interactúa con "Bot" para que te ayude a solucionar tus
+                    inquietudes o te comunique con uno de nuestros agentes.
+                </p>
+
+                <div class="services-help-data-line-gray" id="services-line-gray2"></div>
+                <div class="services-help-data-line-orange dissapear-service" id="services-line-orange2"></div>
+            </li>
+
+            <li class="services-help-data-question">
+
+                <div class="services-help-data-answer-container" id="commercial-information-question3">
+                    <p class="services-help-data-answer-p">¿Quién financia mi crédito?</p>
+
+                    <div class="services-help-data-answer-arrows">
+                        <img src="" alt="" class="services-help-data-answer-drop-down">
+                        <img src="assets/services-help-data-answer-drop-down.svg" alt=""
+                             class="services-help-data-answer-arrow-down" id="services-arrow-down3">
+                        <img src="assets/services-help-data-answer-drop-up.svg" alt=""
+                             class="services-help-data-answer-arrow-up dissapear-service" id="services-arrow-up3">
+                    </div>
+                </div>
+
+                <p class="services-help-data-text dissapear-service" id="commercial-information-answer3">
+                    Movistar Consumer Finance Colombia SAS es la empresa que concede al cliente el
+                    cupo de crédito.
+                </p>
+
+                <div class="services-help-data-line-gray" id="services-line-gray3"></div>
+                <div class="services-help-data-line-orange dissapear-service" id="services-line-orange3"></div>
+            </li>
+
+            <li class="services-help-data-question">
+                <div class="services-help-data-answer-container" id="commercial-information-question4">
+                    <p class="services-help-data-answer-p">¿Qué tasa de interés manejan los créditos?</p>
+
+                    <div class="services-help-data-answer-arrows">
+                        <img src="assets/services-help-data-answer-drop-down.svg" alt=""
+                             class="services-help-data-answer-drop-up" id="services-arrow-down4">
+                        <img src="assets/services-help-data-answer-drop-up.svg" alt=""
+                             class="services-help-data-answer-arrow-up dissapear-service" id="services-arrow-up4">
+                    </div>
+                </div>
+
+                <p class="services-help-data-text dissapear-service" id="commercial-information-answer4">
+                    Manejamos diferentes tasas de interes de acuerdo al producto,
+                    siempre buscando las mejores opciones para cada cliente.
+                    En este momento manejamos tasas del 21% al 25%
+                </p>
+
+                <div class="services-help-data-line-gray" id="services-line-gray4"></div>
+                <div class="services-help-data-line-orange dissapear-service" id="services-line-orange4"></div>
+            </li>
+
+            <li class="services-help-data-question">
+
+                <div class="services-help-data-answer-container" id="commercial-information-question5">
+                    <p class="services-help-data-answer-p">¿Qué plazos manejan los créditos?</p>
+
+                    <div class="services-help-data-answer-arrows">
+                        <img src="assets/services-help-data-answer-drop-down.svg" alt=""
+                             class="services-help-data-answer-drop-up" id="services-arrow-down5">
+                        <img src="assets/services-help-data-answer-drop-up.svg" alt=""
+                             class="services-help-data-answer-arrow-up dissapear-service" id="services-arrow-up5">
+                    </div>
+                </div>
+
+                <p class="services-help-data-text dissapear-service" id="commercial-information-answer5">
+                    3, 6, 12, 18, 24 y 36 meses
+                </p>
+
+                <div class="services-help-data-line-gray" id="services-line-gray5"></div>
+                <div class="services-help-data-line-orange dissapear-service" id="services-line-orange5"></div>
+            </li>
+
+            <li class="services-help-data-question">
+
+                <div class="services-help-data-answer-container" id="commercial-information-question6">
+                    <p class="services-help-data-answer-p">¿Qué montos manejan los créditos? </p>
+                    <div class="services-help-data-answer-arrows">
+                        <img src="assets/services-help-data-answer-drop-down.svg " alt=""
+                             class="services-help-data-answer-drop-down" id="services-arrow-down6">
+                        <img src="assets/services-help-data-answer-drop-up.svg " alt=""
+                             class="services-help-data-answer-drop-up dissapear-service" id="services-arrow-up6">
+                    </div>
+                </div>
+
+                <p class="services-help-data-text dissapear-service" id="commercial-information-answer6">
+                    Los créditos para compra de celulares, son aprobados por el valor exacto del equipo a comprar.
+                </p>
+
+                <div class="services-help-data-line-gray" id="services-line-gray6"></div>
+                <div class="services-help-data-line-orange dissapear-service" id="services-line-orange6"></div>
+
+            </li>
+
+            <li class="services-help-data-question">
+
+                <div class="services-help-data-answer-container" id="commercial-information-question7">
+                    <p class="services-help-data-answer-p"> ¿Para qué puedo usar mi crédito?</p>
+
+                    <div class="services-help-data-answer-arrows">
+                        <img src="assets/services-help-data-answer-drop-down.svg " alt=""
+                             class="services-help-data-answer-drop-down" id="services-arrow-down7">
+                        <img src="assets/services-help-data-answer-drop-up.svg " alt=""
+                             class="services-help-data-answer-drop-up dissapear-service" id="services-arrow-up7">
+                    </div>
+                </div>
+
+                <p class="services-help-data-text dissapear-service" id="commercial-information-answer7">
+                    Los créditos para compra de celulares, son aprobados por el valor exacto del equipo a comprar.
+                </p>
+
+                <div class="services-help-data-line-gray" id="services-line-gray7"></div>
+                <div class="services-help-data-line-orange dissapear-service" id="services-line-orange7"></div>
+            </li>
+
+            <li class="services-help-data-question">
+                <div class="services-help-data-answer-container" id="commercial-information-question8">
+                    <p class="services-help-data-answer-p">¿Qué pasa si no tengo productos con Movistar?</p>
+
+                    <div class="services-help-data-answer-arrows">
+                        <img src="assets/services-help-data-answer-drop-down.svg " alt=""
+                             class="services-help-data-answer-drop-down" id="services-arrow-down8">
+                        <img src="assets/services-help-data-answer-drop-up.svg " alt=""
+                             class="services-help-data-answer-drop-up dissapear-service" id="services-arrow-up8">
+                    </div>
+                </div>
+
+                <p class="services-help-data-text dissapear-service" id="commercial-information-answer8">
+                    Para adquirir créditos con Movistar Money,
+                    es necesario ser cliente Movistar, por lo tanto,
+                    te invitamos a adquirir un plan pospago en <a href="https://www.movistar.co/" class="services-link">www.movistar.co </a>
+                </p>
+
+                <div class="services-help-data-line-gray" id="services-line-gray8"></div>
+                <div class="services-help-data-line-orange dissapear-service" id="services-line-orange8"></div>
+            </li>
+
+            <li class="services-help-data-question">
+
+                <div class="services-help-data-answer-container" id="commercial-information-question9">
+                    <p class="services-help-data-answer-p">¿Cuándo llega mi celular?</p>
+
+                    <div class="services-help-data-answer-arrows">
+                        <img src="assets/services-help-data-answer-drop-down.svg " alt=""
+                             class="services-help-data-answer-drop-down" id="services-arrow-down9">
+                        <img src="assets/services-help-data-answer-drop-up.svg " alt=""
+                             class="services-help-data-answer-drop-up dissapear-service" id="services-arrow-up9">
+                    </div>
+                </div>
+
+                <p class="services-help-data-text dissapear-service" id="commercial-information-answer9">
+                    Recuerda que el equipo ha sido vendido por Movistar Colombia. Para consultar el estado de
+                    tu compra de celulares, puedes ingresar a <a href="https://www.movistar.co/" class="services-link">www.movistar.co </a>
+                </p>
+
+                <div class="services-help-data-line-gray" id="services-line-gray9"></div>
+                <div class="services-help-data-line-orange dissapear-service" id="services-line-orange9"></div>
+            </li>
+
+            <li class="services-help-data-question">
+                <div class="services-help-data-answer-container" id="commercial-information-question10">
+                    <p class="services-help-data-answer-p">¿Cómo adquiero un celular con el crédito
+                        de Movistar Money?
+                    </p>
+
+                    <div class="services-help-data-answer-arrows">
+                        <img src="assets/services-help-data-answer-drop-down.svg " alt=""
+                             class="services-help-data-answer-drop-down" id="services-arrow-down10">
+                        <img src="assets/services-help-data-answer-drop-up.svg " alt=""
+                             class="services-help-data-answer-drop-up dissapear-service" id="services-arrow-up10">
+                    </div>
+                </div>
+
+                <p class="services-help-data-text dissapear-service" id="commercial-information-answer10">
+                    En la primera etapa llegará un mensaje de texto o correo electrónico a determinado
+                    número de clientes. Pronto tendremos disponibilidad de ofrecer el crédito a través de otros canales.
+                    ¡Si eres cliente Movistar y cumples con los requisitos puedes <a href="index.html#contact"
+                                                                                     class="services-link">enviarnos tus
+                    datos por medio del formulario!</a>
+                </p>
+
+                <div class="services-help-data-line-gray" id="services-line-gray10"></div>
+                <div class="services-help-data-line-orange dissapear-service" id="services-line-orange10"></div>
+            </li>
+
+            <li class="services-help-data-question">
+
+                <div class="services-help-data-answer-container" id="commercial-information-question11">
+                    <p class="services-help-data-answer-p">¿Cuáles son los requisitos para adquirir un crédito de
+                        equipos?</p>
+
+                    <div class="services-help-data-answer-arrows">
+                        <img src="assets/services-help-data-answer-drop-down.svg " alt=""
+                             class="services-help-data-answer-drop-down" id="services-arrow-down11">
+                        <img src="assets/services-help-data-answer-drop-up.svg " alt=""
+                             class="services-help-data-answer-drop-up dissapear-service" id="services-arrow-up11">
+                    </div>
+                </div>
+
+                <p class="services-help-data-text dissapear-service" id="commercial-information-answer11">
+                    Se requiere ser cliente Movistar persona natural con un plan móvil pospago con minimo 6 meses
+                    de antiguedad. Además, ser mayor de edad, colombiano y tener cuenta de correo electrónico activa
+                </p>
+
+                <div class="services-help-data-line-gray" id="services-line-gray11"></div>
+                <div class="services-help-data-line-orange dissapear-service" id="services-line-orange11"></div>
+            </li>
+
+        </ul>
+    </section>
+
+
+    <section class="services-help-data services-help-data2 dissapear-service" id="my-account-questions">
+
+        <div class="services-help-data-title-container">
+            <img src="assets/services-help-data-title-image2.svg" alt="" class="services-help-data-title-image">
+            <h3 class="services-help-data-title">Mi cuenta</h3>
+        </div>
+
+
+        <ul class="services-help-data-questions services-help-data-questions2 " id="services-help-data-questions2">
+
+            <li class="services-help-data-question">
+
+                <div class="services-help-data-answer-container" id="my-account-question12">
+                    <p class="services-help-data-answer-p">¿Cómo ingreso a mi cuenta?</p>
+
+                    <div class="services-help-data-answer-arrows">
+                        <img src="assets/services-help-data-answer-drop-down.svg " alt=""
+                             class="services-help-data-answer-drop-down" id="services-arrow-down12">
+                        <img src="assets/services-help-data-answer-drop-up.svg " alt=""
+                             class="services-help-data-answer-drop-up dissapear-service" id="services-arrow-up12">
+                    </div>
+                </div>
+
+                <div class="services-help-data-text services-my-account dissapear-service" id="my-account-answer12">
+                    <p class="services-my-account-first-p">
+                        Entra a www.movistarmoney.co y haz clic en
+                        <a href="https://personas.movistarmoney.co/login" class="services-link">
+                            <img src="assets/my-account-blue.svg" alt="" class="services-my-account-link">
+                            <span>Mi cuenta</span>
+                        </a>
+                    </p>
+
+                    <h4 class="services-my-account-tittle">Ingreso por primera vez</h4>
+                    <ol class="services-my-account-list">
+                        <li class="services-my-account-list-item">
+                            <div><span>1</span></div>
+                            Dígita tu número de documento y
+                            los 3 últimos números de tu línea móvil registrada en el crédito.
+                        </li>
+
+                        <li class="services-my-account-list-item">
+                            <div><span>2</span></div>
+                            Asigna una contraseña segura
+                            (de 8 a 12 caracteres con letras minúsculas y mayúsculas,
+                            símbolos y números).
+                        </li>
+                    </ol>
+
+                    <h4 class="services-my-account-tittle">He olvidado mi usuario y contraseña</h4>
+                    <ol class="services-my-account-list">
+                        <li class="services-my-account-list-item">
+                            <div><span>1</span></div>
+                            Puedes dar clic en “recuperar contraseña”
+                        </li>
+
+                        <li class="services-my-account-list-item">
+                            <div><span>2</span></div>
+                            Te llegará un link al correo electrónico registrado para que recuperes tu
+                            contraseña y asignes una nueva.
+                        </li>
+                    </ol>
+                </div>
+
+                <div class="services-help-data-line-gray" id="services-line-gray12"></div>
+                <div class="services-help-data-line-orange dissapear-service" id="services-line-orange12"></div>
+            </li>
+
+            <li class="services-help-data-question">
+                <div class="services-help-data-answer-container" id="my-account-question13">
+                    <p class="services-help-data-answer-p">¿Cuál es mi usuario de cuenta?</p>
+
+                    <div class="services-help-data-answer-arrows">
+                        <img src="assets/services-help-data-answer-drop-down.svg " alt=""
+                             class="services-help-data-answer-drop-down" id="services-arrow-down13">
+                        <img src="assets/services-help-data-answer-drop-up.svg " alt=""
+                             class="services-help-data-answer-drop-up dissapear-service" id="services-arrow-up13">
+                    </div>
+                </div>
+
+                <p class="services-help-data-text dissapear-service" id="my-account-answer13">
+                    Tu usuario de cuenta es tu numero de identidad
+                </p>
+
+                <div class="services-help-data-line-gray" id="services-line-gray13"></div>
+                <div class="services-help-data-line-orange dissapear-service" id="services-line-orange13"></div>
+            </li>
+
+            <li class="services-help-data-question">
+                <div class="services-help-data-answer-container" id="my-account-question14">
+                    <p class="services-help-data-answer-p">¿Qué puedo hacer a través de mi cuenta?</p>
+
+                    <div class="services-help-data-answer-arrows">
+                        <img src="assets/services-help-data-answer-drop-down.svg " alt=""
+                             class="services-help-data-answer-drop-down" id="services-arrow-down14">
+                        <img src="assets/services-help-data-answer-drop-up.svg " alt=""
+                             class="services-help-data-answer-drop-up dissapear-service" id="services-arrow-up14">
+                    </div>
+                </div>
+
+                <p class="services-help-data-text dissapear-service" id="my-account-answer14">
+                    Al ingresar a <a href="https://personas.movistarmoney.co/login" class="services-link">tu cuenta</a> , puedes visualizar todo el detalle de
+                    tu crédito,
+                    ver tu saldo, cuotas pagas, cuotas pendientes, intereses, amoritzaciones,
+                    solicitudes, ver tu factura, y hablar con un asesor desde nuestro Bot
+                    para generar algúna solicitud sobre tu crédito.
+                </p>
+
+                <div class="services-help-data-line-gray" id="services-line-gray14"></div>
+                <div class="services-help-data-line-orange dissapear-service" id="services-line-orange14"></div>
+            </li>
+
+            <li class="services-help-data-question">
+
+                <div class="services-help-data-answer-container" id="my-account-question15">
+                    <p class="services-help-data-answer-p">¿Existe algún contrato?</p>
+
+                    <div class="services-help-data-answer-arrows">
+                        <img src="assets/services-help-data-answer-drop-down.svg " alt=""
+                             class="services-help-data-answer-drop-down" id="services-arrow-down15">
+                        <img src="assets/services-help-data-answer-drop-up.svg " alt=""
+                             class="services-help-data-answer-drop-up dissapear-service" id="services-arrow-up15">
+                    </div>
+                </div>
+
+                <p class="services-help-data-text dissapear-service" id="my-account-answer15">
+                    Sí, el contrato debe ser aceptado durante el proceso y llega a tu correo electrónico registrado.
+                </p>
+
+                <div class="services-help-data-line-gray" id="services-line-gray15"></div>
+                <div class="services-help-data-line-orange dissapear-service" id="services-line-orange15"></div>
+            </li>
+
+            <li class="services-help-data-question">
+                <div class="services-help-data-answer-container" id="my-account-question16">
+                    <p class="services-help-data-answer-p">¿Cómo creo una petición, queja o reclamo?</p>
+
+                    <div class="services-help-data-answer-arrows">
+                        <img src="assets/services-help-data-answer-drop-down.svg " alt=""
+                             class="services-help-data-answer-drop-down" id="services-arrow-down16">
+                        <img src="assets/services-help-data-answer-drop-up.svg " alt=""
+                             class="services-help-data-answer-drop-up dissapear-service" id="services-arrow-up16">
+                    </div>
+                </div>
+
+                <p class="services-help-data-text dissapear-service" id="my-account-answer16">
+                    Puedes crear una PQR por medio de nuestro Chatbot, opción "crear PQR" y escribir tu Petición,
+                    queja o reclamo. También puedes contactar a un asesor y comentarle tu caso.
+                </p>
+
+                <div class="services-help-data-line-gray" id="services-line-gray16"></div>
+                <div class="services-help-data-line-orange dissapear-service" id="services-line-orange16"></div>
+            </li>
+
+
+        </ul>
+    </section>
+
+    <section class="services-help-data services-help-data3 dissapear-service" id="payments-questions">
+
+        <div class="services-help-data-title-container">
+            <img src="assets/services-help-data-title-image3.svg" alt="" class="services-help-data-title-image">
+            <h3 class="services-help-data-title">Pagos</h3>
+        </div>
+
+
+        <ul class="services-help-data-questions services-help-data-questions2" id="servicesPaymentsClick">
+
+            <li class="services-help-data-question">
+                <div class="services-help-data-answer-container" id="payments-question17">
+                    <p class="services-help-data-answer-p">¿En dónde pago las cuotas del crédito?</p>
+
+                    <div class="services-help-data-answer-arrows">
+                        <img src="assets/services-help-data-answer-drop-down.svg " alt=""
+                             class="services-help-data-answer-drop-down" id="services-arrow-down17">
+                        <img src="assets/services-help-data-answer-drop-up.svg " alt=""
+                             class="services-help-data-answer-drop-up dissapear-service" id="services-arrow-up17">
+                    </div>
+                </div>
+
+                <p class="services-help-data-text dissapear-service" id="payments-answer17">
+                    Puedes pagar tu crédito junto con la factura de servicios de Movistar en los puntos autorizados.
+                    Si ya no eres cliente Movistar, ingresa por Autogestión y allí podrás pagar por PSE, tarjetas y
+                    puntos autorizados como Baloto o Efecty.
+                </p>
+
+                <div class="services-help-data-line-gray" id="services-line-gray17"></div>
+                <div class="services-help-data-line-orange dissapear-service" id="services-line-orange17"></div>
+            </li>
+
+            <li class="services-help-data-question">
+                <div class="services-help-data-answer-container" id="payments-question18">
+                    <p class="services-help-data-answer-p">¿Puedo hacer pagos anticipados?</p>
+
+                    <div class="services-help-data-answer-arrows">
+                        <img src="assets/services-help-data-answer-drop-down.svg " alt=""
+                             class="services-help-data-answer-drop-down" id="services-arrow-down18">
+                        <img src="assets/services-help-data-answer-drop-up.svg " alt=""
+                             class="services-help-data-answer-drop-up dissapear-service" id="services-arrow-up18">
+                    </div>
+                </div>
+
+                <p class="services-help-data-text dissapear-service" id="payments-answer18">
+                    Si, a partir de octubre podrás realizar pago anticipados sin penalización alguna.
+                </p>
+
+                <div class="services-help-data-line-gray" id="services-line-gray18"></div>
+                <div class="services-help-data-line-orange dissapear-service" id="services-line-orange18"></div>
+            </li>
+
+            <li class="services-help-data-question">
+                <div class="services-help-data-answer-container" id="payments-question19">
+                    <p class="services-help-data-answer-p">¿Puedo hacer refinanciaciones?</p>
+
+                    <div class="services-help-data-answer-arrows">
+                        <img src="assets/services-help-data-answer-drop-down.svg " alt=""
+                             class="services-help-data-answer-drop-down" id="services-arrow-down19">
+                        <img src="assets/services-help-data-answer-drop-up.svg " alt=""
+                             class="services-help-data-answer-drop-up dissapear-service" id="services-arrow-up19">
+                    </div>
+                </div>
+
+                <p class="services-help-data-text dissapear-service" id="payments-answer19">
+                    Si, a partir de octubre podrás solicitar refinanciaciones en tu crédito.
+                </p>
+
+                <div class="services-help-data-line-gray" id="services-line-gray19"></div>
+                <div class="services-help-data-line-orange dissapear-service" id="services-line-orange19"></div>
+            </li>
+
+            <li class="services-help-data-question">
+                <div class="services-help-data-answer-container" id="payments-question20">
+                    <p class="services-help-data-answer-p">¿Qué pasa si me atraso en los pagos?</p>
+
+                    <div class="services-help-data-answer-arrows">
+                        <img src="assets/services-help-data-answer-drop-down.svg " alt=""
+                             class="services-help-data-answer-drop-down" id="services-arrow-down20">
+                        <img src="assets/services-help-data-answer-drop-up.svg " alt=""
+                             class="services-help-data-answer-drop-up dissapear-service" id="services-arrow-up20">
+                    </div>
+                </div>
+
+                <p class="services-help-data-text dissapear-service" id="payments-answer20">
+                    El no pago oportuno y
+                    completo de una cuota generará intereses de
+                    mora a la tasa máxima permitida por la ley aplicable.
+                </p>
+
+                <div class="services-help-data-line-gray" id="services-line-gray20"></div>
+                <div class="services-help-data-line-orange dissapear-service" id="services-line-orange20"></div>
+            </li>
+
+            <li class="services-help-data-question">
+                <div class="services-help-data-answer-container" id="payments-question21">
+                    <p class="services-help-data-answer-p">¿Por qué mi crédito tiene IVA?</p>
+
+                    <div class="services-help-data-answer-arrows">
+                        <img src="assets/services-help-data-answer-drop-down.svg " alt=""
+                             class="services-help-data-answer-drop-down" id="services-arrow-down21">
+                        <img src="assets/services-help-data-answer-drop-up.svg " alt=""
+                             class="services-help-data-answer-drop-up dissapear-service" id="services-arrow-up21">
+                    </div>
+                </div>
+
+                <p class="services-help-data-text dissapear-service" id="payments-answer21">
+                    Los intereses de tu crédito tienen IVA porque según el Estatuto tributario colombiano,
+                    al ser un medio de pago de una operación de compra de un equipo que tiene IVA,
+                    los intereses se deben gravar con este impuesto.
+                </p>
+
+                <div class="services-help-data-line-gray" id="services-line-gray21"></div>
+                <div class="services-help-data-line-orange dissapear-service" id="services-line-orange21"></div>
+            </li>
+
+
+        </ul>
+    </section>
+
+    <section class="services-help-data services-help-data4 dissapear-service" id="security-questions">
+
+        <div class="services-help-data-title-container">
+            <img src="assets/services-help-data-title-image4.svg" alt="" class="services-help-data-title-image">
+            <h3 class="services-help-data-title">Seguridad</h3>
+        </div>
+
+
+        <ul class="services-help-data-questions services-help-data-questions4 " id="security-click">
+
+            <li class="services-help-data-question">
+                <div class="services-help-data-answer-container" id="security-question22">
+                    <p class="services-help-data-answer-p">¿Qué hago si tengo problemas con mi autenticación?</p>
+
+                    <div class="services-help-data-answer-arrows">
+                        <img src="assets/services-help-data-answer-drop-down.svg " alt=""
+                             class="services-help-data-answer-drop-down" id="services-arrow-down22">
+                        <img src="assets/services-help-data-answer-drop-up.svg " alt=""
+                             class="services-help-data-answer-drop-up dissapear-service" id="services-arrow-up22">
+                    </div>
+                </div>
+
+                <p class="services-help-data-text dissapear-service" id="security-answer22">
+                    Te sugerimos hacer el proceso a traves de un celular,
+                    sigue los pasos que te arroja tu pantalla, permanece en un lugar con luz suficiente
+                    y usa tu documento de identidad original. Si persisten las fallas puedes comunicarte
+                    a nuestras líneas de atención: <a href="tel:#409" class="services-link">#409</a> -
+                    <a href="tel:018000930160" class="services-link">018000930160</a>
+                    o interactúa con "Bot" para que te ayude a solucionar
+                    tus inquietudes o te comunique con uno de nuestros agentes.
+                </p>
+
+                <div class="services-help-data-line-gray" id="services-line-gray22"></div>
+                <div class="services-help-data-line-orange dissapear-service" id="services-line-orange22"></div>
+            </li>
+
+            <li class="services-help-data-question">
+                <div class="services-help-data-answer-container" id="security-question23">
+                    <p class="services-help-data-answer-p">¿Por qué debo mostrar mi rostro? </p>
+
+                    <div class="services-help-data-answer-arrows">
+                        <img src="assets/services-help-data-answer-drop-down.svg " alt=""
+                             class="services-help-data-answer-drop-down" id="services-arrow-down23">
+                        <img src="assets/services-help-data-answer-drop-up.svg " alt=""
+                             class="services-help-data-answer-drop-up dissapear-service" id="services-arrow-up23">
+                    </div>
+                </div>
+
+                <p class="services-help-data-text dissapear-service" id="security-answer23">
+                    De esta manera nos aseguramos que eres tú quien solicita el crédito y con
+                    esto evitamos suplantaciones y mantenemos nuestro proceso seguro y ágil para evitar tu
+                    desplazamiento.
+                </p>
+
+                <div class="services-help-data-line-gray" id="services-line-gray23"></div>
+                <div class="services-help-data-line-orange dissapear-service" id="services-line-orange23"></div>
+            </li>
+
+            <li class="services-help-data-question">
+                <div class="services-help-data-answer-container" id="security-question24">
+                    <p class="services-help-data-answer-p"> ¿Qué pasa con mis datos personales? </p>
+
+                    <div class="services-help-data-answer-arrows">
+                        <img src="assets/services-help-data-answer-drop-down.svg " alt=""
+                             class="services-help-data-answer-drop-down" id="services-arrow-down24">
+                        <img src="assets/services-help-data-answer-drop-up.svg " alt=""
+                             class="services-help-data-answer-drop-up dissapear-service" id="services-arrow-up24">
+                    </div>
+                </div>
+
+                <p class="services-help-data-text dissapear-service" id="security-answer24">
+                    Todos tus datos personales están protegidos y son confidenciales.
+                    En nuestro proceso tratamos tu información conforme a nuestra <a href="politica_tratamiento.html"
+                                                                                     class="services-link"> política de
+                    datos personales</a>.
+                </p>
+
+                <div class="services-help-data-line-gray" id="services-line-gray24"></div>
+                <div class="services-help-data-line-orange dissapear-service" id="services-line-orange24"></div>
+            </li>
+
+        </ul>
+    </section>
+</section>
+
+<section class="services-contact">
+    <p class="service-contact-first">
+        Estamos para ti 24/7
+    </p>
+    <p class="service-contact-second">
+        Comunícate con nosotros al <span>#409</span>, al <span> 01 8000 930 160</span> o escríbenos al
+        <span>servicioalcliente@movistarmoney.co</span> para ayudarte con tus inquietudes.
+    </p>
+</section>
+
+<footer class="service-footer">
+    <div class="footer-container">
+        <div class="more-about">
+            <h4 class="more-about-title"> Más de nosotros </h4>
+            <a href="politica_cobranza.html" class="more-about-link">Política de cobranzas</a>
+            <a href="politica_tratamiento.html" class="more-about-link">Política de tratamiento de datos</a>
+            <a href="terminos_condiciones.html" class="more-about-link">Términos y Condiciones de Movistar Money</a>
+        </div>
+
+        <div class="secure-section">
+            <img src="assets/security-movistar-logo.png" alt="" class="secure-section-symbol">
+            <p class="secure-section-content"> Contamos con un protocolo seguro para
+                proteger tus datos durante el proceso.
+            </p>
+        </div>
+    </div>
+</footer>
+
+<script src="services.js"></script>
+<div class="ws-button-wrap">
+    <a href="https://api.whatsapp.com/send?1=pt_BR&phone=+573152008280&text=Hola" class="ws-button"></a>
+</div>
 </body>
 </html>

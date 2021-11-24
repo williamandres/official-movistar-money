@@ -5,247 +5,287 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="question.css"> 
+    <link rel="stylesheet" href="question.css">
     <link rel="icon" href="assets/favicon-official.ico">
     <title>Document</title>
 </head>
 <body>
-    <header class="header wrapper">
-        <div class="container-logo">
-            <img src="assets/logo-movistar.png" alt="" class="logo">
-        </div>
+<header class="header wrapper">
+    <div class="container-logo">
+        <a href="index.html">
+            <img src="assets/logo-movistar.svg" alt="" class="logo">
+        </a>
+    </div>
 
-        <nav class="menu">
+    <nav class="menu">
+        <a href="index.html" class=" menu-link"
+           onclick="
+                dataLayer.push({
+                'event': 'trackEvent',
+                'eventCategory': 'movistar money',
+                'eventAction': 'click::menú',
+                'eventLabel': 'inicio'
+                });">
 
-            <a href="index.html" class="menu-link">
-                <img src="assets/home-white.svg" alt="" class="menu-link-img">
-                <div class="menu-link-text appear-big-screen">Inicio</div>
-                <div class="menu-link-underline-hover"></div>
-            </a>
+            <img src="assets/home_blue.svg" alt="" class="menu-link-img">
+            <div class="menu-link-text">Inicio</div>
+            <div class="menu-link-underline-hover"></div>
+        </a>
 
-            <a href="#" class="menu-link-blue">
-                <img src="assets/question_blue.svg" alt="" class="menu-link-img">
-                <div class="menu-link-text">¿Quiénes Somos?</div>
-                <div class="menu-link-underline"></div>
-            </a>
+        <a href="question.html" class="menu-link-blue"
+           onclick="
+                dataLayer.push({
+                'event': 'trackEvent',
+                'eventCategory': 'movistar money',
+                'eventAction': 'click::menú',
+                'eventLabel': '¿Quiénes Somos?'
+                });">
+            <img src="assets/question-white.svg" alt="" class="menu-link-img">
+            <div class="menu-link-text appear-big-screen ">¿Quiénes Somos?</div>
+            <div class="menu-link-underline"></div>
+        </a>
 
-            <a href="more.html" class="menu-link">
-                <img src="assets/more-white.svg" alt="" class="menu-link-img">
-                <div class="menu-link-text appear-big-screen">Conoce más</div>
-                <div class="menu-link-underline-hover"></div>
-            </a>
+        <a href="more.html" class="menu-link"
+           onclick="
+            dataLayer.push({
+                'event': 'trackEvent',
+                'eventCategory': 'movistar money',
+                'eventAction': 'click::menú',
+                'eventLabel': 'Conoce más'
+                });">
 
-            <a href="blog.html" class="menu-link">
-                <img src="assets/blog-white.svg" alt="" class="menu-link-img">
-                <div class="menu-link-text appear-big-screen">Blog</div>
-                <div class="menu-link-underline-hover"></div>
-            </a>
+            <img src="assets/more-white.svg" alt="" class="menu-link-img">
+            <div class="menu-link-text appear-big-screen"> Conoce más</div>
+            <div class="menu-link-underline-hover"></div>
+        </a>
 
-            <a href="#" class="menu-link-blue my-account">
-                <img src="assets/my-account-blue.svg" alt="" class="my-account-icon">
-                <div class="menu-link-text appear-big-screen">Mi cuenta</div>
-            </a>
+        <a href="blog.html" class="menu-link"
+           onclick="
+            dataLayer.push({
+                'event': 'trackEvent',
+                'eventCategory': 'movistar money',
+                'eventAction': 'click::menú',
+                'eventLabel': 'Blog'
+                });">
+            <img src="assets/blog-white.svg" alt="" class="menu-link-img">
+            <div class="menu-link-text appear-big-screen">Blog</div>
+            <div class="menu-link-underline-hover"></div>
+        </a>
 
-            <div class="pop-up">
-                <div class="pop-up-content">
-                    Si ya tienes un crédito de equipo con Movistar Money, 
-                    puedes consultar detalles de tu crédito ingresando a tu cuenta
-                </div>
-            
-                <div class="arrow-pop-up"></div>
-            </div>
-        </nav>
-    </header>
+        <a href="https://personas.movistarmoney.co/login" class="menu-link-blue my-account"
+           onclick="
+            dataLayer.push({
+                'event': 'trackEvent',
+                'eventCategory': 'movistar money',
+                'eventAction': 'click::mi cuenta',
+                'eventLabel': 'mi cuenta'
+                });">
+            <img src="assets/my-account-blue.svg" alt="" class="my-account-icon">
+            <div class="menu-link-text appear-big-screen">Mi cuenta</div>
+        </a>
 
-    <section class="hero-question">
-        <img src="assets/hero-image-question-mobile.svg" alt="" class="hero-question-img dissapear-big-resolution">
-
-        
-        <div class="hero-question-content">
-            <h1 class="hero-question-title">¿Quiénes Somos?</h1>
-            
-            <article class="hero-question-paragraph">
-                Movistar Money ha llegado con la plataforma de crédito digital más 
-                innovadora del mercado. ¡Somos tu aliado financiero en la web!
-            </article>
-        </div>
-        
-        <img src="assets/hero-image-question-desktop.svg" alt="" class="hero-question-img-desktop appear-big-screen">
-    </section>
-
-    <section class="features-question">
-        <img src="assets/feature-question-img.png" alt="" class="feature-question-img">
-
-        <div class="features-question-articles">
-            <article class=" feature-question-article">
-                <h2 class=" feature-question-article-title">
-                    Somos tu solución financiera digital
-                </h2>
-                <p class=" feature-question-article-paragraph">
-                    Te ofrecemos servicios financieros completamente 
-                    tecnológicos, con el  fin de romper barreras de 
-                    inclusión financiera.
-                </p>
-            </article>
-    
-            <article class=" feature-question-article">
-                <h2 class=" feature-question-article-title">
-                    Transparencia e innovación 
-                </h2>
-                <p class=" feature-question-article-paragraph">
-                    Es nuestra promesa de valor ser claros en la información y 
-                    ágiles en los procesos de adquisición de créditos desde cualquier 
-                    lugar y en minutos
-                </p>
-            </article>
-
-            <article class=" feature-question-article">
-                <h2 class=" feature-question-article-title">
-                    Transformamos tu experiencia tradicional
-                </h2>
-                <p class="feature-question-article-paragraph">
-                    En tan solo 5 pasos en nuestra plataforma,
-                    podrás realizar el proceso de solicitud de crédito, 
-                    sin trámites físicos, papeleos ni documentos adicionales.
-                </p>
-            </article>
-        </div>
-
-    </section>
-
-    <section class="partners">
-        <div class="partners-paragraph">
-            Movistar Money tiene como socios a Telefónica y BBVA, quienes han unido su
-            trayectoria y experiencia para crear la empresa de servicios financieros digitales 
-            más innovadora del país.
-        </div>
-    </section>
-    
-    <section class="mission">
-        <article class="mission-article">
-
-            <div class="mission-article-img-container">
-                <img src="assets/mission-article-img.png" alt="" class="mission-article-img">
+        <div class="pop-up">
+            <div class="pop-up-content">
+                Si ya tienes un crédito de equipo con Movistar Money,
+                puedes consultar detalles de tu crédito ingresando a tu cuenta
             </div>
 
-            <div class="mission-article-content">
-                <h2 class="mission-article-tittle">Nuestra misión</h2>
-                <p class="mission-article-paragraph">
-                    Brindar soluciones financieras 100% digitales para lo colombianos, 
-                    que faciliten sus vidas y transformen los largos procesos de solicitud 
-                    de un servicio financiero tradicional, en una experiencia ágil, 
-                    fácil de entender y sin papeleos. Nuestro objetivo es actuar con
-                    transparencia y confianza en nuestras relaciones con los clientes 
-                    y brindar seguridad e innovación en nuestros procesos.
-                </p>
-            </div>
+            <div class="arrow-pop-up"></div>
+        </div>
+    </nav>
+
+</header>
+
+<section class="hero-question">
+    <img src="assets/hero-image-question-mobile.svg" alt="" class="hero-question-img dissapear-big-resolution">
+
+
+    <div class="hero-question-content">
+        <h1 class="hero-question-title">¿Quiénes Somos?</h1>
+
+        <article class="hero-question-paragraph">
+            Movistar Money ha llegado con la plataforma de crédito digital más
+            innovadora del mercado. ¡Somos tu aliado financiero en la web!
+        </article>
+    </div>
+
+    <img src="assets/hero-image-question-desktop.svg" alt="" class="hero-question-img-desktop appear-big-screen">
+</section>
+
+<section class="features-question">
+    <img src="assets/feature-question-img.png" alt="" class="feature-question-img">
+
+    <div class="features-question-articles">
+        <article class=" feature-question-article">
+            <h2 class=" feature-question-article-title">
+                Somos tu solución financiera digital
+            </h2>
+            <p class=" feature-question-article-paragraph">
+                Te ofrecemos servicios financieros completamente
+                tecnológicos, con el fin de romper barreras de
+                inclusión financiera.
+            </p>
         </article>
 
-        <article class="mission-article">
-
-            <div class="mission-article-img-container">
-                <img src="assets/mission-article-img2.png" alt="" class="mission-article-img">
-            </div>
-
-            <div class="mission-article-content">
-                <h2 class="mission-article-tittle">Nuestra Visión </h2>
-                <p class="mission-article-paragraph">
-                    Convertirnos en la mejor experiencia de créditos digitales y soluciones 
-                    financieras para los colombianos, sobresaliendo en el mercado por nuestros 
-                    procesos ágiles, simples, fáciles de entender e innovadores; logrando 
-                    posicionarnos como la primera opción para los clientes Movistar en 
-                    soluciones de crédito en los próximos 5 años. 
-                </p>
-            </div>
+        <article class=" feature-question-article">
+            <h2 class=" feature-question-article-title">
+                Transparencia e innovación
+            </h2>
+            <p class=" feature-question-article-paragraph">
+                Es nuestra promesa de valor ser claros en la información y
+                ágiles en los procesos de adquisición de créditos desde cualquier
+                lugar y en minutos
+            </p>
         </article>
-    </section>
 
-    <section class="partners">
-        <div class="partners-paragraph">
-            Nuestro propósito es transformar la experiencia tradicional de los servicios financieros en Colombia 
-            en <strong>soluciones financieras completamente digitales</strong> 
-        </div>
-    </section>
+        <article class=" feature-question-article">
+            <h2 class=" feature-question-article-title">
+                Transformamos tu experiencia tradicional
+            </h2>
+            <p class="feature-question-article-paragraph">
+                En tan solo 5 pasos en nuestra plataforma,
+                podrás realizar el proceso de solicitud de crédito,
+                sin trámites físicos, papeleos ni documentos adicionales.
+            </p>
+        </article>
+    </div>
 
-    <section class="culture">
+</section>
 
-        <h2 class="culture-title">Nuestra cultura</h2>
+<section class="partners">
+    <div class="partners-paragraph">
+        Movistar Money tiene como socios a Telefónica y BBVA, quienes han unido su
+        trayectoria y experiencia para crear la empresa de servicios financieros digitales
+        más innovadora del país.
+    </div>
+</section>
 
-        <p class="culture-description">
-            Trabajamos por transformar tu experiencia, es nuestro objetivo actuar de  manera correcta: 
-        </p>
+<section class="mission">
+    <article class="mission-article">
 
-        <div class="culture-list-container">
-            <ul class="culture-list">
-                <li class="culture-list-item">
-                    <img src="assets/culture-time-icon.png" alt="" class="culture-list-item-icon">
-                    <p class="culture-list-item-paragraph">
-                        Tu tiempo es primero. Te damos opciones para que puedas hacer todos 
-                        los trámites de manera completamente Digital. 
-                    </p>
-                </li>
-                <li class="culture-list-item">
-                    <img src="assets/culture-network-icon.png" alt="" class="culture-list-item-icon">
-                    <p class="culture-list-item-paragraph">
-                        La Innovación es el sello de nuestros productos, procesos y recursos humano, 
-                        usamos tecnología de punta para anticiparnos a las necesidades y tendencias del mercado. 
-                    </p>
-                </li>
-
-                <li class="culture-list-item">
-                    <img src="assets/culture-secure-icon.png" alt="" class="culture-list-item-icon">
-                    <p class="culture-list-item-paragraph">
-                        Garantizamos la protección de datos de nuestros clientes con 
-                        la mejor tecnología y buenas prácticas de Seguridad en nuestros procesos.
-                    </p>
-                </li>
-            </ul>
-            <ul class="culture-list">
-                <li class="culture-list-item">
-                    <img src="assets/culture-heart-icon.png" alt="" class="culture-list-item-icon">
-                    <p class="culture-list-item-paragraph">
-                        Actuamos con Transparencia. Siempre informamos con claridad en un lenguaje 
-                        sencillo y en el momento oportuno a nuestros clientes, colaboradores y proveedores.
-                    </p>
-                </li>
-                <li class="culture-list-item">
-                    <img src="assets/culture-hands-icon.png" alt="" class="culture-list-item-icon">
-                    <p class="culture-list-item-paragraph">
-                        Generamos un vinculo de Confianza con relaciones honestas y cercanas. 
-                        Creamos experiencias personalizadas con nuestros clientes y colaboradores cumpliendo nuestras promesas con integridad.
-                    </p>
-                </li>
-                <li class="culture-list-item">
-                    <img src="assets/culture-person-icon.png" alt="" class="culture-list-item-icon">
-                    <p class="culture-list-item-paragraph">
-                        Tu seguridad es nuestra prioridad. Confirmamos tu identidad con una 
-                        verificación biométrica y validamos tu información con un proceso seguro.
-                    </p>
-                </li>
-            </ul>
+        <div class="mission-article-img-container">
+            <img src="assets/mission-article-img.png" alt="" class="mission-article-img">
         </div>
 
-        <img src="assets/" alt="" class="culture-image appear-big-screen" >
-    </section>
+        <div class="mission-article-content">
+            <h2 class="mission-article-tittle">Nuestra misión</h2>
+            <p class="mission-article-paragraph">
+                Brindar soluciones financieras 100% digitales para lo colombianos,
+                que faciliten sus vidas y transformen los largos procesos de solicitud
+                de un servicio financiero tradicional, en una experiencia ágil,
+                fácil de entender y sin papeleos. Nuestro objetivo es actuar con
+                transparencia y confianza en nuestras relaciones con los clientes
+                y brindar seguridad e innovación en nuestros procesos.
+            </p>
+        </div>
+    </article>
 
-    <footer class="footer">
+    <article class="mission-article">
 
-        <div class="footer-container">
-            <div class="more-about">
-                <h4 class="more-about-title"> Más de nosotros </h4>
-                <a href="politica_cobranza.html" class="more-about-link">Política de cobranzas</a>
-                <a href="politica_tratamiento.html" class="more-about-link">Política de tratamiento de datos</a>
-                <a href="terminos_condiciones.html" class="more-about-link">Términos y Condiciones de Movistar Money</a>
-            </div>
-    
-            <div class="secure-section">
-                <img src="assets/security-movistar-logo.png" alt="" class="secure-section-symbol">
-                <p class="secure-section-content"> Contamos con un protocolo seguro para 
-                    proteger tus datos durante el proceso. 
+        <div class="mission-article-img-container">
+            <img src="assets/mission-article-img2.png" alt="" class="mission-article-img">
+        </div>
+
+        <div class="mission-article-content">
+            <h2 class="mission-article-tittle">Nuestra Visión </h2>
+            <p class="mission-article-paragraph">
+                Convertirnos en la mejor experiencia de créditos digitales y soluciones
+                financieras para los colombianos, sobresaliendo en el mercado por nuestros
+                procesos ágiles, simples, fáciles de entender e innovadores; logrando
+                posicionarnos como la primera opción para los clientes Movistar en
+                soluciones de crédito en los próximos 5 años.
+            </p>
+        </div>
+    </article>
+</section>
+
+<section class="partners">
+    <div class="partners-paragraph">
+        Nuestro propósito es transformar la experiencia tradicional de los servicios financieros en Colombia
+        en <strong>soluciones financieras completamente digitales</strong>
+    </div>
+</section>
+
+<section class="culture">
+
+    <h2 class="culture-title">Nuestra cultura</h2>
+
+    <p class="culture-description">
+        Trabajamos por transformar tu experiencia, es nuestro objetivo actuar de manera correcta:
+    </p>
+
+    <div class="culture-list-container">
+        <ul class="culture-list">
+            <li class="culture-list-item">
+                <img src="assets/culture-time-icon.svg" alt="" class="culture-list-item-icon">
+                <p class="culture-list-item-paragraph">
+                    Tu tiempo es primero. Te damos opciones para que puedas hacer todos
+                    los trámites de manera completamente Digital.
                 </p>
-            </div>
+            </li>
+            <li class="culture-list-item">
+                <img src="assets/culture-network-icon.svg" alt="" class="culture-list-item-icon">
+                <p class="culture-list-item-paragraph">
+                    La Innovación es el sello de nuestros productos, procesos y recursos humano,
+                    usamos tecnología de punta para anticiparnos a las necesidades y tendencias del mercado.
+                </p>
+            </li>
+            <li class="culture-list-item">
+                <img src="assets/culture-secure-icon.svg" alt="" class="culture-list-item-icon">
+                <p class="culture-list-item-paragraph">
+                    Garantizamos la protección de datos de nuestros clientes con
+                    la mejor tecnología y buenas prácticas de Seguridad en nuestros procesos.
+                </p>
+            </li>
+            <li class="culture-list-item">
+                <img src="assets/culture-heart-icon.svg" alt="" class="culture-list-item-icon">
+                <p class="culture-list-item-paragraph">
+                    Actuamos con Transparencia. Siempre informamos con claridad en un lenguaje
+                    sencillo y en el momento oportuno a nuestros clientes, colaboradores y proveedores.
+                </p>
+            </li>
+            <li class="culture-list-item">
+                <img src="assets/culture-hands-icon.svg" alt="" class="culture-list-item-icon">
+                <p class="culture-list-item-paragraph">
+                    Generamos un vinculo de Confianza con relaciones honestas y cercanas.
+                    Creamos experiencias personalizadas con nuestros clientes y colaboradores cumpliendo nuestras
+                    promesas con integridad.
+                </p>
+            </li>
+            <li class="culture-list-item">
+                <img src="assets/culture-person-icon.svg" alt="" class="culture-list-item-icon">
+                <p class="culture-list-item-paragraph">
+                    Tu seguridad es nuestra prioridad. Confirmamos tu identidad con una
+                    verificación biométrica y validamos tu información con un proceso seguro.
+                </p>
+            </li>
+        </ul>
+    </div>
+
+    <img src="assets/" alt="" class="culture-image appear-big-screen">
+</section>
+
+<footer class="footer">
+
+    <div class="footer-container">
+        <div class="more-about">
+            <h4 class="more-about-title"> Más de nosotros </h4>
+            <a href="politica_cobranza.html" class="more-about-link">Política de cobranzas</a>
+            <a href="politica_tratamiento.html" class="more-about-link">Política de tratamiento de datos</a>
+            <a href="terminos_condiciones.html" class="more-about-link">Términos y Condiciones de Movistar Money</a>
         </div>
 
-    </footer>
+        <div class="secure-section">
+            <img src="assets/security-movistar-logo.png" alt="" class="secure-section-symbol">
+            <p class="secure-section-content"> Contamos con un protocolo seguro para
+                proteger tus datos durante el proceso.
+            </p>
+        </div>
+    </div>
+
+</footer>
+<div class="ws-button-wrap">
+    <a href="https://api.whatsapp.com/send?1=pt_BR&phone=+573152008280&text=Hola" class="ws-button"></a>
+</div>
 </body>
 </html>

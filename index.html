@@ -4,70 +4,89 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="facebook-domain-verification" content="8rdtc0py1zf6potj8s3s2cwpuvec9c" />
+    <meta name="facebook-domain-verification" content="8rdtc0py1zf6potj8s3s2cwpuvec9c"/>
     <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
-    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="assets/favicon-official.ico">
     <title>Movistar Money</title>
     <script src="https://www.google.com/recaptcha/api.js"></script>
 
     <script>
-        function timestamp() { var response = document.getElementById("g-recaptcha-response");
-            if (response == null || response.value.trim() == "")
-            {var elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value);elems["ts"] 
-            = JSON.stringify(new Date().getTime());
-            document.getElementsByName("captcha_settings")[0].value = JSON.stringify(elems); } 
-            } setInterval(timestamp, 500); 
-    </script> 
+        function timestamp() {
+            var response = document.getElementById("g-recaptcha-response");
+            if (response == null || response.value.trim() == "") {
+                var elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value);
+                elems["ts"]
+                    = JSON.stringify(new Date().getTime());
+                document.getElementsByName("captcha_settings")[0].value = JSON.stringify(elems);
+            }
+        }
 
-    <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new
-    Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-KBVPPT');</script> <!-- End Google Tag Manager
+        setInterval(timestamp, 500);
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start': new
+            Date().getTime(), event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-KBVPPT');</script> <!-- End Google Tag Manager
 -->
 </head>
 <body class="body">
-    <!-- Google Tag Manager (noscript) --> <noscript><iframe
-    src="https://www.googletagmanager.com/ns.html?id=GTMKBVPPT" height="0" width="0"
-    style="display:none;visibility:hidden"></iframe></noscript> <!-- End Google Tag Manager
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTMKBVPPT" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe>
+</noscript> <!-- End Google Tag Manager
     (noscript) -->
 
-    <header class="header wrapper">
-        <div class="container-logo">
-            <img src="assets/logo-movistar.png" alt="" class="logo">
-        </div>
+<header class="header wrapper">
+    <div class="container-logo">
+        <a href="index.html">
+            <img src="assets/logo-movistar.svg" alt="" class="logo">
+        </a>
+    </div>
 
-        <nav class="menu">
-            <a href="#" class=" menu-link-blue" 
-            onclick="
+    <nav class="menu">
+        <a href="index.html" class=" menu-link-blue"
+           onclick="
                 dataLayer.push({
                 'event': 'trackEvent',
                 'eventCategory': 'movistar money',
                 'eventAction': 'click::menú',
                 'eventLabel': 'inicio'
                 });">
-                
-                <img src="assets/home_blue.svg" alt="" class="menu-link-img">
-                <div class="menu-link-text">Inicio</div>
-                <div class="menu-link-underline"></div>
-            </a>
 
-            <a href="question.html" class="menu-link"
-            onclick="
+            <img src="assets/home_blue.svg" alt="" class="menu-link-img">
+            <div class="menu-link-text">Inicio</div>
+            <div class="menu-link-underline"></div>
+        </a>
+
+        <a href="question.html" class="menu-link"
+           onclick="
                 dataLayer.push({
                 'event': 'trackEvent',
                 'eventCategory': 'movistar money',
                 'eventAction': 'click::menú',
                 'eventLabel': '¿Quiénes Somos?'
                 });">
-                <img src="assets/question-white.svg" alt="" class="menu-link-img">
-                <div class="menu-link-text appear-big-screen ">¿Quiénes Somos?</div>
-                <div class="menu-link-underline-hover"></div>
-            </a>
+            <img src="assets/question-white.svg" alt="" class="menu-link-img">
+            <div class="menu-link-text appear-big-screen ">¿Quiénes Somos?</div>
+            <div class="menu-link-underline-hover"></div>
+        </a>
 
-            <a href="more.html" class="menu-link"
-            onclick="
+        <a href="more.html" class="menu-link"
+           onclick="
             dataLayer.push({
                 'event': 'trackEvent',
                 'eventCategory': 'movistar money',
@@ -75,396 +94,401 @@
                 'eventLabel': 'Conoce más'
                 });">
 
-                <img src="assets/more-white.svg" alt="" class="menu-link-img">
-                <div class="menu-link-text appear-big-screen">  Conoce más</div>
-                <div class="menu-link-underline-hover"></div>
-            </a>
+            <img src="assets/more-white.svg" alt="" class="menu-link-img">
+            <div class="menu-link-text appear-big-screen"> Conoce más</div>
+            <div class="menu-link-underline-hover"></div>
+        </a>
 
-            <a href="blog.html" class="menu-link"
-            onclick="
+        <a href="blog.html" class="menu-link"
+           onclick="
             dataLayer.push({
                 'event': 'trackEvent',
                 'eventCategory': 'movistar money',
                 'eventAction': 'click::menú',
                 'eventLabel': 'Blog'
                 });">
-                <img src="assets/blog-white.svg" alt="" class="menu-link-img">
-                <div class="menu-link-text appear-big-screen">Blog</div>
-                <div class="menu-link-underline-hover"></div>
-            </a>
+            <img src="assets/blog-white.svg" alt="" class="menu-link-img">
+            <div class="menu-link-text appear-big-screen">Blog</div>
+            <div class="menu-link-underline-hover"></div>
+        </a>
 
-            <a href="#" class="menu-link-blue my-account" 
-            onclick="
+        <a href="https://personas.movistarmoney.co/login" class="menu-link-blue my-account"
+           onclick="
             dataLayer.push({
                 'event': 'trackEvent',
                 'eventCategory': 'movistar money',
                 'eventAction': 'click::mi cuenta',
                 'eventLabel': 'mi cuenta'
                 });">
-                <img src="assets/my-account-blue.svg" alt="" class="my-account-icon">
-                <div class="menu-link-text appear-big-screen">Mi cuenta</div>
-            </a>
+            <img src="assets/my-account-blue.svg" alt="" class="my-account-icon">
+            <div class="menu-link-text appear-big-screen">Mi cuenta</div>
+        </a>
 
-            <div class="pop-up">
-                <div class="pop-up-content">
-                    Si ya tienes un crédito de equipo con Movistar Money, 
-                    puedes consultar detalles de tu crédito ingresando a tu cuenta
-                </div>
-            
-                <div class="arrow-pop-up"></div>
+        <div class="pop-up">
+            <div class="pop-up-content">
+                Si ya tienes un crédito de equipo con Movistar Money,
+                puedes consultar detalles de tu crédito ingresando a tu cuenta
             </div>
-        </nav>
-        
-    </header>
 
-    
+            <div class="arrow-pop-up"></div>
+        </div>
+    </nav>
 
-    
-    <section class="hero wrapper">
-        <article class="hero-promotion ">
-            <h2 class="hero-promotion-title">
-                Estamos preparando una 
-                experiencia digital de principio a fin. 
-            </h2>
-            <p class="hero-promotion-paragraph">
-                Acompáñanos en el despegue de Movistar Money 
-                con soluciones de crédito en línea.
-            </p>
+</header>
 
-            <p class="hero-promotion-paragraph">
-                ¡Servicio exclusivo para clientes Movistar!
-            </p>
+<section class="hero wrapper">
+    <article class="hero-promotion ">
+        <h2 class="hero-promotion-title">
+            Estamos preparando una
+            experiencia digital de principio a fin.
+        </h2>
+        <p class="hero-promotion-paragraph">
+            Acompáñanos en el despegue de Movistar Money
+            con soluciones de crédito en línea.
+        </p>
 
-            
-            <a href="#contact" class="hero-promotion-link button"
-            onclick="
+        <p class="hero-promotion-paragraph">
+            ¡Servicio exclusivo para clientes Movistar!
+        </p>
+
+
+        <a href="#contact" class="hero-promotion-link button"
+           onclick="
             dataLayer.push({
                 'event': 'trackEvent',
                 'eventCategory': 'movistar money',
                 'eventAction': 'click::banner',
                 'eventLabel': 'Saber más'
                 });">
-                Saber más
-            </a>
-            
-        </article>
+            Saber más
+        </a>
 
-        <article class="hero-promotion2 ">
-            
-            <p class="hero-promotion2-paragraph last-paragraph">
-                Somos una empresa innovadora que crea soluciones de financiación en un
-                entorno completamente digital
-            </p>
+    </article>
 
-            <a href="question.html" class="hero-promotion2-link button"
-            onclick="
+    <article class="hero-promotion2 ">
+
+        <p class="hero-promotion2-paragraph last-paragraph">
+            Somos una empresa innovadora que crea soluciones de financiación en un
+            entorno completamente digital
+        </p>
+
+        <a href="question.html" class="hero-promotion2-link button"
+           onclick="
             dataLayer.push({
                 'event': 'trackEvent',
                 'eventCategory': 'movistar money',
                 'eventAction': 'click::informativo',
                 'eventLabel': 'Conoce más'
                 });">
-                    Más información
-            </a>
-            
+            Más información
+        </a>
+
+    </article>
+
+
+</section>
+
+<section class="benefits ">
+    <h2 class="benefits-title">
+        Beneficios que podrás tener con nuestros servicios
+
+    </h2>
+    <div class="benefits-container">
+        <article class="benefits-article wrapper">
+            <h3 class="benefits-article-title">
+                Proceso 100% Digital
+            </h3>
+            <div class="benefits-article-line"></div>
+            <p class="benefits-article-paragraph">
+                ¡Sin filas ni papeleos! Las solicitudes de crédito
+                con Movistar Money se realizan en línea desde donde estés.
+            </p>
         </article>
-        
+        <article class="benefits-article wrapper">
+            <h3 class="benefits-article-title">Aprobación inmediata</h3>
+            <div class="benefits-article-line"></div>
+            <p class="benefits-article-paragraph">
+                Hacemos que tu experiencia sea ágil e innovadora,
+                con un proceso de aprobación inmediato y respuesta en línea.
+            </p>
+        </article>
+        <article class="benefits-article wrapper">
+            <h3 class="benefits-article-title">Fácil y seguro</h3>
+            <div class="benefits-article-line"></div>
+            <p class="benefits-article-paragraph">
+                Sólo debes seguir unos sencillos pasos para completar tu solicitud
+                y durante todo el proceso tus datos siempre estarán protegidos y serán
+                tratados bajo la política de tratamiento de datos.
+            </p>
+        </article>
+        <article class="benefits-article wrapper">
+            <h3 class="benefits-article-title">Experiencia personalizada</h3>
+            <div class="benefits-article-line"></div>
+            <p class="benefits-article-paragraph">
+                Entendemos las necesidades de cada cliente, por eso traemos
+                ofertas especiales y personalizadas, llevándote así, por una
+                experiencia única y hecha a tu medida.
+            </p>
+        </article>
+    </div>
+    <img src="assets/tree.png" alt="" class="benefits-image appear-big-screen">
+</section>
 
-    </section>
+<section class="features" id="features">
+    <div class="features-img2-container " id="features-image-container1">
+        <img src="assets/features-img.png " alt="" class="features-img2 appear-big-screen ">
+    </div>
+    <div class=" features-img2-container dissapear-element " id="features-image-container2">
+        <img src="assets/features-img2.png " alt="" class="features-img2 appear-big-screen ">
+    </div>
 
-    <section class="benefits ">
-        <h2 class="benefits-title">
-            Beneficios que podrás tener con nuestros servicios
-            
-        </h2>
-        <div class="benefits-container">
-            <article class="benefits-article wrapper">
-                <h3 class="benefits-article-title">
-                    Proceso 100% Digital
-                </h3>
-                <div class="benefits-article-line"></div>
-                <p class="benefits-article-paragraph">
-                    ¡Sin filas ni papeleos! Las solicitudes de crédito
-                    con Movistar Money se realizan en línea desde donde estés.
-                </p>
-            </article>
-            <article class="benefits-article wrapper">
-                <h3 class="benefits-article-title">Aprobación inmediata</h3>
-                <div class="benefits-article-line"></div>
-                <p class="benefits-article-paragraph">
-                    Hacemos que tu experiencia sea ágil e innovadora,
-                    con un proceso de aprobación inmediato y respuesta en línea.
-                </p>
-            </article>
-            <article class="benefits-article wrapper">
-                <h3 class="benefits-article-title">Fácil y seguro</h3>
-                <div class="benefits-article-line"></div>
-                <p class="benefits-article-paragraph">
-                    Sólo debes seguir unos sencillos pasos para completar tu solicitud 
-                    y durante todo el proceso tus datos siempre estarán protegidos y serán 
-                    tratados bajo la política de tratamiento de datos.
-                </p>
-            </article>
-            <article class="benefits-article wrapper">
-                <h3 class="benefits-article-title">Experiencia personalizada</h3>
-                <div class="benefits-article-line"></div>
-                <p class="benefits-article-paragraph">
-                    Entendemos las necesidades de cada cliente, por eso traemos 
-                    ofertas especiales y personalizadas, llevándote así, por una 
-                    experiencia única y hecha a tu medida.
-                </p>
-            </article>
-        </div>
-        <img src="assets/tree.png" alt="" class="benefits-image appear-big-screen">
-    </section>
+    <div class="features-content-container">
+        <h3 class="features-alert wrapper" id="features-alert">¡Ya está disponible!</h3>
 
-    <section class="features" id="features">
-        <div class="features-img2-container " id="features-image-container1">
-            <img src="assets/features-img.png " alt="" class="features-img2 appear-big-screen ">
-        </div>
-        <div class=" features-img2-container dissapear-element " id="features-image-container2">
-            <img src="assets/features-img2.png " alt="" class="features-img2 appear-big-screen ">
-        </div>
+        <div class="features-links-container wrapper">
 
-        <div class="features-content-container">
-            <h3 class="features-alert wrapper" id="features-alert">¡Ya está Disponible!</h3>
-    
-            <div class="features-links-container wrapper">
-    
-                <div class="features-link-container">
-                    <a  class="features-link features-link-active" id="features-link1">Crédito de equipos </a>
-                    <div class=" features-link-decoration " id="features-link-decoration1">
-                        <div class="features-link-underline"></div>
-                        <div class="features-link-arrow"></div>
-                        <div class="features-link-square"></div>
-                    </div>
+            <div class="features-link-container">
+                <a class="features-link features-link-active" id="features-link1">Crédito de equipos </a>
+                <div class=" features-link-decoration " id="features-link-decoration1">
+                    <div class="features-link-underline"></div>
+                    <div class="features-link-arrow"></div>
+                    <div class="features-link-square"></div>
                 </div>
-                <div class="features-link-container">
-                    <a  class="features-link features-link-inactive" id="features-link2">Crédito libre inversión</a>
-                    <div class=" features-link-decoration dissapear-element" id="features-link-decoration2">
-                        <div class="features-link-underline"></div>
-                        <div class="features-link-arrow"></div>
-                        <div class="features-link-square"></div>
-                    </div>
-                </div>    
             </div>
-    
-            <h2 class="features-title wrapper" id="features-title1">
-                ¡Somos un medio de pago en Movistar!
-            </h2>
-            <h2 class="features-title wrapper dissapear-element" id="features-title2">
-                ¡Muy pronto llegaremos, nos estamos preparando para ti!
-            </h2>
-    
-            <img src="assets/features-img.png" alt="" class="features-img wrapper dissapear-big-resolution" id="features-img1">
-            <img src="assets/features-img2.png" alt="" class="features-img wrapper dissapear-big-resolution dissapear-element" id="features-img2">
+            <div class="features-link-container">
+                <a class="features-link features-link-inactive" id="features-link2">Crédito libre inversión</a>
+                <div class=" features-link-decoration dissapear-element" id="features-link-decoration2">
+                    <div class="features-link-underline"></div>
+                    <div class="features-link-arrow"></div>
+                    <div class="features-link-square"></div>
+                </div>
+            </div>
+        </div>
 
-    
-            <ul class="features-list wrapper" id="features-list1">
-                <li class="features-list-items">
-                    Podrás pagar tu celular en el canal digital de Movistar con el crédito de equipos Movistar Money
-                </li>
-                <li class="features-list-items">
-                    Financiamos el 100% del equipo que 
-                    quieras comprar en Movistar
-                </li>
-                <li class="features-list-items">
-                    Sin filas ni papeleos, proceso 100% digital
-                </li>
-                <li class="features-list-items">
-                    Cuotas fijas todos los meses 
-                    *
-                </li>
-                <li class="features-list-items">
-                    Pagas las cuotas de tu crédito en 
-                    tu factura Movistar
-                </li>
-                <li class="features-list-items">
-                    Sin penalizaciones por pago anticipado
-                </li>
-                <li class="features-list-items">
-                    Cuentas claras y sin cargos ocultos
-                </li>
-            </ul> 
+        <h2 class="features-title wrapper" id="features-title1">
+            Somos un medio de pago en Movistar
+        </h2>
+        <h2 class="features-title wrapper dissapear-element" id="features-title2">
+            ¡Muy pronto llegaremos, nos estamos preparando para ti!
+        </h2>
 
-            <ul class="features-list wrapper dissapear-element" id="features-list2">
-                <li class="features-list-items">
-                    Podrás adquirir créditos de hasta 11 millones de pesos 
+        <img src="assets/features-img.png" alt="" class="features-img wrapper dissapear-big-resolution"
+             id="features-img1">
+        <img src="assets/features-img2.png" alt=""
+             class="features-img wrapper dissapear-big-resolution dissapear-element" id="features-img2">
+
+
+        <ul class="features-list wrapper" id="features-list1">
+            <li class="features-list-items">
+                Podrás pagar tu celular en el canal digital de Movistar con el crédito de equipos Movistar Money
+            </li>
+            <li class="features-list-items">
+                Financiamos el 100% del equipo que
+                quieras comprar en Movistar
+            </li>
+            <li class="features-list-items">
+                Sin filas ni papeleos, proceso 100% digital
+            </li>
+            <li class="features-list-items">
+                Cuotas fijas todos los meses
+                *
+            </li>
+            <li class="features-list-items">
+                Pagas las cuotas de tu crédito en
+                tu factura Movistar
+            </li>
+            <li class="features-list-items">
+                Sin penalizaciones por pago anticipado
+            </li>
+            <li class="features-list-items">
+                Cuentas claras y sin cargos ocultos
+            </li>
+        </ul>
+
+        <ul class="features-list wrapper dissapear-element" id="features-list2">
+            <li class="features-list-items">
+                Podrás adquirir créditos de hasta 11 millones de pesos
+            </li>
+            <li class="features-list-items">
+                Tasas preferenciales
+            </li>
+            <li class="features-list-items">
+                Sin filas ni papeleos
+            </li>
+            <li class="features-list-items">
+                Proceso 100% digital
+            </li>
+            <li class="features-list-items">
+                Cuotas fijas todos los meses
+            </li>
+            <li class="features-list-items">
+                Sin penalizaciones por pago anticipado
+            </li>
+            <li class="features-list-items">
+                Cuentas claras y sin cargos ocultos
+            </li>
+            <li class="features-list-items">
+                Desembolso en máximo 1 día hábil
+            </li>
+        </ul>
+
+        <div class="features-notification-container wrapper" id="features-notification-container">
+            <a href="terminos_condiciones.html" class="features-notification-link">*Aplican Términos y Condiciones</a>
+            <p class="features-notification ">
+                Para acceder a este beneficio Movistar te enviará una campaña personalizada a través de mensaje de texto
+                o correo electrónico.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<div class="requirement-contact" id="contact">
+    <section class="requirement">
+        <div class="requirement-container">
+            <h2 class="requirement-title wrapper"> Así de fácil </h2>
+
+            <p class="requirement-explanation wrapper">
+                Para acceder a uno de nuestros créditos debes:
+            </p>
+
+            <ul class="requirement-list ">
+                <li class="requirement-list-item">
+                    <img src="assets/identity-icon.svg" alt="" class="requirement-list-item-img">
+                    <p class="requirement-list-item-paragraph">
+                        Ser un ciudadano Colombiano
+                    </p>
                 </li>
-                <li class="features-list-items">
-                    Tasas preferenciales
+
+                <li class="requirement-list-item">
+                    <img src="assets/flag-icon.svg" alt="" class="requirement-list-item-img">
+                    <p class="requirement-list-item-paragraph">
+                        Ser cliente Movistar titular de línea Pospago o Prepago
+                    </p>
                 </li>
-                <li class="features-list-items">
-                    Sin filas ni papeleos
+
+                <li class="requirement-list-item">
+                    <img src="assets/id-icon.svg" alt="" class="requirement-list-item-img">
+                    <p class="requirement-list-item-paragraph">
+                        Ser mayor de edad
+                    </p>
                 </li>
-                <li class="features-list-items">
-                    Proceso 100% digital
+
+                <li class="requirement-list-item">
+                    <img src="assets/mail-icon.svg" alt="" class="requirement-list-item-img">
+                    <p class="requirement-list-item-paragraph">
+                        Tener correo electrónico activo
+                    </p>
                 </li>
-                <li class="features-list-items">
-                    Cuotas fijas todos los meses
-                </li>
-                <li class="features-list-items">
-                    Sin penalizaciones por pago anticipado
-                </li>
-                <li class="features-list-items">
-                    Cuentas claras y sin cargos ocultos
-                </li>
-                <li class="features-list-items">
-                    Desembolso en máximo 1 día hábil
+
+                <li class="requirement-list-item">
+                    <img src="assets/card-icon.svg" alt="" class="requirement-list-item-img">
+                    <p class="requirement-list-item-paragraph">
+                        No necesitas tener cuenta Bancaria,
+                        el valor del crédito se transfiere a Movistar (vendedor del equipo)
+                    </p>
                 </li>
             </ul>
-    
-            <div class="features-notification-container wrapper" id="features-notification-container">
-                <a href="terminos_condiciones.html" class="features-notification-link">*Aplican Términos y Condiciones</a>
-                <p class="features-notification ">
-                    Para acceder a este beneficio Movistar te enviará una campaña personalizada a través de mensaje de texto o correo electrónico
-                </p>
-            </div>
-            
-        </div>    
+
+            <p class="requirement-notification wrapper ">
+                *La aprobación de tu préstamo está sujeta a un estudio crediticio
+            </p>
+
+        </div>
     </section>
 
-    <div class="requirement-contact" id="contact">
-        <section class="requirement">
-            <div class="requirement-container">
-                <h2 class="requirement-title wrapper"> Así de fácil </h2>
-    
-                <p class="requirement-explanation wrapper">
-                    Para acceder a uno de nuestros créditos debes: 
-                </p>
-    
-                <ul class="requirement-list ">
-                    <li class="requirement-list-item">
-                        <img src="assets/identity-icon.png" alt="" class="requirement-list-item-img">
-                        <p class="requirement-list-item-paragraph">
-                            Ser un ciudadano Colombiano
-                        </p>
-                    </li>
-    
-                    <li class="requirement-list-item">
-                        <img src="assets/flag-icon.png" alt="" class="requirement-list-item-img">
-                        <p class="requirement-list-item-paragraph">
-                            Ser cliente Movistar titular de línea Pospago o Prepago
-                        </p>
-                    </li>
-    
-                    <li class="requirement-list-item">
-                        <img src="assets/id-icon.png" alt="" class="requirement-list-item-img">
-                        <p class="requirement-list-item-paragraph">
-                            Ser mayor de edad
-                        </p>
-                    </li>
-    
-                    <li class="requirement-list-item">
-                        <img src="assets/mail-icon.png" alt="" class="requirement-list-item-img">
-                        <p class="requirement-list-item-paragraph">
-                            Tener correo electrónico activo
-                        </p>
-                    </li>
-    
-                    <li class="requirement-list-item">
-                        <img src="assets/card-icon.png" alt="" class="requirement-list-item-img">
-                        <p class="requirement-list-item-paragraph">
-                            No necesitas tener cuenta Bancaria, 
-                            el valor del crédito se transfiere a Movistar (vendedor del equipo)
-                        </p>
-                    </li>
-                </ul>
-    
-                <p class="requirement-notification wrapper ">
-                    *La aprobación de tu préstamo está sujeta a un estudio crediticio
-                </p>
-
-            </div>
+    <div class="contact-container">
+        <section class="contact disappear">
+            <h2 class="contact-main-message wrapper">
+                Te contactaremos para darte más
+                información del equipo que quieras
+            </h2>
+            <p class="contact-message wrapper">
+                También puedes solicitar que te enviemos más
+                información sobre nuestro crédito de libre
+                inversión y nuestros próximos lanzamientos.
+            </p>
+            <a href="" class="contact-link button">
+                Quiero tener más información
+            </a>
         </section>
 
-        <div class="contact-container">
-            <section class="contact disappear" >
-            <h2 class="contact-main-message wrapper">
-                    Te contactaremos para darte más 
-                    información del equipo que quieras
-                </h2>
-                <p class="contact-message wrapper">
-                    También puedes solicitar que te enviemos más 
-                    información sobre nuestro crédito de libre 
-                    inversión y nuestros próximos lanzamientos.
-                </p>
-                <a href="" class="contact-link button">
-                    Quiero tener más información
-                </a>
-            </section>
+        <form class="form" id="sampleForm"
+              action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" id="form"
+              name="my-form">
 
-            <form class="form" id="sampleForm" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"  method="POST"  id="form" name="my-form" >
+            <input type=hidden name='captcha_settings'
+                   value='{"keyname":"movistar","fallback":"true","orgId":"00D5e000000L8kE","ts":""}'>
+            <input type=hidden name="oid" value="00D5e000000L8kE">
+            <input type=hidden name="retURL" value="https://www.movistarmoney.co/succes.html?id=home">
+            <input type=hidden name="company" value="MovistarMoney"/>
 
-                <input type=hidden name='captcha_settings' value='{"keyname":"movistar","fallback":"true","orgId":"00D5e000000L8kE","ts":""}'> 
-                <input type=hidden name="oid" value="00D5e000000L8kE">
-                <input type=hidden name="retURL" value="https://www.movistarmoney.co/succes.html">
-                <input type=hidden name="company" value="MovistarMoney" />
+            <p class="form-message1">
+                ¡Sé el primero en enterarte!
+            </p>
+            <p class="form-message2">
+                Déjanos tus datos de contacto y selecciona
+                en que opción de crédito estas interesado
+            </p>
 
-                <p class="form-message1">
-                    ¡Sé el primero en enterarte!
-                </p>
-                <p class="form-message2">
-                    Déjanos tus datos de contacto y selecciona 
-                    en que opción de crédito estas interesado
-                </p>
+            <div class="container-main-inputs">
 
-                <div class="container-main-inputs">
-                    
-                    <label for="LastName" class="label">
-                        <div class="input-icon input-icon-name" style="width:155px">
-                        <input class="input input-name" placeholder="Nombre completo" id="last_name" maxlength="80" name="last_name" size="20" type="text"
-                        onclick="
+                <label for="LastName" class="label">
+                    <div class="input-icon input-icon-name">
+                        <input class="input input-name" placeholder="Nombre completo" id="last_name" maxlength="80"
+                               name="last_name" size="20" type="text"
+                               onclick="
                         dataLayer.push({
                             'event': 'trackEvent',
                             'eventCategory': 'movistar money',
                             'eventAction': 'click::informativo',
                             'eventLabel': 'Nombre completo'
-                            });"><br>
-                        </div>
-                    </label>
+                            });">
+                    </div>
+                </label>
 
-                    <label for="mobile" class="label">
-                        <div class="input-icon input-icon-mobile" style="width: 155px;">
-                            <input class="input input-name" placeholder="Número de móvil" id="00N5e00000bDrUC" name="00N5e00000bDrUC" maxlength="40"  size="20" type="phone"
-                            onclick="
+                <label for="mobile" class="label">
+                    <div class="input-icon input-icon-mobile">
+                        <input class="input input-name" placeholder="Número de móvil" id="00N5e00000bDrUC"
+                               name="00N5e00000bDrUC" maxlength="40" size="20" type="phone"
+                               onclick="
                             dataLayer.push({
                                 'event': 'trackEvent',
                                 'eventCategory': 'movistar money',
                                 'eventAction': 'click::informativo',
                                 'eventLabel': 'mobile'
                             });
-                            "><br>
-                        </div>
-                    </label>
-    
-                    <label for="Email" class="label">
-                        <div class="input-icon input-icon-email" style="width: 256px;">
-                            <input placeholder="Correo electrónico" class="input input-name" id="email" maxlength="80" name="email" size="20" type="email"
-                            onclick="
+                            ">
+                    </div>
+                </label>
+
+                <label for="Email" class="label">
+                    <div class="input-icon input-icon-email">
+                        <input placeholder="Correo electrónico" class="input input-name" id="email" maxlength="80"
+                               name="email" size="20" type="email"
+                               onclick="
                             dataLayer.push({
                                 'event': 'trackEvent',
                                 'eventCategory': 'movistar money',
                                 'eventAction': 'click::informativo',
                                 'eventLabel': 'email'
                             });
-                            "><br>
-                        </div>
-                    </label>
-    
-                    
+                            ">
+                    </div>
+                </label>
 
-                    
-                </div>
 
-                <div class="error" id="error"></div>
-                
-                <div class="checkbox-list-container">
-                    
-                    <div class="first-checkbox">
-                        <div class="checkbox-container-2">
-                            <input type="checkbox" class="input-text input-text-block w-100" id="00N5e00000eRocs" name="00N5e00000eRocs" checked value="1"
-                            onclick="
+            </div>
+
+            <div class="error" id="error"></div>
+
+            <div class="checkbox-list-container">
+
+                <div class="first-checkbox">
+                    <div class="checkbox-container-2">
+                        <input type="checkbox" class="input-text input-text-block w-100" id="00N5e00000eRocs"
+                               name="00N5e00000eRocs" checked value="1"
+                               onclick="
                             dataLayer.push({
                                 'event': 'trackEvent',
                                 'eventCategory': 'movistar money',
@@ -472,12 +496,12 @@
                                 'eventLabel': 'Crédito de equipos'
                             });
                             ">
-                            <label for="00N5e00000eRocs" class="checkbox-text label">Crédito de equipos</label>
-                        </div>
-        
-                        <div class="checkbox-container-2">
-                            <input type="checkbox" class="checkbox" id="00N5e00000eRoct" name="00N5e00000eRoct" value="1"
-                            onclick="
+                        <label for="00N5e00000eRocs" class="checkbox-text label">Crédito de equipos</label>
+                    </div>
+
+                    <div class="checkbox-container-2">
+                        <input type="checkbox" class="checkbox" id="00N5e00000eRoct" name="00N5e00000eRoct" value="1"
+                               onclick="
                             dataLayer.push({
                                 'event': 'trackEvent',
                                 'eventCategory': 'movistar money',
@@ -485,40 +509,43 @@
                                 'eventLabel': 'Crédito libre inversión'
                             });
                             ">
-                            <label for="00N5e00000eRoct" class="checkbox-text  label">Crédito libre inversión</label>
-                        </div>
+                        <label for="00N5e00000eRoct" class="checkbox-text  label">Crédito libre inversión</label>
                     </div>
-
                 </div>
 
-                
-                <div class="checkbox-container" style="margin-top: 20px;">
-                    <input id="accept-terms" name="accept-terms" type="checkbox" value="2" class="checkbox">
-                    <label class="checkbox-text checkbox-text1 label" for="accept-terms" >
-                        <a href="terminos_condiciones.html" style="color: white;">Acepto los Términos y Condiciones</a>  y la <a href="politica_tratamiento.html" style="color: white;">Política de Datos Personales</a> , declaro que los he 
-                        leído en su totalidad y que estoy de acuerdo con su contenido.
-                    </label>
-                </div>
-            
-                <div class="checkbox-container" style="margin-top:10px;">
-                    <input id="00N5e00000eRNZb" type="checkbox" value="1" class="checkbox" name="00N5e00000eRNZb" required checked>
-                    <label class="checkbox-text label" for="00N5e00000eRNZb">
-                        Autorizo recibir información comercial conforme a la Política de Datos Personales
-                    </label>
-                </div>
+            </div>
 
-                <p class="errorInput" id="errorInput" style="display: none;"> La autorización del uso de tus datos es necesario para nosotros</p>
-                
 
-                
+            <div class="checkbox-container" style="margin-top: 20px;">
+                <input id="accept-terms" name="accept-terms" type="checkbox" value="2" class="checkbox">
+                <label class="checkbox-text checkbox-text1 label" for="accept-terms">
+                    <a href="terminos_condiciones.html" style="color: white;">Acepto los Términos y Condiciones</a> y la
+                    <a href="politica_tratamiento.html" style="color: white;">Política de Datos Personales</a> , declaro
+                    que los he
+                    leído en su totalidad y que estoy de acuerdo con su contenido.
+                </label>
+            </div>
 
-                <div class="g-recaptcha" data-sitekey="6LckX7MUAAAAADDNzVnFn6GJseEGBD0qRVEL-dIl" ></div> 
-                
+            <div class="checkbox-container" style="margin-top:10px;">
+                <input id="00N5e00000eRNZb" type="checkbox" value="1" class="checkbox" name="00N5e00000eRNZb" required
+                       checked>
+                <label class="checkbox-text label" for="00N5e00000eRNZb">
+                    Autorizo recibir información comercial conforme a la Política de Datos Personales
+                </label>
+            </div>
 
-                <p class="message-captcha" id="messageCaptcha" style="display: none;">Debes darle check al Captcha</p>
-            
-                <input type="submit" id="btnSubmit" name="submit" class="input-submit hero-message-button" value="Enviar" onclick="return sendForm()"
-                onclick="
+            <p class="errorInput" id="errorInput" style="display: none;"> La autorización del uso de tus datos es
+                necesario para nosotros</p>
+
+
+            <div class="g-recaptcha" data-sitekey="6LckX7MUAAAAADDNzVnFn6GJseEGBD0qRVEL-dIl"></div>
+
+
+            <p class="message-captcha" id="messageCaptcha" style="display: none;">Debes darle check al Captcha</p>
+
+            <input type="submit" id="btnSubmit" name="submit" class="input-submit hero-message-button" value="Enviar"
+                   onclick="return sendForm()"
+                   onclick="
                 dataLayer.push({
                     'event': 'trackEvent',
                     'eventCategory': 'movistar money',
@@ -527,97 +554,100 @@
                     'userIdMoney': '{#btnSubmit}'
                 });
                 ">
-            
-            </form>
+
+        </form>
+    </div>
+</div>
+
+<section class="benefits2">
+
+    <img src="assets/benefits2-desktop-img.png" alt="" class="benefits2-img-desktop appear-big-screen">
+
+    <div class="container-benefit">
+
+        <h2 class="benefits2-main-message">
+            Desde tu cuenta de usuario podrás ahorrar tiempo,
+            haciendo los tramites en minutos y desde cualquier lugar
+        </h2>
+
+        <img src="assets/benefits2-img.png" alt="" class="benefits2-img dissapear-big-resolution">
+
+        <ul class="benefits2-list">
+            <li class="benefist2-list-item">
+                Acceder 24/7 a la información de tu crédito
+            </li>
+            <li class="benefist2-list-item">
+                Gestionar tus solicitudes y peticiones
+                completamente en línea a través de nuestro
+                Chatbot o con un asesor al instante
+            </li>
+            <li class="benefist2-list-item">
+                Consultar el detalle de tu plan de pagos
+            </li>
+            <li class="benefist2-list-item">
+                Podrás descargar tu factura, pagarla en línea y
+                puntos físicos o si eres cliente Movistar recibirás
+                el cargo en tu factura de servicio móvil
+            </li>
+            <li class="benefist2-list-item">
+                Abono de cuotas
+            </li>
+            <li class="benefist2-list-item">
+                Abono a capital con reducción de plazo o cuotas
+            </li>
+            <li class="benefist2-list-item">
+                Opción de refinanciación/ ajustes en tu crédito
+            </li>
+        </ul>
+
+    </div>
+</section>
+
+<section class="presentation">
+    <article class="presentation1">
+        <h2 class="presentation1-title">
+            Nuestro propósito
+        </h2>
+        <p class="presentation1-paragraph">
+            Transformar la experiencia tradicional de los
+            servicios financieros en Colombia a <strong> soluciones
+            financieras completamente digitales </strong>
+        </p>
+    </article>
+
+    <article class="presentation2">
+        <h2 class="presentation2-title">Estamos para ti 24/7</h2>
+        <p class="presentation2-paragraph">
+            Comunícate con nosotros al <span>#409</span>, al <span> 01 8000 930 160</span> o escríbenos al
+            <span>servicioalcliente@movistarmoney.co</span> para ayudarte con tus inquietudes.
+        </p>
+    </article>
+</section>
+
+<footer class="footer">
+
+    <div class="footer-container">
+        <div class="more-about">
+            <h4 class="more-about-title"> Más de nosotros </h4>
+            <a href="politica_cobranza.html" class="more-about-link">Política de cobranzas</a>
+            <a href="politica_tratamiento.html" class="more-about-link">Política de tratamiento de datos</a>
+            <a href="terminos_condiciones.html" class="more-about-link">Términos y Condiciones de Movistar Money</a>
+        </div>
+
+        <div class="secure-section">
+            <img src="assets/security-movistar-logo.svg" alt="" class="secure-section-symbol">
+            <p class="secure-section-content"> Contamos con un protocolo seguro para
+                proteger tus datos durante el proceso.
+            </p>
         </div>
     </div>
 
-    <section class="benefits2">
-        
-        <img src="assets/benefits2-desktop-img.png" alt="" class="benefits2-img-desktop appear-big-screen">
+</footer>
 
-        <div class="container-benefit">
-
-            <h2 class="benefits2-main-message">
-                Desde tu cuenta de usuario podrás ahorrar tiempo,
-                haciendo los tramites en minutos y desde cualquier lugar 
-            </h2>
-
-            <img src="assets/benefits2-img.png" alt="" class="benefits2-img dissapear-big-resolution">
-
-            <ul class="benefits2-list">
-                <li class="benefist2-list-item">
-                    Acceder 24/7 a la información de tu crédito
-                </li>
-                <li class="benefist2-list-item">
-                    Gestionar tus solicitudes y peticiones 
-                    completamente en línea a través de nuestro 
-                    Chatbot o con un asesor al instante
-                </li>
-                <li class="benefist2-list-item">
-                    Consultar el detalle de tu plan de pagos
-                </li>
-                <li class="benefist2-list-item">
-                    Podrás descargar tu factura, pagarla en línea y 
-                    puntos físicos o si eres cliente Movistar recibirás 
-                    el cargo en tu factura de servicio móvil
-                </li>
-                <li class="benefist2-list-item">
-                    Abono de cuotas
-                </li>
-                <li class="benefist2-list-item">
-                    Abono a capital con reducción de plazo o cuotas
-                </li>
-                <li class="benefist2-list-item">
-                    Opción de refinanciación/ ajustes en tu crédito
-                </li>
-            </ul>
-
-        </div>
-    </section>
-    
-    <section class="presentation">
-        <article class="presentation1">
-            <h2 class="presentation1-title">
-                Nuestro propósito
-            </h2>
-            <p class="presentation1-paragraph">
-                Transformar la experiencia tradicional de los 
-                servicios financieros en Colombia a <strong> soluciones 
-                    financieras completamente digitales </strong> 
-            </p>
-        </article>
-
-        <article class="presentation2">
-            <h2 class="presentation2-title">Estamos para ti 24/7</h2>
-            <p class="presentation2-paragraph">
-                Comunícate con nosotros al <span>#409</span>, al <span> 01 8000 930 160</span> o escríbenos al 
-                <span>servicioalcliente@movistarmoney.co</span>  para ayudarte con tus inquietudes.
-            </p>
-        </article>
-    </section>
-    
-    <footer class="footer">
-
-        <div class="footer-container">
-            <div class="more-about">
-                <h4 class="more-about-title"> Más de nosotros </h4>
-                <a href="politica_cobranza.html" class="more-about-link">Política de cobranzas</a>
-                <a href="politica_tratamiento.html" class="more-about-link">Política de tratamiento de datos</a>
-                <a href="terminos_condiciones.html" class="more-about-link">Términos y Condiciones de Movistar Money</a>
-            </div>
-    
-            <div class="secure-section">
-                <img src="assets/security-movistar-logo.png" alt="" class="secure-section-symbol">
-                <p class="secure-section-content"> Contamos con un protocolo seguro para 
-                    proteger tus datos durante el proceso. 
-                </p>
-            </div>
-        </div>
-
-    </footer>
-
-    <script src="form.js"></script>
-    <script src="script.js"></script>
+<script src="form.js"></script>
+<script src="script.js"></script>
+<div class="ws-button-wrap">
+    <a href="https://api.whatsapp.com/send?1=pt_BR&phone=+573152008280&text=Hola" class="ws-button"></a>
+</div>
 </body>
 </html>

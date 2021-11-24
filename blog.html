@@ -5,287 +5,337 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="blog.css"> 
+    <link rel="stylesheet" href="blog.css">
     <link rel="icon" href="assets/favicon-official.ico">
     <title>Movistar Money</title>
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+    <script src="https://www.google.com/recaptcha/api.js?hl=es"></script>
 </head>
 <body class="blog-body">
-    <header class="header wrapper">
-        <div class="container-logo">
-            <img src="assets/logo-movistar.png" alt="" class="logo">
+<header class="header wrapper">
+    <div class="container-logo">
+        <a href="index.html">
+            <img src="assets/logo-movistar.svg" alt="" class="logo">
+        </a>
+    </div>
+
+    <nav class="menu">
+        <a href="index.html" class=" menu-link"
+           onclick="
+                dataLayer.push({
+                'event': 'trackEvent',
+                'eventCategory': 'movistar money',
+                'eventAction': 'click::menú',
+                'eventLabel': 'inicio'
+                });">
+
+            <img src="assets/home_blue.svg" alt="" class="menu-link-img">
+            <div class="menu-link-text">Inicio</div>
+            <div class="menu-link-underline-hover"></div>
+        </a>
+
+        <a href="question.html" class="menu-link"
+           onclick="
+                dataLayer.push({
+                'event': 'trackEvent',
+                'eventCategory': 'movistar money',
+                'eventAction': 'click::menú',
+                'eventLabel': '¿Quiénes Somos?'
+                });">
+            <img src="assets/question-white.svg" alt="" class="menu-link-img">
+            <div class="menu-link-text appear-big-screen ">¿Quiénes Somos?</div>
+            <div class="menu-link-underline-hover"></div>
+        </a>
+
+        <a href="more.html" class="menu-link"
+           onclick="
+            dataLayer.push({
+                'event': 'trackEvent',
+                'eventCategory': 'movistar money',
+                'eventAction': 'click::menú',
+                'eventLabel': 'Conoce más'
+                });">
+
+            <img src="assets/more-white.svg" alt="" class="menu-link-img">
+            <div class="menu-link-text appear-big-screen"> Conoce más</div>
+            <div class="menu-link-underline-hover"></div>
+        </a>
+
+        <a href="blog.html" class="menu-link-blue"
+           onclick="
+            dataLayer.push({
+                'event': 'trackEvent',
+                'eventCategory': 'movistar money',
+                'eventAction': 'click::menú',
+                'eventLabel': 'Blog'
+                });">
+            <img src="assets/blog-white.svg" alt="" class="menu-link-img">
+            <div class="menu-link-text appear-big-screen">Blog</div>
+            <div class="menu-link-underline"></div>
+        </a>
+
+        <a href="https://personas.movistarmoney.co/login" class="menu-link-blue my-account"
+           onclick="
+            dataLayer.push({
+                'event': 'trackEvent',
+                'eventCategory': 'movistar money',
+                'eventAction': 'click::mi cuenta',
+                'eventLabel': 'mi cuenta'
+                });">
+            <img src="assets/my-account-blue.svg" alt="" class="my-account-icon">
+            <div class="menu-link-text appear-big-screen">Mi cuenta</div>
+        </a>
+
+        <div class="pop-up">
+            <div class="pop-up-content">
+                Si ya tienes un crédito de equipo con Movistar Money,
+                puedes consultar detalles de tu crédito ingresando a tu cuenta
+            </div>
+
+            <div class="arrow-pop-up"></div>
+        </div>
+    </nav>
+
+</header>
+<div class="blog-section" id="blog-section">
+    <section class="blog-hero">
+        <div class="blog-hero-content">
+            <h1 class="blog-hero-title">Blog</h1>
+            <p class="blog-hero-message">
+                Te brindamos los mejores 
+                consejos y tips sobre educación financiera, ahorro y finanzas 
+            </p>
+        </div>
+        <img src="assets/blog-hero-image-mob.svg" alt="" class="blog-hero-image-mob dissapear-big-resolution">
+        <img src="assets/blog-hero-image-desk.svg" alt="" class="blog-hero-image-desk appear-big-screen">
+    </section>
+
+    <a href="article1.html" class="blog-post1-link">
+        <section class="blog-post1" id="blog-post-1">
+            <img src="assets/blog-post-image.png" alt="" class="blog-post1-img">
+
+            <div class="blog-post1-content">
+
+                <div class="blog-post1-content-container">
+                    <p class="blog-post1-date">
+                        Toma control de tus finanzas - 10 de Oct. 2021 
+                    </p>
+
+                    <h2 class="blog-post1-title">
+                        Lo que debes tener en cuenta al
+                        momento de solicitar un crédito
+                    </h2>
+
+                    <div class="blog-post1-line">
+
+                    </div>
+
+                    <p class="blog-post1-message">
+                        El principal beneficio que te puede brindar
+                        un crédito es la rapidez con la que te
+                        entregan los recursos….
+                    </p>
+
+                </div>
+
+            </div>
+        </section>
+    </a>
+
+    <a href="article2.html" class="blog-post2-link">
+        <section class="blog-post2" id="blog-post-2">
+            <img src="assets/blog-post2-img.png" alt="" class="blog-post2-img">
+
+            <div class="blog-post2-content">
+
+                <div class="blog-post1-content-container">
+                    <p class="blog-post2-date">
+                        Toma control de tus finanzas - 10 de Oct. 2021 
+                    </p>
+
+                    <h2 class="blog-post2-title">
+                        ¿Y si no tengo vida crediticia…?
+                    </h2>
+
+                    <div class="blog-post2-line">
+
+                    </div>
+
+                    <p class="blog-post2-message">
+                        Es una de las preguntas más comunes al momento de
+                        querer adquirir un producto o servicio financiero…
+                    </p>
+
+                </div>
+
+            </div>
+        </section>
+    </a>
+
+    <section class="blog-message">
+        <p class="blog-message-p">
+            Muy pronto te daremos más información y herramientas
+            para que manejes tus finanzas como un experto
+        </p>
+        <div class="blog-message-line"></div>
+    </section>
+</div>
+
+
+<!-- ********************************** article 1 ************************************-->
+
+<div class="blog-article dissapear-element" id="blog-article1">
+
+    <div class="blog-article-main-content general-margin">
+        <div class="blog-article-title-content">
+            <p class="blog-article-date">
+                Toma control de tus finanzas - 10 de Oct. 2021
+            </p>
+
+            <h1 class="blog-article-title">
+                Lo que debes tener en cuenta al momento de solicitar un crédito
+            </h1>
+
+            <div class="blog-article-line"></div>
+
+            <div class="blog-article-heart-container">
+                <img src="assets/blog-post1-heart.svg" alt="" class="blog-article-heart-icon">
+
+                <div class="blog-article-heart-counter">0</div>
+            </div>
         </div>
 
-        <nav class="menu">
+        <img src="assets/blog-post-image.png" alt="" class="blog-article-img">
+    </div>
 
-            <a href="index.html" class="menu-link">
-                <img src="assets/home-white.svg" alt="" class="menu-link-img">
-                <div class="menu-link-text appear-big-screen ">Inicio</div>
-                <div class="menu-link-underline-hover"></div>
-            </a>
+    <div class="blog-article-texts general-margin">
+        <p class="blog-article-p">
+            El principal beneficio que
+            te puede brindar un crédito es la rapidez con la que te entregan los recursos
+            en el momento que los necesitas para realizar determinada acción o adquirir un bien o servicio.
+            Es por esto, que a lo largo de nuestras vidas podemos ver esta opción como una herramienta
+            poderosa para alcanzar metas o culminar proyectos.
+        </p>
 
-            <a href="question.html" class="menu-link">
-                <img src="assets/question-white.svg" alt="" class="menu-link-img">
-                <div class="menu-link-text appear-big-screen ">¿Quiénes Somos?</div>
-                <div class="menu-link-underline-hover"></div>
-            </a>
-            
-            <a href="more.html" class="menu-link">
-                <img src="assets/more-white.svg" alt="" class="menu-link-img">
-                <div class="menu-link-text appear-big-screen ">Conoce más</div>
-                <div class="menu-link-underline-hover"></div>
-            </a>
-            
-            <a href="blog.html" class="menu-link-blue">
-                <img src="assets/blog-blue.svg" alt="" class="menu-link-img">
-                <div class="menu-link-text ">Blog</div>
-                <div class="menu-link-underline"></div>
-            </a>
+        <p class="blog-article-p">
+            El crédito puede convertirse en un aliado muy valioso para alcanzar metas,
+            pero se debe manejar adecuadamente; es por esto, que queremos darte algunos
+            tips para adquirir cualquier tipo de crédito:
+        </p>
 
-            <a href="#" class="menu-link-blue my-account">
-                <img src="assets/my-account-blue.svg" alt="" class="my-account-icon">
-                <div class="menu-link-text appear-big-screen">Mi cuenta</div>
-                <div class="menu-link-underline-hover"></div>
-            </a>
+        <ol class="blog-article-list">
+            <li class="blog-article-list-item">
+                <strong class="blog-article-list-item-title">
+                    Objetivo:
+                </strong>
+                Es importante que tengas claro en qué vas a utilizar el crédito,
+                realmente cuál es la oportunidad o tu necesidad a cubrir, para así evitar que,
+                pasado el tiempo de tu deuda, los recursos no hayan sido usados en con la
+                prioridad que realmente tenías.
+            </li>
 
-        </nav>
-    </header>
-    <div class="blog-section" id="blog-section">
-        <section class="blog-hero">
-            <div class="blog-hero-content">
-                <h1 class="blog-hero-title">Blog</h1>
-                <p class="blog-hero-message">
-                    Te brindamos los mejores 
-                    consejos y tips sobre educación financiera, ahorro y finanzas 
-                </p>
-            </div>
-            <img src="assets/blog-hero-image-mob.svg" alt="" class="blog-hero-image-mob dissapear-big-resolution">
-            <img src="assets/blog-hero-image-desk.svg" alt="" class="blog-hero-image-desk appear-big-screen">
-        </section>
-        
-        <a href="article1.html" class="blog-post1-link">
-            <section class="blog-post1" id="blog-post-1">
-                <img src="assets/blog-post-image.png" alt="" class="blog-post1-img">
-        
-                <div class="blog-post1-content">
-        
-                    <div class="blog-post1-content-container">
-                        <p class="blog-post1-date">
-                            Toma control de tus finanzas - 10 de Oct. 2021 
-                        </p>
-                
-                        <h2 class="blog-post1-title">
-                            Lo que debes tener en cuenta al 
-                            momento de solicitar un crédito
-                        </h2>
-                
-                        <div class="blog-post1-line">
-                
-                        </div>
-                
-                        <p class="blog-post1-message">
-                            El principal beneficio que te puede brindar 
-                            un crédito es la rapidez con la que te 
-                            entregan los recursos….
-                        </p>
-                
-                    </div>
-                    
-                </div>
-            </section>
+            <li class="blog-article-list-item">
+                <strong class="blog-article-list-item-title">
+                    Planeación del pago:
+                </strong>
+                Una vez tengas claro el motivo de solicitud de tu crédito,
+                realiza una simulación de las cuotas provenientes relacionadas con el monto que quieres solicitar,
+                así podrás analizar de acuerdo a tus ingresos y gastos mensuales,
+                cuánto podrías disponer para el pago de tu crédito cada mes.
+                De esta manera no incurres en pagos adicionales por mora, evitas reportes negativos y lo mejor…
+                ¡Preparas tu perfil financiero para que cada vez tengas mejores opciones de crédito!
+            </li>
+
+            <li class="blog-article-list-item">
+                <strong class="blog-article-list-item-title">
+                    Claridad en la información:
+                </strong>
+                Asegúrate de conocer y entender el proceso de solicitud de crédito,
+                los plazos e intereses de este, las facilidades y beneficios que cada empresa te brinda
+                y los requerimientos para obtener el producto que deseas. Así,
+                evitarás cargos inesperados y tendrás una mejor planeación de tus finanzas.
+            </li>
+        </ol>
+
+        <p class="blog-article-p">
+            Recuerda hacer uso inteligente de tu dinero,
+            siempre teniendo una correcta planeación y
+            siendo realista con las obligaciones que
+            realmente te puedes permitir adquirir.
+            ¡Los créditos te pueden acercar a tus metas, úsalos adecuadamente!
+        </p>
+    </div>
+
+    <div class="blog-article-aside ">
+        <div class="blog-article-aside-line"></div>
+
+        <a href="blog.html" class="blog-article-aside-title-link">
+            <h3 class="blog-article-aside-title">Más por leer</h3>
         </a>
-        
-        <a href="article2.html" class="blog-post2-link">
-            <section class="blog-post2" id="blog-post-2">
-                <img src="assets/blog-post2-img.png" alt="" class="blog-post2-img">
-        
-                <div class="blog-post2-content">
-        
-                    <div class="blog-post1-content-container">
-                        <p class="blog-post2-date">
-                            Toma control de tus finanzas - 10 de Oct. 2021 
+        <div class="blog-article-aside-title-line"></div>
+
+        <div class="blog-article-aside-banner">
+            <section class="blog-article-aside-post" id="link-article-2">
+                <img src="assets/blog-post2-img.png" alt="" class="blog-article-aside-post-img">
+
+                <div class="blog-article-aside-post-content">
+                    <div class="blog-article-post-content-container">
+                        <p class="blog-article-aside-post-date">
+                            Toma control de tus finanzas - 10 de Oct. 2021
                         </p>
-                
-                        <h2 class="blog-post2-title">
+
+                        <h2 class="blog-article-aside-post-title">
                             ¿Y si no tengo vida crediticia…?
                         </h2>
-                
-                        <div class="blog-post2-line">
-                
-                        </div>
-                
-                        <p class="blog-post2-message">
+
+                        <div class="blog-article-aside-post-line"></div>
+
+                        <p class="blog-article-aside-post-message">
                             Es una de las preguntas más comunes al momento de
                             querer adquirir un producto o servicio financiero…
                         </p>
-                
-                    </div>
-                    
-                </div>
-            </section>
-        </a>
-    
-        <section class="blog-message">
-            <p class="blog-message-p">
-                Muy pronto te daremos más información y herramientas 
-                para que manejes tus finanzas como un experto
-            </p>
-            <div class="blog-message-line"></div>
-        </section>
-    </div>
 
-
-    <!-- ********************************** article 1 ************************************-->
-
-    <div class="blog-article dissapear-element" id="blog-article1">
-
-        <div class="blog-article-main-content general-margin">
-            <div class="blog-article-title-content">
-                <p class="blog-article-date">
-                    Toma control de tus finanzas - 10 de Oct. 2021
-                </p>
-        
-                <h1 class="blog-article-title">
-                    Lo que debes tener en cuenta al momento de solicitar un crédito
-                </h1>
-        
-                <div class="blog-article-line"></div>
-        
-                <div class="blog-article-heart-container">
-                    <img src="assets/blog-post1-heart.svg" alt="" class="blog-article-heart-icon">
-        
-                    <div class="blog-article-heart-counter">0</div>
-                </div>
-            </div>
-    
-            <img src="assets/blog-post-image.png" alt="" class="blog-article-img">
-        </div>
-
-        <div class="blog-article-texts general-margin">
-            <p class="blog-article-p">
-                El principal beneficio que 
-                te puede brindar un crédito es la rapidez con la que te entregan los recursos 
-                en el momento que los necesitas para realizar determinada acción o adquirir un bien o servicio.
-                Es por esto, que a lo largo de nuestras vidas podemos ver esta opción como una herramienta 
-                poderosa para alcanzar metas o culminar proyectos.
-            </p>
-            
-            <p class="blog-article-p">
-                El crédito puede convertirse en un aliado muy valioso para alcanzar metas, 
-                pero se debe manejar adecuadamente; es por esto, que queremos darte algunos 
-                tips para adquirir cualquier tipo de crédito:
-            </p>
-    
-            <ol class="blog-article-list">
-                <li class="blog-article-list-item"> 
-                    <strong class="blog-article-list-item-title">
-                        Objetivo:
-                    </strong>
-                    Es importante que tengas claro en qué vas a utilizar el crédito,
-                    realmente cuál es la oportunidad o tu necesidad a cubrir, para así evitar que, 
-                    pasado el tiempo de tu deuda, los recursos no hayan sido usados en con la 
-                    prioridad que realmente tenías.
-                </li>
-    
-                <li class="blog-article-list-item"> 
-                    <strong class="blog-article-list-item-title">
-                        Planeación del pago:
-                    </strong>
-                    Una vez tengas claro el motivo de solicitud de tu crédito,
-                    realiza una simulación de las cuotas provenientes relacionadas con el monto que quieres solicitar,
-                    así podrás analizar de acuerdo a tus ingresos y gastos mensuales, 
-                    cuánto podrías disponer para el pago de tu crédito cada mes.
-                    De esta manera no incurres en pagos adicionales por mora, evitas reportes negativos y lo mejor… 
-                    ¡Preparas tu perfil financiero para que cada vez tengas mejores opciones de crédito!
-                </li>
-    
-                <li class="blog-article-list-item"> 
-                    <strong class="blog-article-list-item-title">
-                        Claridad en la información:
-                    </strong>
-                    Asegúrate de conocer y entender el proceso de solicitud de crédito,
-                    los plazos e intereses de este, las facilidades y beneficios que cada empresa te brinda 
-                    y los requerimientos para obtener el producto que deseas. Así,
-                    evitarás cargos inesperados y tendrás una mejor planeación de tus finanzas.
-                </li>
-            </ol>
-    
-            <p class="blog-article-p">
-                Recuerda hacer uso inteligente de tu dinero, 
-                siempre teniendo una correcta planeación y 
-                siendo realista con las obligaciones que 
-                realmente te puedes permitir adquirir. 
-                ¡Los créditos te pueden acercar a tus metas, úsalos adecuadamente! 
-            </p>
-        </div>
-
-        <div class="blog-article-aside ">
-            <div class="blog-article-aside-line"></div>
-
-            <a href="blog.html" class="blog-article-aside-title-link">
-                <h3 class="blog-article-aside-title">Más por leer</h3> 
-            </a>
-            <div class="blog-article-aside-title-line"></div>
-
-            <div class="blog-article-aside-banner" >
-                <section class="blog-article-aside-post" id="link-article-2">
-                    <img src="assets/blog-post2-img.png" alt="" class="blog-article-aside-post-img">
-    
-                    <div class="blog-article-aside-post-content">
-                        <div class="blog-article-post-content-container">
-                            <p class="blog-article-aside-post-date">
-                                Toma control de tus finanzas - 10 de Oct. 2021 
-                            </p>
-    
-                            <h2 class="blog-article-aside-post-title">
-                                ¿Y si no tengo vida crediticia…?
-                            </h2>
-    
-                            <div class="blog-article-aside-post-line"></div>
-    
-                            <p class="blog-article-aside-post-message">
-                                Es una de las preguntas más comunes al momento de
-                                querer adquirir un producto o servicio financiero…
-                            </p>
-    
-                            <div class="blog-article-aside-post-heart-counter">
-                                <img src="assets/blog-post1-heart.svg" alt="" class="blog-article-aside-post-heart">
-                                <div class="blog-article-aside-post-counter">0</div>
-                            </div>
+                        <div class="blog-article-aside-post-heart-counter">
+                            <img src="assets/blog-post1-heart.svg" alt="" class="blog-article-aside-post-heart">
+                            <div class="blog-article-aside-post-counter">0</div>
                         </div>
                     </div>
-                </section>
-    
-                <section class="blog-article-banner ">
-                    <img src="assets/blog-article-banner-background.png" alt="" class="blog-article-banner-background after-1200">
+                </div>
+            </section>
 
-                    <img src="assets/blog-article-banner-background-desk.png" alt="" class="blog-article-banner-background before-1200">
-        
-                    <div class="blog-article-banner-content">
-                        <p class="blog-article-banner-messaje">
-                            Déjate contagiar de nuestra nueva 
-                            onda digital y disfruta la nueva 
-                            experiencia financiera 
-                        </p>
-            
-                        <p class="blog-article-banner-messaje2">
-                            Si eres cliente Pospago Movistar, 
-                            debes estar atento a nuestras campañas 
-                            en donde podrás comprar el equipo que elijas
-                            y pagarlo a tu propio ritmo
-                        </p>
-            
-                        <img src="assets/blog-article-banner-icon.svg" class="blog-article-banner-icon">
-        
-                        <a href="" class="blog-article-banner-link">
-                            Recibir más información
-                        </a>
-                    </div>
-                    
-                </section>
-            </div>
+            <section class="blog-article-banner ">
+                <img src="assets/blog-article-banner-background.png" alt=""
+                     class="blog-article-banner-background after-1200">
+
+                <img src="assets/blog-article-banner-background-desk.png" alt=""
+                     class="blog-article-banner-background before-1200">
+
+                <div class="blog-article-banner-content">
+                    <p class="blog-article-banner-messaje">
+                        Déjate contagiar de nuestra nueva
+                        onda digital y disfruta la nueva
+                        experiencia financiera 
+                    </p>
+
+                    <p class="blog-article-banner-messaje2">
+                        Si eres cliente Pospago Movistar,
+                        debes estar atento a nuestras campañas
+                        en donde podrás comprar el equipo que elijas
+                        y pagarlo a tu propio ritmo
+                    </p>
+
+                    <img src="assets/blog-article-banner-icon.svg" class="blog-article-banner-icon">
+
+                    <a href="" class="blog-article-banner-link">
+                        Recibir más información
+                    </a>
+                </div>
+
+            </section>
         </div>
+    </div>
 
-    </div> 
+</div>
 <!--  ******* End article 1  *************** -->
 
 
@@ -297,16 +347,16 @@
             <p class="blog-article-date">
                 Toma control de tus finanzas - 10 de Oct. 2021
             </p>
-    
+
             <h1 class="blog-article-title">
                 ¿Y si no tengo vida crediticia…?
             </h1>
-    
+
             <div class="blog-article-line"></div>
-    
+
             <div class="blog-article-heart-container">
                 <img src="assets/blog-post1-heart.svg" alt="" class="blog-article-heart-icon">
-    
+
                 <div class="blog-article-heart-counter">0</div>
             </div>
         </div>
@@ -317,22 +367,22 @@
     <div class="blog-article-texts general-margin">
         <p class="blog-article-p">
             Es una de las preguntas más comunes al momento de querer adquirir un producto o servicio financiero,
-            pero ¡tranquilo!, en este espacio te vamos a indicar cómo puedes iniciar en este mundo y verás que no es tan complicado.
+            pero ¡tranquilo!, en este espacio te vamos a indicar cómo puedes iniciar en este mundo y verás que no es tan
+            complicado.
         </p>
-        
+
         <p class="blog-article-p">
             Primero debes tener en cuenta que un buen historial crediticio no sólo es resultado de un buen
-            comportamiento de tarjetas de crédito o productos de la banca. Las personas que no hayan tenido 
+            comportamiento de tarjetas de crédito o productos de la banca. Las personas que no hayan tenido
             servicios financieros con algún banco, también pueden dar inicio a su historial crediticio con
             un comportamiento responsable de obligaciones adquiridas, como pago oportuno de servicio de telefonía,
             servicios públicos o incluso una cuenta de ahorros puede ser un buen inicio.
         </p>
 
-        
 
         <p class="blog-article-p">
             Ahora que ya sabes esto, puedes dar un primer paso con la solicitud de un crédito de bajo monto,
-            siempre planeando y siendo responsable con la capacidad de pago que realmente estás dispuesto a cumplir. 
+            siempre planeando y siendo responsable con la capacidad de pago que realmente estás dispuesto a cumplir.
         </p>
     </div>
 
@@ -340,7 +390,7 @@
         <div class="blog-article-aside-line"></div>
 
         <a href="blog.html" class="blog-article-aside-title-link">
-            <h3 class="blog-article-aside-title">Más por leer</h3> 
+            <h3 class="blog-article-aside-title">Más por leer</h3>
         </a>
         <div class="blog-article-aside-title-line"></div>
 
@@ -351,18 +401,18 @@
                 <div class="blog-article-aside-post-content">
                     <div class="blog-article-post-content-container">
                         <p class="blog-article-aside-post-date">
-                            Toma control de tus finanzas - 10 de Oct. 2021 
+                            Toma control de tus finanzas - 10 de Oct. 2021
                         </p>
 
                         <h2 class="blog-article-aside-post-title">
-                            Lo que debes tener en cuenta al 
+                            Lo que debes tener en cuenta al
                             momento de solicitar un crédito
                         </h2>
 
                         <div class="blog-article-aside-post-line"></div>
 
                         <p class="blog-article-aside-post-message">
-                            El principal beneficio que te puede brindar un crédito 
+                            El principal beneficio que te puede brindar un crédito
                             es la rapidez con la que te entregan los recursos….
                         </p>
 
@@ -375,87 +425,101 @@
             </section>
 
             <section class="blog-article-banner ">
-                <img src="assets/blog-article-banner-background.png" alt="" class="blog-article-banner-background after-1200">
+                <img src="assets/blog-article-banner-background.png" alt=""
+                     class="blog-article-banner-background after-1200">
 
-                <img src="assets/blog-article-banner-background-desk.png" alt="" class="blog-article-banner-background before-1200">
-    
+                <img src="assets/blog-article-banner-background-desk.png" alt=""
+                     class="blog-article-banner-background before-1200">
+
                 <div class="blog-article-banner-content">
                     <p class="blog-article-banner-messaje">
-                        Déjate contagiar de nuestra nueva 
-                        onda digital y disfruta la nueva 
+                        Déjate contagiar de nuestra nueva
+                        onda digital y disfruta la nueva
                         experiencia financiera 
                     </p>
-        
+
                     <p class="blog-article-banner-messaje2">
-                        Si eres cliente Pospago Movistar, 
-                        debes estar atento a nuestras campañas 
+                        Si eres cliente Pospago Movistar,
+                        debes estar atento a nuestras campañas
                         en donde podrás comprar el equipo que elijas
                         y pagarlo a tu propio ritmo
                     </p>
-        
+
                     <img src="assets/blog-article-banner-icon.svg" class="blog-article-banner-icon">
-    
+
                     <a href="" class="blog-article-banner-link">
                         Recibir más información
                     </a>
                 </div>
-                
+
             </section>
         </div>
     </div>
 
-</div> 
+</div>
 <!--  ******* End article 1  *************** -->
 
-    <section class="blog-contact">
-        <div class="blog-contact-container">
-            <p class="blog-contact-message">
-                Recibe consejos y novedades de Movistar Money para tu vida financiera 
+<section class="blog-contact">
+    <div class="blog-contact-container">
+        <p class="blog-contact-message">
+            Recibe consejos y novedades de Movistar Money para tu vida financiera
+        </p>
+
+        <div class="blog-contact-wrapper">
+            <form action="succes.html?id=blog" class="blog-contact-form" method="post">
+                <div class="blog-contact-input-container">
+                    <img src="assets/blog-contact-input-img.svg" alt="" class="blog-contact-input-img">
+
+                    <input type="text" class="blog-contact-input" placeholder="Correo electrónico">
+                    <input type="submit" class="blog-contact-send" value="Enviar">
+                </div>
+                <div class="captcha-inline" id="captchaField"></div>
+            </form>
+
+
+            <p class="blog-contact-second-message">
+                Al diligenciar esta casilla,
+                estás aceptando nuestra <a href="politica_tratamiento.html" style="color: white;">política de
+                tratamiento de datos</a> y autorizando
+                ​​el uso de tu información por parte de Movistar Money.
             </p>
 
-            <div class="blog-contact-wrapper">
-                <form action="" class="blog-contact-form">
-                    <div class="blog-contact-input-container">
-                        <img src="assets/blog-contact-input-img.svg" alt="" class="blog-contact-input-img">
+        </div>
+    </div>
 
-                        <input type="text" class="blog-contact-input" placeholder="Correo electrónico">
+</section>
 
-                        <input type="submit" class="blog-contact-send" value="Enviar">
-                    </div>
-                </form>
-            
-    
-                <p class="blog-contact-second-message">
-                    Al diligenciar esta casilla,
-                    estás aceptando nuestra <a href="politica_tratamiento.html" style="color: white;">política de 
-                    tratamiento de datos</a>  y autorizando
-                    ​​el uso de tu información por parte de Movistar Money.
-                </p>
-                
-            </div>
+<footer class="footer">
+    <div class="footer-container">
+        <div class="more-about">
+            <h4 class="more-about-title"> Más de nosotros </h4>
+            <a href="politica_cobranza.html" class="more-about-link">Política de cobranzas</a>
+            <a href="politica_tratamiento.html" class="more-about-link">Política de tratamiento de datos</a>
+            <a href="terminos_condiciones.html" class="more-about-link">Términos y Condiciones de Movistar Money</a>
         </div>
 
-    </section>
-
-    <footer class="footer">
-        <div class="footer-container">
-            <div class="more-about">
-                <h4 class="more-about-title"> Más de nosotros </h4>
-                <a href="politica_cobranza.html" class="more-about-link">Política de cobranzas</a>
-                <a href="politica_tratamiento.html" class="more-about-link">Política de tratamiento de datos</a>
-                <a href="terminos_condiciones.html" class="more-about-link">Términos y Condiciones de Movistar Money</a>
-            </div>
-    
-            <div class="secure-section">
-                <img src="assets/security-movistar-logo.png" alt="" class="secure-section-symbol">
-                <p class="secure-section-content"> Contamos con un protocolo seguro para 
-                    proteger tus datos durante el proceso. 
-                </p>
-            </div>
+        <div class="secure-section">
+            <img src="assets/security-movistar-logo.png" alt="" class="secure-section-symbol">
+            <p class="secure-section-content"> Contamos con un protocolo seguro para
+                proteger tus datos durante el proceso.
+            </p>
         </div>
-    </footer>
-
-
+    </div>
+</footer>
+<script>
+    var onloadCallback = function () {
+        grecaptcha.render('captchaField', {
+            'sitekey': '6LckX7MUAAAAADDNzVnFn6GJseEGBD0qRVEL-dIl',
+            'callback': function (response) {
+                if (response.length > 0) {
+                    checkIfAllReferralAreValid();
+                }
+            },
+            'lang': 'es',
+            'theme': 'light'
+        });
+    };
+</script>
 
 </body>
 </html>

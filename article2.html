@@ -5,51 +5,97 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="blog.css"> 
+    <link rel="stylesheet" href="blog.css">
     <link rel="icon" href="assets/favicon-official.ico">
     <title>Movistar Money</title>
 </head>
 <body class="blog-body">
-    <header class="header wrapper">
-        <div class="container-logo">
-            <img src="assets/logo-movistar.png" alt="" class="logo">
+<header class="header wrapper">
+    <div class="container-logo">
+        <a href="index.html">
+            <img src="assets/logo-movistar.svg" alt="" class="logo">
+        </a>
+    </div>
+
+    <nav class="menu">
+        <a href="index.html" class=" menu-link"
+           onclick="
+                dataLayer.push({
+                'event': 'trackEvent',
+                'eventCategory': 'movistar money',
+                'eventAction': 'click::menú',
+                'eventLabel': 'inicio'
+                });">
+
+            <img src="assets/home_blue.svg" alt="" class="menu-link-img">
+            <div class="menu-link-text">Inicio</div>
+            <div class="menu-link-underline-hover"></div>
+        </a>
+
+        <a href="question.html" class="menu-link"
+           onclick="
+                dataLayer.push({
+                'event': 'trackEvent',
+                'eventCategory': 'movistar money',
+                'eventAction': 'click::menú',
+                'eventLabel': '¿Quiénes Somos?'
+                });">
+            <img src="assets/question-white.svg" alt="" class="menu-link-img">
+            <div class="menu-link-text appear-big-screen ">¿Quiénes Somos?</div>
+            <div class="menu-link-underline-hover"></div>
+        </a>
+
+        <a href="more.html" class="menu-link"
+           onclick="
+            dataLayer.push({
+                'event': 'trackEvent',
+                'eventCategory': 'movistar money',
+                'eventAction': 'click::menú',
+                'eventLabel': 'Conoce más'
+                });">
+
+            <img src="assets/more-white.svg" alt="" class="menu-link-img">
+            <div class="menu-link-text appear-big-screen"> Conoce más</div>
+            <div class="menu-link-underline-hover"></div>
+        </a>
+
+        <a href="blog.html" class="menu-link-blue"
+           onclick="
+            dataLayer.push({
+                'event': 'trackEvent',
+                'eventCategory': 'movistar money',
+                'eventAction': 'click::menú',
+                'eventLabel': 'Blog'
+                });">
+            <img src="assets/blog-white.svg" alt="" class="menu-link-img">
+            <div class="menu-link-text appear-big-screen">Blog</div>
+            <div class="menu-link-underline"></div>
+        </a>
+
+        <a href="https://personas.movistarmoney.co/login" class="menu-link-blue my-account"
+           onclick="
+            dataLayer.push({
+                'event': 'trackEvent',
+                'eventCategory': 'movistar money',
+                'eventAction': 'click::mi cuenta',
+                'eventLabel': 'mi cuenta'
+                });">
+            <img src="assets/my-account-blue.svg" alt="" class="my-account-icon">
+            <div class="menu-link-text appear-big-screen">Mi cuenta</div>
+        </a>
+
+        <div class="pop-up">
+            <div class="pop-up-content">
+                Si ya tienes un crédito de equipo con Movistar Money,
+                puedes consultar detalles de tu crédito ingresando a tu cuenta
+            </div>
+
+            <div class="arrow-pop-up"></div>
         </div>
+    </nav>
 
-        <nav class="menu">
+</header>
 
-            <a href="index.html" class="menu-link">
-                <img src="assets/home-white.svg" alt="" class="menu-link-img">
-                <div class="menu-link-text appear-big-screen ">Inicio</div>
-                <div class="menu-link-underline-hover"></div>
-            </a>
-
-            <a href="question.html" class="menu-link">
-                <img src="assets/question-white.svg" alt="" class="menu-link-img">
-                <div class="menu-link-text appear-big-screen ">¿Quiénes Somos?</div>
-                <div class="menu-link-underline-hover"></div>
-            </a>
-            
-            <a href="more.html" class="menu-link">
-                <img src="assets/more-white.svg" alt="" class="menu-link-img">
-                <div class="menu-link-text appear-big-screen ">Conoce más</div>
-                <div class="menu-link-underline-hover"></div>
-            </a>
-            
-            <a href="blog.html" class="menu-link-blue">
-                <img src="assets/blog-blue.svg" alt="" class="menu-link-img">
-                <div class="menu-link-text ">Blog</div>
-                <div class="menu-link-underline"></div>
-            </a>
-
-            <a href="#" class="menu-link-blue my-account">
-                <img src="assets/my-account-blue.svg" alt="" class="my-account-icon">
-                <div class="menu-link-text appear-big-screen">Mi cuenta</div>
-                <div class="menu-link-underline-hover"></div>
-            </a>
-
-        </nav>
-    </header>
-   
 <!-- ********************************** article 2 ************************************-->
 <div class="blog-article" id="blog-article2">
 
@@ -58,14 +104,14 @@
             <p class="blog-article-date">
                 Toma control de tus finanzas - 10 de Oct. 2021
             </p>
-    
+
             <h1 class="blog-article-title">
                 ¿Y si no tengo vida crediticia…?
             </h1>
-    
+
             <div class="blog-article-line"></div>
-    
-            
+
+
         </div>
 
         <img src="assets/blog-post2-img.png" alt="" class="blog-article-img">
@@ -74,22 +120,22 @@
     <div class="blog-article-texts general-margin">
         <p class="blog-article-p">
             Es una de las preguntas más comunes al momento de querer adquirir un producto o servicio financiero,
-            pero ¡tranquilo!, en este espacio te vamos a indicar cómo puedes iniciar en este mundo y verás que no es tan complicado.
+            pero ¡tranquilo!, en este espacio te vamos a indicar cómo puedes iniciar en este mundo y verás que no es tan
+            complicado.
         </p>
-        
+
         <p class="blog-article-p">
             Primero debes tener en cuenta que un buen historial crediticio no sólo es resultado de un buen
-            comportamiento de tarjetas de crédito o productos de la banca. Las personas que no hayan tenido 
+            comportamiento de tarjetas de crédito o productos de la banca. Las personas que no hayan tenido
             servicios financieros con algún banco, también pueden dar inicio a su historial crediticio con
             un comportamiento responsable de obligaciones adquiridas, como pago oportuno de servicio de telefonía,
             servicios públicos o incluso una cuenta de ahorros puede ser un buen inicio.
         </p>
 
-        
 
         <p class="blog-article-p">
             Ahora que ya sabes esto, puedes dar un primer paso con la solicitud de un crédito de bajo monto,
-            siempre planeando y siendo responsable con la capacidad de pago que realmente estás dispuesto a cumplir. 
+            siempre planeando y siendo responsable con la capacidad de pago que realmente estás dispuesto a cumplir.
         </p>
     </div>
 
@@ -97,7 +143,7 @@
         <div class="blog-article-aside-line"></div>
 
         <a href="blog.html" class="blog-article-aside-title-link">
-            <h3 class="blog-article-aside-title">Más por leer</h3> 
+            <h3 class="blog-article-aside-title">Más por leer</h3>
         </a>
         <div class="blog-article-aside-title-line"></div>
 
@@ -109,109 +155,106 @@
                     <div class="blog-article-aside-post-content" style="padding-bottom: 20px">
                         <div class="blog-article-post-content-container">
                             <p class="blog-article-aside-post-date">
-                                Toma control de tus finanzas - 10 de Oct. 2021 
+                                Toma control de tus finanzas - 10 de Oct. 2021
                             </p>
-    
+
                             <h2 class="blog-article-aside-post-title">
-                                Lo que debes tener en cuenta al 
+                                Lo que debes tener en cuenta al
                                 momento de solicitar un crédito
                             </h2>
-    
+
                             <div class="blog-article-aside-post-line"></div>
-    
+
                             <p class="blog-article-aside-post-message">
-                                El principal beneficio que te puede brindar un crédito 
+                                El principal beneficio que te puede brindar un crédito
                                 es la rapidez con la que te entregan los recursos….
                             </p>
-    
-                            
+
+
                         </div>
                     </div>
                 </a>
             </section>
 
             <section class="blog-article-banner ">
-                <img src="assets/blog-article-banner-background.png" alt="" class="blog-article-banner-background after-1200">
 
-                <img src="assets/blog-article-banner-background-desk.png" alt="" class="blog-article-banner-background before-1200">
-    
                 <div class="blog-article-banner-content">
                     <p class="blog-article-banner-messaje">
-                        Déjate contagiar de nuestra nueva 
-                        onda digital y disfruta la nueva 
+                        Déjate contagiar de nuestra nueva
+                        onda digital y disfruta la nueva
                         experiencia financiera 
                     </p>
-        
+
                     <p class="blog-article-banner-messaje2">
-                        Si eres cliente Pospago Movistar, 
-                        debes estar atento a nuestras campañas 
+                        Si eres cliente Pospago Movistar,
+                        debes estar atento a nuestras campañas
                         en donde podrás comprar el equipo que elijas
                         y pagarlo a tu propio ritmo
                     </p>
-        
+
                     <img src="assets/blog-article-banner-icon.svg" class="blog-article-banner-icon">
-    
+
                     <a href="index.html#sampleForm" class="blog-article-banner-link">
                         Recibir más información
                     </a>
                 </div>
-                
+
             </section>
         </div>
     </div>
 
-</div> 
+</div>
 <!--  ******* End article 1  *************** -->
 
-    <section class="blog-contact">
-        <div class="blog-contact-container">
-            <p class="blog-contact-message">
-                Recibe consejos y novedades de Movistar Money para tu vida financiera 
+<section class="blog-contact">
+    <div class="blog-contact-container">
+        <p class="blog-contact-message">
+            Recibe consejos y novedades de Movistar Money para tu vida financiera
+        </p>
+
+        <div class="blog-contact-wrapper">
+            <form action="" class="blog-contact-form">
+                <div class="blog-contact-input-container">
+                    <img src="assets/blog-contact-input-img.svg" alt="" class="blog-contact-input-img">
+
+                    <input type="text" class="blog-contact-input" placeholder="Correo electrónico">
+
+                    <input type="submit" class="blog-contact-send" value="Enviar">
+                </div>
+            </form>
+
+
+            <p class="blog-contact-second-message">
+                Al diligenciar esta casilla,
+                estás aceptando nuestra <a href="politica_tratamiento.html" style="color: white;">política de
+                tratamiento de datos</a> y autorizando
+                ​​el uso de tu información por parte de Movistar Money.
             </p>
 
-            <div class="blog-contact-wrapper">
-                <form action="" class="blog-contact-form">
-                    <div class="blog-contact-input-container">
-                        <img src="assets/blog-contact-input-img.svg" alt="" class="blog-contact-input-img">
+        </div>
+    </div>
 
-                        <input type="text" class="blog-contact-input" placeholder="Correo electrónico">
+</section>
 
-                        <input type="submit" class="blog-contact-send" value="Enviar">
-                    </div>
-                </form>
-            
-    
-                <p class="blog-contact-second-message">
-                    Al diligenciar esta casilla,
-                    estás aceptando nuestra <a href="politica_tratamiento.html" style="color: white;">política de 
-                    tratamiento de datos</a>  y autorizando
-                    ​​el uso de tu información por parte de Movistar Money.
-                </p>
-                
-            </div>
+<footer class="footer">
+    <div class="footer-container">
+        <div class="more-about">
+            <h4 class="more-about-title"> Más de nosotros </h4>
+            <a href="politica_cobranza.html" class="more-about-link">Política de cobranzas</a>
+            <a href="politica_tratamiento.html" class="more-about-link">Política de tratamiento de datos</a>
+            <a href="terminos_condiciones.html" class="more-about-link">Términos y Condiciones de Movistar Money</a>
         </div>
 
-    </section>
-
-    <footer class="footer">
-        <div class="footer-container">
-            <div class="more-about">
-                <h4 class="more-about-title"> Más de nosotros </h4>
-                <a href="politica_cobranza.html" class="more-about-link">Política de cobranzas</a>
-                <a href="politica_tratamiento.html" class="more-about-link">Política de tratamiento de datos</a>
-                <a href="terminos_condiciones.html" class="more-about-link">Términos y Condiciones de Movistar Money</a>
-            </div>
-    
-            <div class="secure-section">
-                <img src="assets/security-movistar-logo.png" alt="" class="secure-section-symbol">
-                <p class="secure-section-content"> Contamos con un protocolo seguro para 
-                    proteger tus datos durante el proceso. 
-                </p>
-            </div>
+        <div class="secure-section">
+            <img src="assets/security-movistar-logo.png" alt="" class="secure-section-symbol">
+            <p class="secure-section-content"> Contamos con un protocolo seguro para
+                proteger tus datos durante el proceso.
+            </p>
         </div>
-    </footer>
-
-
-
+    </div>
+</footer>
+<div class="ws-button-wrap">
+    <a href="https://api.whatsapp.com/send?1=pt_BR&phone=+573152008280&text=Hola" class="ws-button"></a>
+</div>
 </body>
 </html>

@@ -4,11 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="succes.css">
+    <link rel="icon" href="assets/favicon-official.ico">
+    <title>Movistar Money</title>
 </head>
-<body>
-    <p>Succes!</p>
+<body class="succes-body">
 
-    <script src="form.js"></script>
+<img src="assets/logo-movistar-money.png" alt="">
+
+
+<h1>Pronto nos comunicaremos contigo
+    para brindarte más información</h1>
+
+<p>Pronto serás redirigido...</p>
+
+<a href="#" id="boton">Volver</a>
+<script>
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+
+    let urlParamsData = {
+        "id": urlParams.get('id')
+    };
+
+    if (urlParamsData.id === 'home') {
+        document.getElementById('boton').href = 'index.html';
+    } else if (urlParamsData.id === 'blog') {
+        document.getElementById('boton').href = 'blog.html';
+    }
+
+    setTimeout(function () {
+        if (urlParamsData.id === 'home') {
+            window.location.href = "http://localhost:63342/GrupoDot/15386%20-%20Ajustes%20Movistar%20Money/Build/official-movistar-money/index.html";
+        } else if (urlParamsData.id === 'blog') {
+            window.location.href = "http://localhost:63342/GrupoDot/15386%20-%20Ajustes%20Movistar%20Money/Build/official-movistar-money/blog.html";
+        }
+    }, 5000);
+</script>
 </body>
 </html>

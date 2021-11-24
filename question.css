@@ -1,4 +1,4 @@
-:root{
+:root {
     --main-color: #019df4;
     --text-color: #0b2739;
     --section-gray-color: #f2f4f2;
@@ -20,8 +20,7 @@
     --gray-dark: #313235;
 }
 
-body
-{
+body {
     padding-bottom: 53px;
     text-align: justify;
 }
@@ -29,120 +28,103 @@ body
 
 /* ** Hero question ** */
 
-.hero-question 
-{
-    background: var(--main-color) ;
+.hero-question {
+    background: var(--main-color);
     position: relative;
     width: 100%;
     height: 190px;
 }
 
-.hero-question-content 
-{
+.hero-question-content {
     padding: 40px 0 0 16px;
     color: var(--white-color);
 }
 
-.hero-question-title 
-{
+.hero-question-title {
     font-size: 1.3rem;
     padding-bottom: 20px;
     font-family: var(--telefonica-light);
     font-weight: 300;
 }
 
-.hero-question-paragraph 
-{
+.hero-question-paragraph {
     width: 80%;
     font-size: .8rem;
 }
 
-.hero-question img 
-{
+.hero-question img {
     position: absolute;
     right: 0;
 }
 
 @media screen and (min-width: 768px) {
-    
-    body 
-    {
-        padding-bottom: 0 ;
+
+    body {
+        padding-bottom: 0;
     }
 
-    .hero-question
-    {
+    .hero-question {
         display: flex;
         height: 250px;
     }
 
-    .hero-question-content 
-    {
+    .hero-question-content {
         padding: 68px 0 0 70px;
     }
 
-    .hero-question-title 
-    {
+    .hero-question-title {
         font-size: 2.3rem;
     }
-    
-    .hero-question-paragraph 
-    {
+
+    .hero-question-paragraph {
         width: 55%;
         font-size: 1rem;
     }
 
-    .hero-question-img-desktop
-    {
+    .hero-question-img-desktop {
         width: 300px;
         align-self: flex-end;
     }
 }
 
 @media screen  and (min-width: 1024px) {
-    .hero-question-img-desktop
-    {
+    .hero-question-img-desktop {
         width: 426px;
     }
 }
 
 @media screen and (min-width: 1200px) {
-    .hero-question-img-desktop 
-    {
+    .hero-question-img-desktop {
         margin-right: 20%;
-        
+
     }
 }
+
 /* *** */
 
 
 /* ** feature question ** */
 
-.features-question
-{
+.features-question {
     padding: 50px 0 35px 16px;
 }
 
-.feature-question-img
-{
+.feature-question-img {
     width: 100%;
     padding-right: 16px;
-    
+
 }
 
-.features-question-articles 
-{
+.features-question-articles {
     padding-top: 18px;
     padding-bottom: 15px;
 }
 
-.feature-question-article
-{
+.feature-question-article {
     padding-bottom: 20px;
 }
 
-.feature-question-article-title 
-{
+.feature-question-article-title {
     font-size: 1rem;
     padding-bottom: 12px;
     font-family: var(--telefonica-light);
@@ -150,60 +132,50 @@ body
     color: var(--main-color);
 }
 
-.feature-question-article-paragraph
-{
-    font-size: .8rem; 
+.feature-question-article-paragraph {
+    font-size: .8rem;
     width: 95%;
     color: #313235;
 }
 
 @media screen and (min-width: 768px) {
-    .features-question 
-    {
+    .features-question {
         display: flex;
-        
         align-items: flex-start;
         padding: 70px 0 70px 70px;
     }
 
-    .feature-question-img 
-    {
+    .feature-question-img {
         width: 40%;
-        padding-right: 22px;
+        padding-right: 25px;
     }
 
-    .features-question-articles  
-    {
+    .features-question-articles {
         padding-top: 0;
         width: 55%;
     }
 
-    .feature-question-article-title 
-    {
+    .feature-question-article-title {
         font-size: 1.9rem;
     }
 
-    .feature-question-article-paragraph 
-    {
+    .feature-question-article-paragraph {
         font-size: 1rem;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .feature-question-img 
-    {
+    .feature-question-img {
         width: 400px;
     }
 }
 
-@media screen and (min-width: 1200px){
-    .feature-question-img 
-    {
+@media screen and (min-width: 1200px) {
+    .feature-question-img {
         width: 600px;
     }
 
-    .features-question-articles 
-    {
+    .features-question-articles {
         width: 45%;
     }
 }
@@ -212,14 +184,12 @@ body
 /* *** */
 
 /* ** Partners Section ** */
-.partners
-{
+.partners {
     padding: 30px 16px 30px 16px;
     background: var(--section-gray-color);
 }
 
-.partners-paragraph
-{
+.partners-paragraph {
     font-size: 1rem;
     font-family: var(--telefonica-light);
     text-align: center;
@@ -227,13 +197,11 @@ body
 }
 
 @media screen and (min-width: 768px) {
-    .partners 
-    {
+    .partners {
         padding: 66px 166px 63px 166px;
     }
 
-    .partners-paragraph 
-    {
+    .partners-paragraph {
         font-size: 1.6rem;
     }
 }
@@ -244,260 +212,144 @@ body
 
 /* ** Mission Section ** */
 
-.mission 
-{
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.mission-article 
-{
-    padding-right: 16px;
-    padding-left: 16px;
-}
-
-.mission-article:first-child
-{
-    padding-bottom: 50px;
-}
-
-.mission-article-img
-{
+.mission {
     width: 100%;
+    max-width: 1200px;
+    display: grid;
+    grid-gap: 45px;
+    padding: 60px 15px;
+    margin: 0 auto;
 }
 
-.mission-article-tittle
-{
-    font-size: 1rem;
+.mission-article {
+    display: grid;
+    grid-gap: 15px;
+}
+
+.mission-article-img {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.mission-article-tittle {
+    font-size: 1.3rem;
     font-family: var(--telefonica-light);
     font-weight: 300;
     color: var(--main-color);
-    padding-top: 20px;
-    padding-bottom: 10px;
+    margin-bottom: 15px;
 }
 
-.mission-article-paragraph 
-{
+.mission-article-paragraph {
     color: var(--gray-dark);
-    font-size: .8rem;
+    font-size: .9rem;
+    text-align: left;
 }
 
 @media screen and (min-width: 768px ) {
-    
-    .mission-article 
-    {
-        display: flex;
-        padding-left: 70px;
-        
-        align-items: flex-start;
+    .mission-article {
+        display: grid;
+        grid-gap: 30px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-flow: dense;
+        align-items: center;
     }
 
-    .mission-article:first-child .mission-article-img-container
-    {
-        width: 45%;
+    .mission-article:last-child div:first-child {
+        grid-column: 2;
     }
 
-
-    .mission-article:first-child .mission-article-img 
-    {
-        width: 300px;
+    .mission-article-tittle {
+        font-size: 1.5rem;
     }
 
-    .mission-article:first-child .mission-article-content
-    {
-        width: 50%;
-    }
-
-    .mission-article:last-child .mission-article-content 
-    {
-        width: 50%;
-    }
-
-    .mission-article:last-child .mission-article-img-container
-    {
-        width: 50%;
-    } 
-    
-    .mission-article:last-child .mission-article-img-container .mission-article-img
-    {
-        width: 250px;
-    }
-
-    
-    .mission-article:last-child 
-    {
-        flex-direction: row-reverse;
-    }
-
-    .mission-article-tittle
-    {
-        padding-top: 0;
+    .mission-article-paragraph {
+        font-size: 1.1rem;
     }
 }
 
 @media screen and (min-width: 1024px ) {
 
-    .mission-article:first-child .mission-article-img 
-    {
-        width: 400px;
-    }
-
-    .mission-article:last-child  .mission-article-img
-    {
-        width: 300px;
-    }
-
-
-    .mission-article-tittle 
-    {
-        font-size: 1.9rem;
-    }
-
-    .mission-article-paragraph 
-    {
-        font-size: 1.1rem;
-    }
 }
 
-@media screen and (min-width: 1200px) {
-
-    .mission-article:first-child .mission-article-img-container
-    {
-        width: 580px;
-    }
-
-    .mission-article:first-child .mission-article-img  
-    {
-        width: 580px;
-    }
-
-    .mission-article:first-child .mission-article-paragraph 
-    {
-        width: 80%;
-        
-    }
-
-    .mission-article:last-child .mission-article-img 
-    {
-        width: 510px !important;
-    }
-
-    .mission-article:last-child .mission-article-paragraph 
-    {
-        width: 90%;
-    }
-
-    .mission-article:first-child .mission-article-content
-    {
-        padding-left: 22px;
-    }
-
-    .mission-article:last-child 
-    {
-        justify-content: flex-start;
-    }
-
-    .mission-article:last-child .mission-article-content
-    {
-        width: 40%;
-        
-    }
-
-    .mission-article:last-child .mission-article-img-container
-    {
-        width: 60%;
-        padding-left: 96px;
-    }
-
-}
 /* *** */
 
 
 /* ** Culture Section ** */
 
-.culture
-{
-    padding: 32px 16px 12px 16px;
+.culture {
+    padding: 30px;
     background-color: var(--text-color);
     color: white;
 }
 
-.culture-title 
-{
+.culture-title {
+    font-family: var(--telefonica-light);
     font-size: 1rem;
     font-weight: 300;
     text-align: center;
     padding-bottom: 10px;
 }
 
-.culture-description 
-{
+.culture-description {
     text-align: left;
     font-size: .8rem;
     padding-bottom: 30px;
 }
 
+.culture-list {
+    display: grid;
+    grid-gap: 30px;
+}
 
-.culture-list-item 
-{
+.culture-list-item {
     text-decoration: none;
     list-style: none;
     display: flex;
     align-items: flex-start;
-    padding-bottom: 20px;
-    height: 100px;
 }
 
-.culture-list-item-icon
-{
+.culture-list-item-icon {
     padding-right: 20px;
 }
 
-.culture-list-item-paragraph 
-{
+.culture-list-item-paragraph {
     font-size: .8rem;
     text-align: left;
 }
 
 @media screen and (min-width: 768px) {
-    .culture 
-    {
-        padding: 56px 0 194px 70px;
+    .culture {
         background-image: url(assets/background-mountain.png);
         background-position: bottom right;
         background-repeat: no-repeat;
         background-size: cover;
     }
 
-    .culture-title 
-    {
+    .culture-title {
         text-align: left;
         font-size: 1.9rem;
     }
-    
-    .culture-description
-    {
+
+    .culture-description {
         font-size: 1.2rem;
         width: 38%;
-    } 
-
-    .culture-list-container
-    {
-        display: flex;
-        justify-content: space-between;
-        width: 90%;
     }
 
-    .culture-list
-    {
-        width: 42%;
+    .culture-list {
+        grid-template-columns: repeat(2, 1fr);
     }
 
-    .culture-list-item-paragraph 
-    {
+    .culture-list-item-paragraph {
         font-size: 1rem;
     }
-
 }
+
+@media screen and (min-width: 768px) {
+    .culture {
+       padding: 100px 150px;
+    }
+}
+
 /* *** */
 
