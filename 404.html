@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="facebook-domain-verification" content="8rdtc0py1zf6potj8s3s2cwpuvec9c"/>
+    <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="404.css">
+    <link rel="icon" href="assets/favicon-official.ico">
+    <title>Movistar Money</title>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+
+    <script>
+        function timestamp() {
+            var response = document.getElementById("g-recaptcha-response");
+            if (response == null || response.value.trim() == "") {
+                var elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value);
+                elems["ts"]
+                    = JSON.stringify(new Date().getTime());
+                document.getElementsByName("captcha_settings")[0].value = JSON.stringify(elems);
+            }
+        }
+
+        setInterval(timestamp, 500);
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start': new
+            Date().getTime(), event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-KBVPPT');</script> <!-- End Google Tag Manager
+-->
+</head>
+<body class="body">
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTMKBVPPT" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe>
+</noscript> <!-- End Google Tag Manager
+    (noscript) -->
+
+<header class="header wrapper">
+    <div class="container-logo">
+        <a href="index.html">
+            <img src="assets/logo-movistar.svg" alt="" class="logo">
+        </a>
+    </div>
+
+    <nav class="menu">
+        <a href="index.html" class=" menu-link-blue"
+           onclick="
+                dataLayer.push({
+                'event': 'trackEvent',
+                'eventCategory': 'movistar money',
+                'eventAction': 'click::menú',
+                'eventLabel': 'inicio'
+                });">
+
+            <img src="assets/home_blue.svg" alt="" class="menu-link-img">
+            <div class="menu-link-text">Inicio</div>
+            <div class="menu-link-underline"></div>
+        </a>
+
+        <a href="question.html" class="menu-link"
+           onclick="
+                dataLayer.push({
+                'event': 'trackEvent',
+                'eventCategory': 'movistar money',
+                'eventAction': 'click::menú',
+                'eventLabel': '¿Quiénes Somos?'
+                });">
+            <img src="assets/question-white.svg" alt="" class="menu-link-img">
+            <div class="menu-link-text appear-big-screen ">¿Quiénes Somos?</div>
+            <div class="menu-link-underline-hover"></div>
+        </a>
+
+        <a href="more.html" class="menu-link"
+           onclick="
+            dataLayer.push({
+                'event': 'trackEvent',
+                'eventCategory': 'movistar money',
+                'eventAction': 'click::menú',
+                'eventLabel': 'Conoce más'
+                });">
+
+            <img src="assets/more-white.svg" alt="" class="menu-link-img">
+            <div class="menu-link-text appear-big-screen">Conoce más</div>
+            <div class="menu-link-underline-hover"></div>
+        </a>
+
+        <a href="blog.html" class="menu-link"
+           onclick="
+            dataLayer.push({
+                'event': 'trackEvent',
+                'eventCategory': 'movistar money',
+                'eventAction': 'click::menú',
+                'eventLabel': 'Blog'
+                });">
+            <img src="assets/blog-white.svg" alt="" class="menu-link-img">
+            <div class="menu-link-text appear-big-screen">Blog</div>
+            <div class="menu-link-underline-hover"></div>
+        </a>
+
+        <a href="https://personas.movistarmoney.co/login" class="menu-link-blue my-account"
+           onclick="
+            dataLayer.push({
+                'event': 'trackEvent',
+                'eventCategory': 'movistar money',
+                'eventAction': 'click::mi cuenta',
+                'eventLabel': 'mi cuenta'
+                });">
+            <img src="assets/my-account-blue.svg" alt="" class="my-account-icon">
+            <div class="menu-link-text appear-big-screen">Mi cuenta</div>
+        </a>
+
+        <div class="pop-up">
+            <div class="pop-up-content">
+                Si ya tienes un crédito de equipo con Movistar Money,
+                puedes consultar detalles de tu crédito ingresando a tu cuenta
+            </div>
+
+            <div class="arrow-pop-up"></div>
+        </div>
+    </nav>
+
+</header>
+
+<div class="error404-wrap">
+    <div class="error404">
+        <img class="error404__img" src="assets/error404.png">
+        <div class="error404__hero">
+            <div class="error404__title">¡Ups!</div>
+            <div class="error404__text">
+                Lo sentimos, no fue posible mostrar esta página, por favor refresca o intenta más tarde.
+            </div>
+            <a class="error404__button" href="index.html">Ir al inicio</a>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+
+    <div class="footer-container">
+        <div class="more-about">
+            <h4 class="more-about-title"> Más de nosotros </h4>
+            <a href="politica_cobranza.html" class="more-about-link">Política de cobranzas</a>
+            <a href="politica_tratamiento.html" class="more-about-link">Política de tratamiento de datos</a>
+            <a href="terminos_condiciones.html" class="more-about-link">Términos y Condiciones de Movistar Money</a>
+        </div>
+
+        <div class="secure-section">
+            <img src="assets/security-movistar-logo.svg" alt="" class="secure-section-symbol">
+            <p class="secure-section-content"> Contamos con un protocolo seguro para
+                proteger tus datos durante el proceso.
+            </p>
+        </div>
+    </div>
+
+</footer>
+
+<script src="form.js"></script>
+<script src="script.js"></script>
+<div class="ws-button-wrap">
+    <a href="https://api.whatsapp.com/send?1=pt_BR&phone=+573152008280&text=Hola" class="ws-button"></a>
+</div>
+</body>
+</html>
