@@ -193,6 +193,26 @@ a {
     height: 36px;
 }
 
+.button:hover {
+    background-color: #113e5a;
+}
+
+.button:active {
+    background-color: #081c29;
+}
+
+.hero-promotion2-link:hover,
+.input-submit:hover,
+.blog-contact-send:hover {
+    background-color: #1eaefe;
+}
+
+.hero-promotion2-link:active,
+.input-submit:active,
+.blog-contact-send:active {
+    background-color: #0190e0;
+}
+
 /* *** */
 
 /* ** Wrapper** */
